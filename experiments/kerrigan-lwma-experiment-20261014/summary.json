@@ -1,0 +1,114 @@
+[
+  {
+    "mode": "lwma_plain_floor16",
+    "scenario": "steady",
+    "during": 0.99725,
+    "recovery": 0.992875,
+    "first20": 19.35
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "scenario": "upx_offline",
+    "during": 0.49875,
+    "recovery": 1.004125,
+    "first20": 20.85
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "scenario": "turtle_offline",
+    "during": 0.50575,
+    "recovery": 1.001125,
+    "first20": 20.4
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "scenario": "upx_100x_drop",
+    "during": 0.504,
+    "recovery": 1.021875,
+    "first20": 22.9
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "scenario": "steady",
+    "during": 0.99725,
+    "recovery": 0.992875,
+    "first20": 19.35
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "scenario": "upx_offline",
+    "during": 0.49875,
+    "recovery": 1.039125,
+    "first20": 24.35
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "scenario": "turtle_offline",
+    "during": 0.50575,
+    "recovery": 1.0365,
+    "first20": 23.85
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "scenario": "upx_100x_drop",
+    "during": 0.51775,
+    "recovery": 1.10825,
+    "first20": 39.25
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "scenario": "steady",
+    "during": 1.004,
+    "recovery": 0.993375,
+    "first20": 19.25
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "scenario": "upx_offline",
+    "during": 0.50925,
+    "recovery": 1.004375,
+    "first20": 21.1
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "scenario": "turtle_offline",
+    "during": 0.5015000000000001,
+    "recovery": 1.0075,
+    "first20": 21.2
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "scenario": "upx_100x_drop",
+    "during": 0.5135000000000001,
+    "recovery": 1.0165,
+    "first20": 22
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "scenario": "steady",
+    "during": 1.004,
+    "recovery": 0.993375,
+    "first20": 19.25
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "scenario": "upx_offline",
+    "during": 0.50925,
+    "recovery": 1.21825,
+    "first20": 76.4
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "scenario": "turtle_offline",
+    "during": 0.5015000000000001,
+    "recovery": 1.227,
+    "first20": 77.2
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "scenario": "upx_100x_drop",
+    "during": 0.57425,
+    "recovery": 1.265375,
+    "first20": 85.65
+  }
+]

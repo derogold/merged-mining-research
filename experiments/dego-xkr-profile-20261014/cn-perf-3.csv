@@ -1,0 +1,6 @@
+# started on Wed Oct 14 20:40:03 2026
+
+27903299754,,cycles:u,5849661165,100.00,,
+27822077345,,instructions:u,5849661165,100.00,1.00,insn per cycle
+994449454,,cache-references:u,5849661165,100.00,,
+6790757,,cache-misses:u,5849661165,100.00,0.683,of all cache refs

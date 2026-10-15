@@ -1,0 +1,400 @@
+{
+  "tests": [
+    {
+      "test": "native Keccak empty known answer",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/dego/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/dego/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/dego/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/dego/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/dego/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/dego/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/wrkz/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/wrkz/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/wrkz/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/wrkz/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/wrkz/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/wrkz/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/xfg/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/xfg/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/xfg/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/xfg/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/xfg/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "2-leaf/xfg/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-2 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-2 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/dego/chain-2 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-2 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-2 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/wrkz/chain-2 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-2 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-2 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "3-leaf/xfg/chain-2 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-2 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-2 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-2 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-3 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-3 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/dego/chain-3 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-2 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-2 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-2 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-3 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-3 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/wrkz/chain-3 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-0 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-0 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-0 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-1 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-1 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-1 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-2 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-2 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-2 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-3 accepted branch root",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-3 rejects changed leaf",
+      "passed": true
+    },
+    {
+      "test": "4-leaf/xfg/chain-3 rejects changed branch",
+      "passed": true
+    },
+    {
+      "test": "v1 coinbase hashes equal across native fast hashes",
+      "passed": true
+    },
+    {
+      "test": "v2 UPX hash model matches DEGO special case",
+      "passed": true
+    },
+    {
+      "test": "v2 Fuego serialized hash model differs from UPX",
+      "passed": true
+    },
+    {
+      "test": "1 tx native roots equal",
+      "passed": true
+    },
+    {
+      "test": "1 tx source-derived work bytes equal",
+      "passed": true
+    },
+    {
+      "test": "2 tx native roots equal",
+      "passed": true
+    },
+    {
+      "test": "2 tx source-derived work bytes equal",
+      "passed": true
+    },
+    {
+      "test": "3 tx native roots equal",
+      "passed": true
+    },
+    {
+      "test": "3 tx source-derived work bytes equal",
+      "passed": true
+    },
+    {
+      "test": "7 tx native roots equal",
+      "passed": true
+    },
+    {
+      "test": "7 tx source-derived work bytes equal",
+      "passed": true
+    }
+  ],
+  "work_fixtures": [
+    {
+      "transactions": 1,
+      "blob": "0c0ca0d8acd6061819d5072378a15e305b5f3a5f2e0d6b978c82afba7581ccd72a282e9a2128b92a0000008042ebd8e3ded25980bf69a3b69ce3031525ed3307f9fb7abc4553386dfe2c2101"
+    },
+    {
+      "transactions": 2,
+      "blob": "0c0ca0d8acd6061819d5072378a15e305b5f3a5f2e0d6b978c82afba7581ccd72a282e9a2128b92a0000002dccf7373cc322cbe8fc1c1a4345e0de8052a9dbdd37c3d28e59be2603fa84bf02"
+    },
+    {
+      "transactions": 3,
+      "blob": "0c0ca0d8acd6061819d5072378a15e305b5f3a5f2e0d6b978c82afba7581ccd72a282e9a2128b92a000000fc1c04c337d2d2bc666399635bf5c9147eda98c3abce430603c7dd5abbd00ad903"
+    },
+    {
+      "transactions": 7,
+      "blob": "0c0ca0d8acd6061819d5072378a15e305b5f3a5f2e0d6b978c82afba7581ccd72a282e9a2128b92a00000019d87606aacdefcbeae306e7ebec69bcb42e5dc1250e6d7c7cb4ea42687dbff807"
+    }
+  ],
+  "v2_hashes": {
+    "upx": "4e25224be82306578e393f69513920dab3ca57b1de5a4ff27b73e88972897c1c",
+    "dego": "4e25224be82306578e393f69513920dab3ca57b1de5a4ff27b73e88972897c1c",
+    "xfg": "4a24394fc3ee0459637370edb7b6bf84476c9e0fd4e1dded4dc7060c9a081d44"
+  },
+  "limitations": "serialization modeled from source; no daemon acceptance"
+}

@@ -1,0 +1,14 @@
+ Container dego-aux-testnet-node1 Restarting 
+ Container dego-aux-testnet-node2 Restarting 
+ Container dego-aux-testnet-node3 Restarting 
+ Container dego-aux-testnet-node2 Started 
+ Container dego-aux-testnet-node1 Started 
+ Container dego-aux-testnet-node3 Started 
+PASS all three restarted with identical headers 0–10
+ Container dego-aux-testnet-node3 Stopping 
+ Container dego-aux-testnet-node3 Stopped 
+ Container dego-aux-testnet-node3 Recreate 
+ Container dego-aux-testnet-node3 Recreated 
+ Container dego-aux-testnet-node3 Starting 
+ Container dego-aux-testnet-node3 Started 
+PASS fresh node3 revalidated and synchronized headers 0–10

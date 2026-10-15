@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checks": [
+    "timestamp boundaries",
+    "explicit monotonic constraint",
+    "seed replay",
+    "credit pre-update work",
+    "other lane unchanged",
+    "ten-interval formula",
+    "actual warm-up history recorded",
+    "constant-difficulty inverse-time bias control",
+    "run counts"
+  ],
+  "constant_D_mean_ratio": {
+    "30": 0.9984661559142626,
+    "60": 0.9987031859989768
+  },
+  "minimum_warm_history_intervals_per_lane": {
+    "window30": [
+      30,
+      30
+    ],
+    "window60": [
+      60,
+      60
+    ],
+    "window30_monotonic": [
+      30,
+      30
+    ],
+    "window60_monotonic": [
+      60,
+      60
+    ]
+  }
+}

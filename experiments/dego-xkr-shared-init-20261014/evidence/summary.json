@@ -1,0 +1,86 @@
+{
+  "1": {
+    "baseline_cpu_s": 119.77403186300003,
+    "shared_cpu_s": 121.05155464700015,
+    "aggregate_cpu_saving_pct": -1.0666108205001912,
+    "throughput_speedup": 0.9894464570263016,
+    "median_paired_saving_pct": -2.3497687107157716,
+    "min_paired_saving_pct": -3.2271830482425212,
+    "max_paired_saving_pct": 1.3213736099796591,
+    "paired_trials": 21,
+    "shared_wins": 10,
+    "aggregate_wall_saving_pct": -1.0676111190019544,
+    "empirical_paired_resampling_95pct": [
+      -1.8249458201272217,
+      -0.29466582317436707
+    ],
+    "per_job_cpu_saving_pct": {
+      "0": -1.3952257662210643,
+      "1": -0.7456387129277875,
+      "2": -1.060778381565619
+    }
+  },
+  "2": {
+    "baseline_cpu_s": 72.02582477499985,
+    "shared_cpu_s": 72.30929008400005,
+    "aggregate_cpu_saving_pct": -0.39356065673072926,
+    "throughput_speedup": 0.9960798217121076,
+    "median_paired_saving_pct": 0.6350246658082703,
+    "min_paired_saving_pct": -2.5032879346386316,
+    "max_paired_saving_pct": 1.4836418677532603,
+    "paired_trials": 21,
+    "shared_wins": 11,
+    "aggregate_wall_saving_pct": -0.39283992278749125,
+    "empirical_paired_resampling_95pct": [
+      -1.0608711650055058,
+      0.25785272394277525
+    ],
+    "per_job_cpu_saving_pct": {
+      "0": -0.39214229588966365,
+      "1": -0.4883278115790368,
+      "2": -0.30042706567128263
+    }
+  },
+  "4": {
+    "baseline_cpu_s": 47.871005878999924,
+    "shared_cpu_s": 48.19190494500001,
+    "aggregate_cpu_saving_pct": -0.6703411806536996,
+    "throughput_speedup": 0.9933412247063833,
+    "median_paired_saving_pct": 0.3255070070650623,
+    "min_paired_saving_pct": -2.2176741888718876,
+    "max_paired_saving_pct": 0.8178818438929314,
+    "paired_trials": 21,
+    "shared_wins": 11,
+    "aggregate_wall_saving_pct": -0.6710478130066866,
+    "empirical_paired_resampling_95pct": [
+      -1.198208989462013,
+      -0.14706848060275224
+    ],
+    "per_job_cpu_saving_pct": {
+      "0": -0.5592765214496476,
+      "1": -0.8841911084825682,
+      "2": -0.567686274951007
+    }
+  },
+  "8": {
+    "baseline_cpu_s": 35.89741107900004,
+    "shared_cpu_s": 36.00812839999997,
+    "aggregate_cpu_saving_pct": -0.3084270360229402,
+    "throughput_speedup": 0.9969252131138276,
+    "median_paired_saving_pct": 0.020091033958735682,
+    "min_paired_saving_pct": -1.431174316531747,
+    "max_paired_saving_pct": 0.8128596525474263,
+    "paired_trials": 21,
+    "shared_wins": 11,
+    "aggregate_wall_saving_pct": -0.30803521904392284,
+    "empirical_paired_resampling_95pct": [
+      -0.6510006244732525,
+      0.039500426587624204
+    ],
+    "per_job_cpu_saving_pct": {
+      "0": -0.2884699936463342,
+      "1": -0.42926409741288474,
+      "2": -0.20773843523742563
+    }
+  }
+}

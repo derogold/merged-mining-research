@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "past and future timestamps rejected",
+    "inclusive median/future boundaries accepted",
+    "lane monotonicity only where explicitly enabled",
+    "block credited pre-update work",
+    "other lane difficulty unchanged",
+    "deterministic replay",
+    "zero hashpower leaves chain unchanged",
+    "run counts",
+    "future bound respected in stress runs"
+  ]
+}

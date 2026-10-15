@@ -1,0 +1,4 @@
+In file included from /tmp/dego-xkr-interleave-20261014/pair.c:3:
+/tmp/dego-aux-testnet-20261014/source/src/crypto/slow-hash-x86.c:12:9: note: ‘#pragma message: info: Using slow-hash-x86.c’
+   12 | #pragma message("info: Using slow-hash-x86.c")
+      |         ^~~~~~~

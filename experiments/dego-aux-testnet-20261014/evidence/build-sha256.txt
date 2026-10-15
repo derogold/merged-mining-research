@@ -1,0 +1,4 @@
+3afc5b5a2f35a45049c681ba478b4f46ed68172e4aa83a6e8ddefdbc30f5797c  /tmp/dego-aux-testnet-20261014/build/src/DeroGoldd
+09ae6d2cbbe2094e8e376a25c91b936a7a4f92461eebbab2f800e8115db5e92e  /tmp/dego-aux-testnet-20261014/build/src/miner
+ae761dec4ee09306a4cfa5630e9d2396de060b50d9114aa56a2c2876e527d4d4  /tmp/dego-aux-testnet-20261014/build/research-inspect
+4770f8ea3d3fcd27b0b713c783d9b53bce3baddbd5adad13714011df96142526  /tmp/dego-aux-testnet-20261014/source/external/httplib.h

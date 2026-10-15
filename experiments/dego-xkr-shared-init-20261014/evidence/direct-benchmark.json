@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "cpu_affinity": [
+      2
+    ],
+    "batch_nonces": 1024,
+    "repetitions_per_job": 4,
+    "jobs": 3,
+    "ratio": 1,
+    "order": "ABBA/BAAB balanced within each blob; two runs per mode per block",
+    "reason": "Initial snapshot benchmark exhibited order-dependent timing; direct-handoff follow-up predeclared balanced four-run blocks before measurement.",
+    "warmup_nonces_per_mode": 256
+  },
+  "summary": {
+    "aggregate_cpu_saving_pct": -1.1435500576728597,
+    "baseline_cpu_s": 68.70362715899994,
+    "shared_cpu_s": 69.48928752700003,
+    "throughput_speedup": 0.9886937915762221,
+    "median_block_saving_pct": -1.159721427714977,
+    "min_block_saving_pct": -1.279907802891067,
+    "max_block_saving_pct": -1.0068870067137636,
+    "wins": 0,
+    "blocks": 12,
+    "aggregate_wall_saving_pct": -1.1436125567389155
+  },
+  "trials": [
+    {
+      "job": 0,
+      "repetition": 0,
+      "ratio": 1,
+      "order": [
+        "baseline",
+        "shared",
+        "shared",
+        "baseline"
+      ],
+      "runs": [
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8762073379999995,
+          "wall_s": 2.876367630000459,
+          "digest": "5796e94bafceef6d21c87dd9a53b629bc1e43cbe57891ba1fe74972121c1d078"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.915643245,
+          "wall_s": 2.9158826819912065,
+          "digest": "5796e94bafceef6d21c87dd9a53b629bc1e43cbe57891ba1fe74972121c1d078"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.8666291589999995,
+          "wall_s": 2.8668033049907535,
+          "digest": "5796e94bafceef6d21c87dd9a53b629bc1e43cbe57891ba1fe74972121c1d078"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.843054855,
+          "wall_s": 2.8432722559955437,
+          "digest": "5796e94bafceef6d21c87dd9a53b629bc1e43cbe57891ba1fe74972121c1d078"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.719262193,
+        "wall_s": 5.719639885996003
+      },
+      "shared": {
+        "cpu_s": 5.7822724039999995,
+        "wall_s": 5.78268598698196
+      },
+      "cpu_saving_pct": -1.101719223104003
+    },
+    {
+      "job": 0,
+      "repetition": 1,
+      "ratio": 1,
+      "order": [
+        "shared",
+        "baseline",
+        "baseline",
+        "shared"
+      ],
+      "runs": [
+        {
+          "mode": "shared",
+          "cpu_s": 2.8693511810000008,
+          "wall_s": 2.86955583600502,
+          "digest": "feb5029eb3c70a1484464a254a3f1f39cb38e1b87542b7e802adea76a82fcf48"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.830618002999998,
+          "wall_s": 2.8307977529912023,
+          "digest": "feb5029eb3c70a1484464a254a3f1f39cb38e1b87542b7e802adea76a82fcf48"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8775659140000016,
+          "wall_s": 2.877747635997366,
+          "digest": "feb5029eb3c70a1484464a254a3f1f39cb38e1b87542b7e802adea76a82fcf48"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9098856710000014,
+          "wall_s": 2.910072330996627,
+          "digest": "feb5029eb3c70a1484464a254a3f1f39cb38e1b87542b7e802adea76a82fcf48"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.7081839169999995,
+        "wall_s": 5.7085453889885684
+      },
+      "shared": {
+        "cpu_s": 5.779236852000002,
+        "wall_s": 5.779628167001647
+      },
+      "cpu_saving_pct": -1.244755530535624
+    },
+    {
+      "job": 0,
+      "repetition": 2,
+      "ratio": 1,
+      "order": [
+        "baseline",
+        "shared",
+        "shared",
+        "baseline"
+      ],
+      "runs": [
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8851112940000014,
+          "wall_s": 2.8853866230056155,
+          "digest": "fbbb621d5e025fb349e62dd8983391dbecb11304d07e41accc5a904989f23627"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.926346174999999,
+          "wall_s": 2.9265422509924974,
+          "digest": "fbbb621d5e025fb349e62dd8983391dbecb11304d07e41accc5a904989f23627"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.868189124999997,
+          "wall_s": 2.868406599998707,
+          "digest": "fbbb621d5e025fb349e62dd8983391dbecb11304d07e41accc5a904989f23627"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8513851239999966,
+          "wall_s": 2.8515745240001706,
+          "digest": "fbbb621d5e025fb349e62dd8983391dbecb11304d07e41accc5a904989f23627"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.736496417999998,
+        "wall_s": 5.736961147005786
+      },
+      "shared": {
+        "cpu_s": 5.794535299999996,
+        "wall_s": 5.794948850991204
+      },
+      "cpu_saving_pct": -1.0117478992557771
+    },
+    {
+      "job": 0,
+      "repetition": 3,
+      "ratio": 1,
+      "order": [
+        "shared",
+        "baseline",
+        "baseline",
+        "shared"
+      ],
+      "runs": [
+        {
+          "mode": "shared",
+          "cpu_s": 2.865408926999997,
+          "wall_s": 2.8656248030019924,
+          "digest": "8e8dd3c1a4990cd794dcbad116a86efd73635013eff0263a1927ccb7bda7f900"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.832685841,
+          "wall_s": 2.832865545002278,
+          "digest": "8e8dd3c1a4990cd794dcbad116a86efd73635013eff0263a1927ccb7bda7f900"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8800987059999983,
+          "wall_s": 2.8802901129965903,
+          "digest": "8e8dd3c1a4990cd794dcbad116a86efd73635013eff0263a1927ccb7bda7f900"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9201313740000003,
+          "wall_s": 2.9203218490001746,
+          "digest": "8e8dd3c1a4990cd794dcbad116a86efd73635013eff0263a1927ccb7bda7f900"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.712784546999998,
+        "wall_s": 5.713155657998868
+      },
+      "shared": {
+        "cpu_s": 5.7855403009999975,
+        "wall_s": 5.785946652002167
+      },
+      "cpu_saving_pct": -1.2735602647260036
+    },
+    {
+      "job": 1,
+      "repetition": 0,
+      "ratio": 1,
+      "order": [
+        "baseline",
+        "shared",
+        "shared",
+        "baseline"
+      ],
+      "runs": [
+        {
+          "mode": "baseline",
+          "cpu_s": 2.880712054,
+          "wall_s": 2.8809116819902556,
+          "digest": "9f03798f06a63d741e720b76e69540c9d23525c14eaddbf3ee78f9bbe230da1d"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9200215469999975,
+          "wall_s": 2.920178569998825,
+          "digest": "9f03798f06a63d741e720b76e69540c9d23525c14eaddbf3ee78f9bbe230da1d"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.871232748000004,
+          "wall_s": 2.871421357995132,
+          "digest": "9f03798f06a63d741e720b76e69540c9d23525c14eaddbf3ee78f9bbe230da1d"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.851716175,
+          "wall_s": 2.8519182589952834,
+          "digest": "9f03798f06a63d741e720b76e69540c9d23525c14eaddbf3ee78f9bbe230da1d"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.732428229,
+        "wall_s": 5.732829940985539
+      },
+      "shared": {
+        "cpu_s": 5.791254295000002,
+        "wall_s": 5.791599927993957
+      },
+      "cpu_saving_pct": -1.0261980377251678
+    },
+    {
+      "job": 1,
+      "repetition": 1,
+      "ratio": 1,
+      "order": [
+        "shared",
+        "baseline",
+        "baseline",
+        "shared"
+      ],
+      "runs": [
+        {
+          "mode": "shared",
+          "cpu_s": 2.8663457879999967,
+          "wall_s": 2.866531040999689,
+          "digest": "656b362423aa0f962744607cda2374c5983b47e95d4062f30766c407c1f54329"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.828794952999992,
+          "wall_s": 2.8289712219993817,
+          "digest": "656b362423aa0f962744607cda2374c5983b47e95d4062f30766c407c1f54329"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8887521420000013,
+          "wall_s": 2.888945070997579,
+          "digest": "656b362423aa0f962744607cda2374c5983b47e95d4062f30766c407c1f54329"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9135340910000025,
+          "wall_s": 2.9137287119956454,
+          "digest": "656b362423aa0f962744607cda2374c5983b47e95d4062f30766c407c1f54329"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.717547094999993,
+        "wall_s": 5.717916292996961
+      },
+      "shared": {
+        "cpu_s": 5.779879878999999,
+        "wall_s": 5.780259752995335
+      },
+      "cpu_saving_pct": -1.090201496626353
+    },
+    {
+      "job": 1,
+      "repetition": 2,
+      "ratio": 1,
+      "order": [
+        "baseline",
+        "shared",
+        "shared",
+        "baseline"
+      ],
+      "runs": [
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8854049340000074,
+          "wall_s": 2.8855784890038194,
+          "digest": "617d3328444edf0a462d4bf6e95e0d877c90e3868b47f19c957012deca230a44"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9212711499999955,
+          "wall_s": 2.9214449569990393,
+          "digest": "617d3328444edf0a462d4bf6e95e0d877c90e3868b47f19c957012deca230a44"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.8797481690000097,
+          "wall_s": 2.8799658860079944,
+          "digest": "617d3328444edf0a462d4bf6e95e0d877c90e3868b47f19c957012deca230a44"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8475004780000006,
+          "wall_s": 2.847666275993106,
+          "digest": "617d3328444edf0a462d4bf6e95e0d877c90e3868b47f19c957012deca230a44"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.732905412000008,
+        "wall_s": 5.733244764996925
+      },
+      "shared": {
+        "cpu_s": 5.801019319000005,
+        "wall_s": 5.801410843007034
+      },
+      "cpu_saving_pct": -1.1881219400100784
+    },
+    {
+      "job": 1,
+      "repetition": 3,
+      "ratio": 1,
+      "order": [
+        "shared",
+        "baseline",
+        "baseline",
+        "shared"
+      ],
+      "runs": [
+        {
+          "mode": "shared",
+          "cpu_s": 2.866038998999997,
+          "wall_s": 2.866202568009612,
+          "digest": "f6065da3132582919e8598c58074569ca18cd8493cedb477808c3b028c3f9415"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8340978880000023,
+          "wall_s": 2.8342861759883817,
+          "digest": "f6065da3132582919e8598c58074569ca18cd8493cedb477808c3b028c3f9415"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8913786149999936,
+          "wall_s": 2.89158028899692,
+          "digest": "f6065da3132582919e8598c58074569ca18cd8493cedb477808c3b028c3f9415"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9267504230000014,
+          "wall_s": 2.9269726680067834,
+          "digest": "f6065da3132582919e8598c58074569ca18cd8493cedb477808c3b028c3f9415"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.725476502999996,
+        "wall_s": 5.725866464985302
+      },
+      "shared": {
+        "cpu_s": 5.7927894219999985,
+        "wall_s": 5.7931752360163955
+      },
+      "cpu_saving_pct": -1.1756736572883009
+    },
+    {
+      "job": 2,
+      "repetition": 0,
+      "ratio": 1,
+      "order": [
+        "baseline",
+        "shared",
+        "shared",
+        "baseline"
+      ],
+      "runs": [
+        {
+          "mode": "baseline",
+          "cpu_s": 2.885662447999991,
+          "wall_s": 2.885838176996913,
+          "digest": "900029c5fae9701e15ff6a4b71095edf8e7f8761f83bf692d10214e4523e97fd"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.926871771000009,
+          "wall_s": 2.9270706810057163,
+          "digest": "900029c5fae9701e15ff6a4b71095edf8e7f8761f83bf692d10214e4523e97fd"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.872182981000009,
+          "wall_s": 2.872368317010114,
+          "digest": "900029c5fae9701e15ff6a4b71095edf8e7f8761f83bf692d10214e4523e97fd"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.847814559999989,
+          "wall_s": 2.847966039000312,
+          "digest": "900029c5fae9701e15ff6a4b71095edf8e7f8761f83bf692d10214e4523e97fd"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.73347700799998,
+        "wall_s": 5.733804215997225
+      },
+      "shared": {
+        "cpu_s": 5.799054752000018,
+        "wall_s": 5.79943899801583
+      },
+      "cpu_saving_pct": -1.1437691981416531
+    },
+    {
+      "job": 2,
+      "repetition": 1,
+      "ratio": 1,
+      "order": [
+        "shared",
+        "baseline",
+        "baseline",
+        "shared"
+      ],
+      "runs": [
+        {
+          "mode": "shared",
+          "cpu_s": 2.8765474839999996,
+          "wall_s": 2.8767420899966964,
+          "digest": "2503a892b2b2626b0dd6b40dd5c28e291a26745aeb4617852d9439d2dfa8200a"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.833935142999991,
+          "wall_s": 2.8341486680001253,
+          "digest": "2503a892b2b2626b0dd6b40dd5c28e291a26745aeb4617852d9439d2dfa8200a"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.890069033000003,
+          "wall_s": 2.8902644509944366,
+          "digest": "2503a892b2b2626b0dd6b40dd5c28e291a26745aeb4617852d9439d2dfa8200a"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9150726539999994,
+          "wall_s": 2.9152405680069933,
+          "digest": "2503a892b2b2626b0dd6b40dd5c28e291a26745aeb4617852d9439d2dfa8200a"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.724004175999994,
+        "wall_s": 5.724413118994562
+      },
+      "shared": {
+        "cpu_s": 5.791620137999999,
+        "wall_s": 5.79198265800369
+      },
+      "cpu_saving_pct": -1.1812703121970136
+    },
+    {
+      "job": 2,
+      "repetition": 2,
+      "ratio": 1,
+      "order": [
+        "baseline",
+        "shared",
+        "shared",
+        "baseline"
+      ],
+      "runs": [
+        {
+          "mode": "baseline",
+          "cpu_s": 2.890032122000008,
+          "wall_s": 2.8902363929955754,
+          "digest": "6be17f6a3405d4ec5f175e8807617b8657e8a29d5b73ef3694befab1b7ce4b07"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9284079910000003,
+          "wall_s": 2.9286560370092047,
+          "digest": "6be17f6a3405d4ec5f175e8807617b8657e8a29d5b73ef3694befab1b7ce4b07"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.868064638000007,
+          "wall_s": 2.8682463639997877,
+          "digest": "6be17f6a3405d4ec5f175e8807617b8657e8a29d5b73ef3694befab1b7ce4b07"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.848658377999982,
+          "wall_s": 2.8488498679944314,
+          "digest": "6be17f6a3405d4ec5f175e8807617b8657e8a29d5b73ef3694befab1b7ce4b07"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.73869049999999,
+        "wall_s": 5.739086260990007
+      },
+      "shared": {
+        "cpu_s": 5.796472629000007,
+        "wall_s": 5.7969024010089925
+      },
+      "cpu_saving_pct": -1.0068870067137636
+    },
+    {
+      "job": 2,
+      "repetition": 3,
+      "ratio": 1,
+      "order": [
+        "shared",
+        "baseline",
+        "baseline",
+        "shared"
+      ],
+      "runs": [
+        {
+          "mode": "shared",
+          "cpu_s": 2.8746845900000153,
+          "wall_s": 2.874911995997536,
+          "digest": "105170248e80d1ff58cc108a5cb4f6d231e269769c444801b37503221d968ba5"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.8352055860000007,
+          "wall_s": 2.835406147991307,
+          "digest": "105170248e80d1ff58cc108a5cb4f6d231e269769c444801b37503221d968ba5"
+        },
+        {
+          "mode": "baseline",
+          "cpu_s": 2.887165574999983,
+          "wall_s": 2.8873394900001585,
+          "digest": "105170248e80d1ff58cc108a5cb4f6d231e269769c444801b37503221d968ba5"
+        },
+        {
+          "mode": "shared",
+          "cpu_s": 2.9209276459999955,
+          "wall_s": 2.9210730110062286,
+          "digest": "105170248e80d1ff58cc108a5cb4f6d231e269769c444801b37503221d968ba5"
+        }
+      ],
+      "baseline": {
+        "cpu_s": 5.722371160999984,
+        "wall_s": 5.722745637991466
+      },
+      "shared": {
+        "cpu_s": 5.795612236000011,
+        "wall_s": 5.795985007003765
+      },
+      "cpu_saving_pct": -1.279907802891067
+    }
+  ]
+}

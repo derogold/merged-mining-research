@@ -1,0 +1,562 @@
+[
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 0,
+    "upx_blocks": 0,
+    "turtle_blocks": 96,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 1,
+    "upx_blocks": 1,
+    "turtle_blocks": 99,
+    "upx_difficulty_ratio": 0.8693659147707145
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 2,
+    "upx_blocks": 1,
+    "turtle_blocks": 108,
+    "upx_difficulty_ratio": 0.832926038087095
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 3,
+    "upx_blocks": 2,
+    "turtle_blocks": 94,
+    "upx_difficulty_ratio": 0.7328391207470055
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 4,
+    "upx_blocks": 1,
+    "turtle_blocks": 85,
+    "upx_difficulty_ratio": 0.8498713990322396
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 5,
+    "upx_blocks": 0,
+    "turtle_blocks": 96,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 6,
+    "upx_blocks": 2,
+    "turtle_blocks": 101,
+    "upx_difficulty_ratio": 0.8522098525315452
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 7,
+    "upx_blocks": 1,
+    "turtle_blocks": 109,
+    "upx_difficulty_ratio": 0.8452352329303071
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 8,
+    "upx_blocks": 0,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 9,
+    "upx_blocks": 3,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 0.6750043656454966
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 10,
+    "upx_blocks": 0,
+    "turtle_blocks": 92,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 11,
+    "upx_blocks": 3,
+    "turtle_blocks": 108,
+    "upx_difficulty_ratio": 0.6551605593108165
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 12,
+    "upx_blocks": 0,
+    "turtle_blocks": 103,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 13,
+    "upx_blocks": 0,
+    "turtle_blocks": 108,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 14,
+    "upx_blocks": 4,
+    "turtle_blocks": 101,
+    "upx_difficulty_ratio": 0.5706123144118994
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 15,
+    "upx_blocks": 1,
+    "turtle_blocks": 97,
+    "upx_difficulty_ratio": 0.8526975722988955
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 16,
+    "upx_blocks": 2,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 0.7671526377662067
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 17,
+    "upx_blocks": 0,
+    "turtle_blocks": 86,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 18,
+    "upx_blocks": 1,
+    "turtle_blocks": 93,
+    "upx_difficulty_ratio": 0.8416896803283144
+  },
+  {
+    "mode": "lwma_plain_floor16",
+    "seed": 19,
+    "upx_blocks": 2,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 0.7685848416670882
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 0,
+    "upx_blocks": 3,
+    "turtle_blocks": 98,
+    "upx_difficulty_ratio": 0.06673888239285347
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 1,
+    "upx_blocks": 5,
+    "turtle_blocks": 98,
+    "upx_difficulty_ratio": 0.35963752625261125
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 2,
+    "upx_blocks": 8,
+    "turtle_blocks": 106,
+    "upx_difficulty_ratio": 0.26000639046451574
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 3,
+    "upx_blocks": 3,
+    "turtle_blocks": 96,
+    "upx_difficulty_ratio": 0.05998596547473022
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 4,
+    "upx_blocks": 3,
+    "turtle_blocks": 85,
+    "upx_difficulty_ratio": 0.08308066996911874
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 5,
+    "upx_blocks": 4,
+    "turtle_blocks": 97,
+    "upx_difficulty_ratio": 0.31085014043007836
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 6,
+    "upx_blocks": 5,
+    "turtle_blocks": 102,
+    "upx_difficulty_ratio": 0.07188152220375736
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 7,
+    "upx_blocks": 6,
+    "turtle_blocks": 105,
+    "upx_difficulty_ratio": 0.27555513591095226
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 8,
+    "upx_blocks": 5,
+    "turtle_blocks": 102,
+    "upx_difficulty_ratio": 0.30630043145241737
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 9,
+    "upx_blocks": 5,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 0.062470977502822114
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 10,
+    "upx_blocks": 3,
+    "turtle_blocks": 92,
+    "upx_difficulty_ratio": 0.06687448660562421
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 11,
+    "upx_blocks": 5,
+    "turtle_blocks": 106,
+    "upx_difficulty_ratio": 0.31760936853349403
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 12,
+    "upx_blocks": 4,
+    "turtle_blocks": 99,
+    "upx_difficulty_ratio": 0.3961066243405839
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 13,
+    "upx_blocks": 5,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 0.28941585974247924
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 14,
+    "upx_blocks": 7,
+    "turtle_blocks": 98,
+    "upx_difficulty_ratio": 0.34414654880549694
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 15,
+    "upx_blocks": 3,
+    "turtle_blocks": 101,
+    "upx_difficulty_ratio": 0.07249164948364654
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 16,
+    "upx_blocks": 5,
+    "turtle_blocks": 105,
+    "upx_difficulty_ratio": 0.2990437903505948
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 17,
+    "upx_blocks": 3,
+    "turtle_blocks": 88,
+    "upx_difficulty_ratio": 0.36016642050796394
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 18,
+    "upx_blocks": 4,
+    "turtle_blocks": 90,
+    "upx_difficulty_ratio": 0.37489658801116443
+  },
+  {
+    "mode": "lwma_rescue_floor16",
+    "seed": 19,
+    "upx_blocks": 5,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 0.38895310623396656
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 0,
+    "upx_blocks": 0,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 1,
+    "upx_blocks": 1,
+    "turtle_blocks": 99,
+    "upx_difficulty_ratio": 0.8323704050096614
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 2,
+    "upx_blocks": 1,
+    "turtle_blocks": 108,
+    "upx_difficulty_ratio": 0.8479550026398534
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 3,
+    "upx_blocks": 2,
+    "turtle_blocks": 99,
+    "upx_difficulty_ratio": 0.7377676128320001
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 4,
+    "upx_blocks": 1,
+    "turtle_blocks": 91,
+    "upx_difficulty_ratio": 0.8381289849842347
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 5,
+    "upx_blocks": 0,
+    "turtle_blocks": 99,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 6,
+    "upx_blocks": 1,
+    "turtle_blocks": 98,
+    "upx_difficulty_ratio": 0.9720141642075463
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 7,
+    "upx_blocks": 1,
+    "turtle_blocks": 112,
+    "upx_difficulty_ratio": 0.8588813858741303
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 8,
+    "upx_blocks": 0,
+    "turtle_blocks": 107,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 9,
+    "upx_blocks": 1,
+    "turtle_blocks": 101,
+    "upx_difficulty_ratio": 0.8252828571171615
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 10,
+    "upx_blocks": 0,
+    "turtle_blocks": 102,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 11,
+    "upx_blocks": 3,
+    "turtle_blocks": 107,
+    "upx_difficulty_ratio": 0.6362429798397347
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 12,
+    "upx_blocks": 0,
+    "turtle_blocks": 95,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 13,
+    "upx_blocks": 0,
+    "turtle_blocks": 108,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 14,
+    "upx_blocks": 2,
+    "turtle_blocks": 105,
+    "upx_difficulty_ratio": 0.6971886402511557
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 15,
+    "upx_blocks": 1,
+    "turtle_blocks": 103,
+    "upx_difficulty_ratio": 0.8355989741121759
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 16,
+    "upx_blocks": 2,
+    "turtle_blocks": 101,
+    "upx_difficulty_ratio": 0.7568581135375425
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 17,
+    "upx_blocks": 0,
+    "turtle_blocks": 92,
+    "upx_difficulty_ratio": 1.0
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 18,
+    "upx_blocks": 1,
+    "turtle_blocks": 100,
+    "upx_difficulty_ratio": 0.8351676061313521
+  },
+  {
+    "mode": "lwma_plain_floor1024",
+    "seed": 19,
+    "upx_blocks": 1,
+    "turtle_blocks": 105,
+    "upx_difficulty_ratio": 0.8312394674348762
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 0,
+    "upx_blocks": 9,
+    "turtle_blocks": 108,
+    "upx_difficulty_ratio": 0.038147134607500514
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 1,
+    "upx_blocks": 8,
+    "turtle_blocks": 98,
+    "upx_difficulty_ratio": 0.07497010973350952
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 2,
+    "upx_blocks": 16,
+    "turtle_blocks": 106,
+    "upx_difficulty_ratio": 0.028393085076484362
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 3,
+    "upx_blocks": 7,
+    "turtle_blocks": 103,
+    "upx_difficulty_ratio": 0.024100847501655417
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 4,
+    "upx_blocks": 5,
+    "turtle_blocks": 92,
+    "upx_difficulty_ratio": 0.17798756229778634
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 5,
+    "upx_blocks": 10,
+    "turtle_blocks": 100,
+    "upx_difficulty_ratio": 0.029159561972242096
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 6,
+    "upx_blocks": 6,
+    "turtle_blocks": 100,
+    "upx_difficulty_ratio": 0.047371833266071216
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 7,
+    "upx_blocks": 17,
+    "turtle_blocks": 118,
+    "upx_difficulty_ratio": 0.02497044279506697
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 8,
+    "upx_blocks": 9,
+    "turtle_blocks": 110,
+    "upx_difficulty_ratio": 0.07084898356777665
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 9,
+    "upx_blocks": 6,
+    "turtle_blocks": 102,
+    "upx_difficulty_ratio": 0.08091995889378671
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 10,
+    "upx_blocks": 25,
+    "turtle_blocks": 93,
+    "upx_difficulty_ratio": 0.015794152845328112
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 11,
+    "upx_blocks": 39,
+    "turtle_blocks": 102,
+    "upx_difficulty_ratio": 0.012504362115481544
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 12,
+    "upx_blocks": 25,
+    "turtle_blocks": 92,
+    "upx_difficulty_ratio": 0.015908114046585025
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 13,
+    "upx_blocks": 9,
+    "turtle_blocks": 105,
+    "upx_difficulty_ratio": 0.06679606758715347
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 14,
+    "upx_blocks": 10,
+    "turtle_blocks": 106,
+    "upx_difficulty_ratio": 0.08018786584242522
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 15,
+    "upx_blocks": 4,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 0.13366087663989654
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 16,
+    "upx_blocks": 20,
+    "turtle_blocks": 99,
+    "upx_difficulty_ratio": 0.015295692459762146
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 17,
+    "upx_blocks": 6,
+    "turtle_blocks": 95,
+    "upx_difficulty_ratio": 0.07491759556185715
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 18,
+    "upx_blocks": 8,
+    "turtle_blocks": 104,
+    "upx_difficulty_ratio": 0.07450236766377612
+  },
+  {
+    "mode": "lwma_rescue_floor1024",
+    "seed": 19,
+    "upx_blocks": 20,
+    "turtle_blocks": 101,
+    "upx_difficulty_ratio": 0.015069850882981609
+  }
+]

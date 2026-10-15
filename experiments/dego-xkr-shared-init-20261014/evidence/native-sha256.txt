@@ -1,0 +1,9 @@
+3f301f0388f8d84ea209411e8cd7880eaeaca20b95fbe5621368abf861073b24  batch.so
+6d0f81d0f4ba7dea3f75348f69a66aedfd41555b27ecbaed731b4798a1f66d7f  dego-full.so
+678c3d2a0c462a27ddc864b1341af856f5f92fbe84f746d84c44b7c05ce75b9b  xkr-full.so
+8ead41abf54ff73c65036b2160d7a657db1c7b6775a7ef0fff388a8657c3a711  dego-fused.so
+f5105815b55efeaf03d997a4fc86f73e45216614548e641a07af139daa71b9f3  xkr-fused.so
+59954d82dad2c1cad83c292d85c283b95a541c06f997e1ccad589f228b5faee4  /tmp/dego-aux-testnet-20261014/source/src/crypto/slow-hash-x86.c
+e19ff7ab741e1a0b537e65750e72230c0ccdc3dd927173cb3fdb477c6d609b2e  /tmp/dego-xkr-dual-testnet-20261014/source/src/crypto/slow-hash.c
+25e810214232b801019abbcb883bfc9558c9146374a142c688e46c8fce863fd0  dego-direct.so
+4bf7234b851cf818f4ea02c34d3d50e079af0a87a7ccbb4ec667b4ec2f7d4b34  xkr-direct.so

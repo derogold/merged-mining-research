@@ -1,0 +1,29 @@
+{
+  "blocks": 12,
+  "cpu_totals_s": {
+    "original": 34.109455342000004,
+    "paired": 23.74513346499998,
+    "standalone": 23.861287001999997
+  },
+  "paired_vs_standalone_cpu_change_pct": -0.4867865551019146,
+  "paired_wins_vs_standalone": 12,
+  "standalone_vs_original_cpu_reduction_pct": 30.044948643261172,
+  "paired_vs_original_cpu_reduction_pct": 30.385480427880417,
+  "block_paired_vs_standalone_change_pct": [
+    -0.32962374970977315,
+    -0.7643512480394632,
+    -0.19801153772832647,
+    -0.5805695368276131,
+    -0.7619571953880966,
+    -0.3650261748764705,
+    -0.5188638761591369,
+    -0.313446945878082,
+    -0.4845521230714023,
+    -0.5403557152024785,
+    -0.7104370696021323,
+    -0.2727650173242169
+  ],
+  "standalone_dego_cpu_s": 4.363925993000001,
+  "standalone_xkr_cpu_s": 19.497361009,
+  "paired_vs_standalone_wall_change_pct": -0.48626926708774665
+}

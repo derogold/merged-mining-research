@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "zero-hashpower produces no blocks",
+    "strict alternation count invariant",
+    "offline lane cannot produce",
+    "strict alternation stalls",
+    "nonnegative work",
+    "steady calibration",
+    "seed replay",
+    "fixed-normalization unit-rescaling invariance",
+    "expected score-rate identity"
+  ]
+}

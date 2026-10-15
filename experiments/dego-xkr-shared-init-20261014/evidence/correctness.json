@@ -1,0 +1,83 @@
+{
+  "known_answers": {
+    "d": "38591572f820d4de253cf55a2192b622b0289e2e5c3616e61e787a8fe462ec5a",
+    "x": "b2172ec9466e1aee70ec8572a14c233ee354582bcb93f869d429744de5726a26"
+  },
+  "variable_input_pairs": 256,
+  "real_work_batches": [
+    {
+      "job": 0,
+      "ratio": 1,
+      "nonces": 512,
+      "digest": "8f7ecb9d82beb74a0075eb15ab85c76a665f40fe0c9501a07c9f2373c5194b28"
+    },
+    {
+      "job": 0,
+      "ratio": 2,
+      "nonces": 512,
+      "digest": "be3ee645ecc94f0d610b05f2d448e18f7dbb288baf1f71d5584e9860596f5e29"
+    },
+    {
+      "job": 0,
+      "ratio": 4,
+      "nonces": 512,
+      "digest": "eca783885639926242c06206e29a8755bb589bcbd5a81b4e3a17b9c79ec6391d"
+    },
+    {
+      "job": 0,
+      "ratio": 8,
+      "nonces": 512,
+      "digest": "f87a6f6f9b2d03fc843ab77c2aa5a5fee8ddcf5923460b06dcb65b21d168e8c7"
+    },
+    {
+      "job": 1,
+      "ratio": 1,
+      "nonces": 512,
+      "digest": "0fcae001fca79bd4ce2ca45b998e96fd0c8e0ac256ecd44c07349e751b8cf578"
+    },
+    {
+      "job": 1,
+      "ratio": 2,
+      "nonces": 512,
+      "digest": "a8713b1b99f7c05f77b259bcf06970e13cb025cdec4d313bc9dc927228f19eb4"
+    },
+    {
+      "job": 1,
+      "ratio": 4,
+      "nonces": 512,
+      "digest": "2affaaab7455c3097d7326eae0589a7cc66a4a638d124e47ebc9eab492cd61cd"
+    },
+    {
+      "job": 1,
+      "ratio": 8,
+      "nonces": 512,
+      "digest": "c06b6d0de42358296599103242b418fe2346cf34c495a39f22233222ed347028"
+    },
+    {
+      "job": 2,
+      "ratio": 1,
+      "nonces": 512,
+      "digest": "04f1be116ca1887b1f8e0e513cd89653f29d3d96040f19b42be65b8fc45ae713"
+    },
+    {
+      "job": 2,
+      "ratio": 2,
+      "nonces": 512,
+      "digest": "424359802cdd821235c93eeecedd3d7f58aff4ceb33b1020f73407e00274450a"
+    },
+    {
+      "job": 2,
+      "ratio": 4,
+      "nonces": 512,
+      "digest": "d68ee674e969791f16117f0eb02e7aa8c4aa1ed5ca0e287b3bec3453723bc138"
+    },
+    {
+      "job": 2,
+      "ratio": 8,
+      "nonces": 512,
+      "digest": "ffde0bef273d2b1a5af955115ec2b0da064d3ea8740285e44390c818591b2ceb"
+    }
+  ],
+  "threaded_pairs": 512,
+  "status": "passed"
+}

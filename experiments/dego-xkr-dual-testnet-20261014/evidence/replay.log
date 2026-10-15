@@ -1,0 +1,14 @@
+ Container xkr-aux-testnet-node1 Restarting 
+ Container xkr-aux-testnet-node3 Restarting 
+ Container xkr-aux-testnet-node2 Restarting 
+ Container xkr-aux-testnet-node2 Started 
+ Container xkr-aux-testnet-node3 Started 
+ Container xkr-aux-testnet-node1 Started 
+PASS all three restarted with identical headers 0–9
+ Container xkr-aux-testnet-node3 Stopping 
+ Container xkr-aux-testnet-node3 Stopped 
+ Container xkr-aux-testnet-node3 Recreate 
+ Container xkr-aux-testnet-node3 Recreated 
+ Container xkr-aux-testnet-node3 Starting 
+ Container xkr-aux-testnet-node3 Started 
+PASS fresh node3 revalidated and synchronized headers 0–9

@@ -1,0 +1,12 @@
+{
+  "xkr-native.cpp": "f434a4b0fd7d967287fb85705a2b8b1fe9f39cb0dbd499693e0111c6732a20fc",
+  "worker.py": "d60cc28220bb6ffc5901e62221f86c4700eb2fcf2c11dae02652875003691100",
+  "build_fused.py": "423de07fdbffd0bca01e700a4268249cb958df622ac6f709575c41f5069aa2c4",
+  "README.md": "c1f1dbe6ef9fb679793cfd93a2334e91625d749cb186ff1c212c01409d389ad2",
+  "native.cpp.in": "4472dec44cd64295e1ac719780f5b443ca1d6c17130df9190ba3b939128e9e57",
+  "dego-native.cpp": "6e4014782990b5ed87e599a62d8b32caeeec4b332b18f142884c1bc0e9dbf6c3",
+  "envelope-run.log": "b60bd5f37b904ecf6f137f26f343b2f255926dfeb6d296b54aac83bf2acf2486",
+  "test_envelopes.py": "f80237e721473bccd39b0894188a83a7b4fda9fccd4cdb79b450a012b4a1206e",
+  "envelope-results.json": "c0d2a03350bc82c43903d96050e633808647a90ead1da836906f27a284dd8611",
+  "build_native.py": "a3851c4363c8c0943ae70159fe47e0f9c3067a5a0e64bb585b4eb2e78e4fd16f"
+}

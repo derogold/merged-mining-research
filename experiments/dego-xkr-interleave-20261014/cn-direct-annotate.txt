@@ -1,0 +1,870 @@
+ Percent |	Source code & Disassembly of xkr-direct.so for cycles:u (2464 samples, percent: local period)
+-------------------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         : 3    Disassembly of section .text:
+         :
+         : 5    0000000000002790 <xkr_direct>:
+         : 6    xkr_direct():
+    0.00 :   2790:   endbr64
+    0.00 :   2794:   push   %r15
+    0.00 :   2796:   push   %r14
+    0.00 :   2798:   mov    %r9d,%r14d
+    0.00 :   279b:   push   %r13
+    0.00 :   279d:   push   %r12
+    0.00 :   279f:   mov    %rsi,%r12
+    0.00 :   27a2:   push   %rbp
+    0.00 :   27a3:   mov    %rdi,%rbp
+    0.00 :   27a6:   push   %rbx
+    0.00 :   27a7:   sub    $0x368,%rsp
+    0.00 :   27ae:   mov    %rdx,0xb0(%rsp)
+    0.00 :   27b6:   mov    %r8d,0x10(%rsp)
+    0.00 :   27bb:   mov    %fs:0x28,%rax
+    0.00 :   27c4:   mov    %rax,0x358(%rsp)
+    0.00 :   27cc:   mov    0x3a0(%rsp),%eax
+    0.00 :   27d3:   movq   $0x0,0xc8(%rsp)
+    0.00 :   27df:   shr    $0x4,%eax
+    0.00 :   27e2:   mov    %eax,0x50(%rsp)
+    0.00 :   27e6:   mov    0x3a8(%rsp),%eax
+    0.00 :   27ed:   shr    $0x7,%eax
+    0.00 :   27f0:   mov    %eax,0xa0(%rsp)
+    0.00 :   27f7:   mov    0x3b0(%rsp),%eax
+    0.00 :   27fe:   shr    %eax
+    0.00 :   2800:   cmp    $0x1,%ecx
+    0.00 :   2803:   mov    %eax,0x20(%rsp)
+    0.00 :   2807:   mov    $0x1,%eax
+    0.00 :   280c:   sbb    $0xffffffffffffffff,%rax
+    0.00 :   2810:   mov    %rax,0x40(%rsp)
+    0.00 :   2815:   mov    0x118c1(%rip),%eax        # 140dc <use.1>
+    0.00 :   281b:   cmp    $0xffffffff,%eax
+    0.00 :   281e:   je     37b3 <xkr_direct+0x1023>
+    0.00 :   2824:   test   %eax,%eax
+    0.00 :   2826:   je     37d9 <xkr_direct+0x1049>
+    0.00 :   282c:   lea    0x110(%rsp),%rax
+    0.00 :   2834:   xor    %ebx,%ebx
+    0.00 :   2836:   mov    %rax,0x88(%rsp)
+    0.00 :   283e:   mov    0x3a0(%rsp),%edi
+    0.00 :   2845:   call   2610 <slow_hash_allocate_state>
+    0.00 :   284a:   test   %r14d,%r14d
+    0.00 :   284d:   je     2ed8 <xkr_direct+0x748>
+    0.00 :   2853:   mov    0x88(%rsp),%rdi
+    0.00 :   285b:   mov    $0xc8,%ecx
+    0.00 :   2860:   mov    %r12,%rdx
+    0.00 :   2863:   mov    %rbp,%rsi
+    0.00 :   2866:   call   2270 <__memcpy_chk@plt>
+    0.00 :   286b:   movdqa 0x150(%rsp),%xmm3
+    0.00 :   2874:   cmpl   $0x1,0x10(%rsp)
+    0.00 :   2879:   movdqa 0x180(%rsp),%xmm5
+    0.00 :   2882:   movdqa 0x1a0(%rsp),%xmm6
+    0.00 :   288b:   movaps %xmm3,0x1e0(%rsp)
+    0.00 :   2893:   movdqa 0x160(%rsp),%xmm3
+    0.00 :   289c:   movaps %xmm5,0x210(%rsp)
+    0.00 :   28a4:   movdqa 0x1b0(%rsp),%xmm5
+    0.00 :   28ad:   movaps %xmm3,0x1f0(%rsp)
+    0.00 :   28b5:   movdqa 0x170(%rsp),%xmm3
+    0.00 :   28be:   movaps %xmm6,0x230(%rsp)
+    0.00 :   28c6:   movaps %xmm3,0x200(%rsp)
+    0.00 :   28ce:   movdqa 0x190(%rsp),%xmm3
+    0.00 :   28d7:   movaps %xmm5,0x240(%rsp)
+    0.00 :   28df:   movaps %xmm3,0x220(%rsp)
+    0.00 :   28e7:   movdqa 0x1c0(%rsp),%xmm3
+    0.00 :   28f0:   movaps %xmm3,0x250(%rsp)
+    0.00 :   28f8:   je     3784 <xkr_direct+0xff4>
+    0.00 :   28fe:   cmpl   $0x2,0x10(%rsp)
+    0.00 :   2903:   jne    37ff <xkr_direct+0x106f>
+    0.00 :   2909:   mov    0x170(%rsp),%rax
+    0.00 :   2911:   mov    0x178(%rsp),%r14
+    0.00 :   2919:   movq   $0x0,0x90(%rsp)
+    0.00 :   2925:   movdqa 0x160(%rsp),%xmm0
+    0.00 :   292e:   pxor   0x150(%rsp),%xmm0
+    0.00 :   2937:   mov    %rax,0x30(%rsp)
+    0.00 :   293c:   movaps %xmm0,0x100(%rsp)
+    0.00 :   2944:   mov    0xa0(%rsp),%r12d
+    0.00 :   294c:   test   %ebx,%ebx
+    0.00 :   294e:   je     3670 <xkr_direct+0xee0>
+    0.00 :   2954:   mov    0x88(%rsp),%rdi
+    0.00 :   295c:   lea    0x260(%rsp),%r13
+    0.00 :   2964:   mov    %r13,%rsi
+    0.00 :   2967:   call   23c0 <aes_expand_key>
+    0.00 :   296c:   data16 lea 0x11644(%rip),%rdi        # 13fb8 <hp_state@@Base+0x13fb0>
+    0.00 :   2974:   data16 data16 rex.W call 2250 <__tls_get_addr@plt>
+    0.00 :   297c:   mov    (%rax),%rax
+    0.00 :   297f:   movdqu 0x1ff80(%rax),%xmm4
+    0.00 :   2987:   movdqu 0x1ff90(%rax),%xmm6
+    0.00 :   298f:   movdqu 0x1ffa0(%rax),%xmm7
+    0.00 :   2997:   movdqu 0x1ffb0(%rax),%xmm5
+    0.00 :   299f:   movaps %xmm4,0x1e0(%rsp)
+    0.00 :   29a7:   movdqu 0x1ffc0(%rax),%xmm4
+    0.00 :   29af:   movaps %xmm6,0x1f0(%rsp)
+    0.00 :   29b7:   movdqu 0x1ffd0(%rax),%xmm6
+    0.00 :   29bf:   movaps %xmm7,0x200(%rsp)
+    0.00 :   29c7:   movdqu 0x1ffe0(%rax),%xmm7
+    0.00 :   29cf:   movaps %xmm5,0x210(%rsp)
+    0.00 :   29d7:   movdqu 0x1fff0(%rax),%xmm5
+    0.00 :   29df:   movaps %xmm4,0x220(%rsp)
+    0.00 :   29e7:   movaps %xmm6,0x230(%rsp)
+    0.00 :   29ef:   movaps %xmm7,0x240(%rsp)
+    0.00 :   29f7:   movaps %xmm5,0x250(%rsp)
+    0.00 :   29ff:   cmp    $0x400,%r12d
+    0.00 :   2a06:   jbe    2b4b <xkr_direct+0x3bb>
+    0.00 :   2a0c:   mov    %r12,%rsi
+    0.00 :   2a0f:   movdqa 0x260(%rsp),%xmm10
+    0.00 :   2a19:   movdqa 0x270(%rsp),%xmm9
+    0.00 :   2a23:   lea    0x20000(%rax),%rdx
+    0.00 :   2a2a:   shl    $0x7,%rsi
+    0.00 :   2a2e:   movdqa 0x280(%rsp),%xmm8
+    0.00 :   2a38:   movdqa 0x290(%rsp),%xmm7
+    0.00 :   2a41:   lea    0x1e0(%rsp),%r15
+    0.00 :   2a49:   movdqa 0x2a0(%rsp),%xmm6
+    0.00 :   2a52:   lea    (%rax,%rsi,1),%rdi
+    0.00 :   2a56:   movdqa 0x2b0(%rsp),%xmm5
+    0.00 :   2a5f:   movdqa 0x2c0(%rsp),%xmm4
+    0.00 :   2a68:   movdqa 0x2d0(%rsp),%xmm3
+    0.00 :   2a71:   movdqa 0x2e0(%rsp),%xmm2
+    0.00 :   2a7a:   movdqa 0x2f0(%rsp),%xmm1
+    0.00 :   2a83:   nopl   0x0(%rax,%rax,1)
+    0.00 :   2a88:   mov    %r15,%rax
+    0.00 :   2a8b:   nopl   0x0(%rax,%rax,1)
+    0.00 :   2a90:   movdqa (%rax),%xmm0
+    0.00 :   2a94:   add    $0x10,%rax
+    0.00 :   2a98:   aesenc %xmm10,%xmm0
+    0.00 :   2a9e:   aesenc %xmm9,%xmm0
+    0.04 :   2aa4:   aesenc %xmm8,%xmm0
+    0.00 :   2aaa:   aesenc %xmm7,%xmm0
+    0.00 :   2aaf:   aesenc %xmm6,%xmm0
+    0.00 :   2ab4:   aesenc %xmm5,%xmm0
+    0.00 :   2ab9:   aesenc %xmm4,%xmm0
+    0.00 :   2abe:   aesenc %xmm3,%xmm0
+    0.00 :   2ac3:   aesenc %xmm2,%xmm0
+    0.04 :   2ac8:   aesenc %xmm1,%xmm0
+    0.04 :   2acd:   movaps %xmm0,-0x10(%rax)
+    0.08 :   2ad1:   cmp    %rax,%r13
+    0.00 :   2ad4:   jne    2a90 <xkr_direct+0x300>
+    0.00 :   2ad6:   movdqa 0x1e0(%rsp),%xmm0
+    0.00 :   2adf:   sub    $0xffffffffffffff80,%rdx
+    0.00 :   2ae3:   movups %xmm0,-0x80(%rdx)
+    0.00 :   2ae7:   movdqa 0x1f0(%rsp),%xmm0
+    0.00 :   2af0:   movups %xmm0,-0x70(%rdx)
+    0.00 :   2af4:   movdqa 0x200(%rsp),%xmm0
+    0.00 :   2afd:   movups %xmm0,-0x60(%rdx)
+    0.00 :   2b01:   movdqa 0x210(%rsp),%xmm0
+    0.00 :   2b0a:   movups %xmm0,-0x50(%rdx)
+    0.00 :   2b0e:   movdqa 0x220(%rsp),%xmm0
+    0.00 :   2b17:   movups %xmm0,-0x40(%rdx)
+    0.00 :   2b1b:   movdqa 0x230(%rsp),%xmm0
+    0.00 :   2b24:   movups %xmm0,-0x30(%rdx)
+    0.00 :   2b28:   movdqa 0x240(%rsp),%xmm0
+    0.00 :   2b31:   movups %xmm0,-0x20(%rdx)
+    0.00 :   2b35:   movdqa 0x250(%rsp),%xmm0
+    0.00 :   2b3e:   movups %xmm0,-0x10(%rdx)
+    0.00 :   2b42:   cmp    %rdx,%rdi
+    0.00 :   2b45:   jne    2a88 <xkr_direct+0x2f8>
+    0.00 :   2b4b:   movdqa 0x130(%rsp),%xmm0
+    0.00 :   2b54:   mov    0x20(%rsp),%r13d
+    0.00 :   2b59:   pxor   0x110(%rsp),%xmm0
+    0.00 :   2b62:   movdqa 0x140(%rsp),%xmm3
+    0.00 :   2b6b:   movdqa 0x100(%rsp),%xmm2
+    0.00 :   2b74:   pxor   0x120(%rsp),%xmm3
+    0.00 :   2b7d:   movaps %xmm0,(%rsp)
+    0.00 :   2b81:   test   %ebx,%ebx
+    0.00 :   2b83:   jne    3120 <xkr_direct+0x990>
+    0.00 :   2b89:   test   %r13d,%r13d
+    0.00 :   2b8c:   je     2ef8 <xkr_direct+0x768>
+    0.00 :   2b92:   mov    0x50(%rsp),%eax
+    0.00 :   2b96:   xor    %edx,%edx
+    0.00 :   2b98:   lea    0xe0(%rsp),%rbx
+    0.00 :   2ba0:   xor    %ebp,%ebp
+    0.00 :   2ba2:   lea    0xd0(%rsp),%rcx
+    0.00 :   2baa:   mov    %r12,0xb8(%rsp)
+    0.00 :   2bb2:   divq   0x40(%rsp)
+    0.00 :   2bb7:   mov    %rbx,0x70(%rsp)
+    0.00 :   2bbc:   mov    0x10(%rsp),%ebx
+    0.00 :   2bc0:   mov    %rcx,0x50(%rsp)
+    0.00 :   2bc5:   mov    %r13,0x60(%rsp)
+    0.00 :   2bca:   movaps %xmm2,0x40(%rsp)
+    0.00 :   2bcf:   sub    $0x1,%rax
+    0.00 :   2bd3:   mov    %rax,%r12
+    0.00 :   2bd6:   jmp    2caf <xkr_direct+0x51f>
+    0.00 :   2bdb:   nopl   0x0(%rax,%rax,1)
+    0.00 :   2be0:   movdqa 0xe0(%rsp),%xmm1
+    0.00 :   2be9:   mov    (%r15),%rax
+    0.00 :   2bec:   movdqa %xmm1,%xmm2
+    0.00 :   2bf0:   pxor   %xmm3,%xmm2
+    0.00 :   2bf4:   movaps %xmm2,(%rax,%r13,1)
+    0.00 :   2bf9:   cmp    $0x1,%ebx
+    0.00 :   2bfc:   jne    2c28 <xkr_direct+0x498>
+    0.00 :   2bfe:   lea    0xb(%rax,%r13,1),%rdx
+    0.00 :   2c03:   movzbl (%rdx),%esi
+    0.00 :   2c06:   mov    %esi,%ecx
+    0.00 :   2c08:   mov    %esi,%eax
+    0.00 :   2c0a:   shr    $0x3,%cl
+    0.00 :   2c0d:   and    $0x1,%eax
+    0.00 :   2c10:   and    $0x6,%ecx
+    0.00 :   2c13:   or     %eax,%ecx
+    0.00 :   2c15:   mov    $0x75310,%eax
+    0.00 :   2c1a:   add    %ecx,%ecx
+    0.00 :   2c1c:   shr    %cl,%eax
+    0.00 :   2c1e:   and    $0x30,%eax
+    0.00 :   2c21:   xor    %esi,%eax
+    0.00 :   2c23:   mov    %al,(%rdx)
+    0.00 :   2c25:   mov    (%r15),%rax
+    0.00 :   2c28:   movq   %xmm1,%rdx
+    0.00 :   2c2d:   mov    %rdx,%rcx
+    0.00 :   2c30:   shr    $0x4,%rcx
+    0.00 :   2c34:   and    %r12,%rcx
+    0.00 :   2c37:   shl    $0x4,%rcx
+    0.00 :   2c3b:   add    %rax,%rcx
+    0.00 :   2c3e:   mov    %rdx,%rax
+    0.00 :   2c41:   movdqu (%rcx),%xmm2
+    0.00 :   2c45:   movq   %xmm2,%rsi
+    0.00 :   2c4a:   mul    %rsi
+    0.00 :   2c4d:   movq   %rdx,%xmm1
+    0.00 :   2c52:   movq   %rax,%xmm5
+    0.00 :   2c57:   punpcklqdq %xmm5,%xmm1
+    0.00 :   2c5b:   paddq  %xmm1,%xmm0
+    0.00 :   2c5f:   pxor   %xmm0,%xmm2
+    0.00 :   2c63:   movups %xmm0,(%rcx)
+    0.00 :   2c66:   movaps %xmm2,(%rsp)
+    0.00 :   2c6a:   cmp    $0x1,%ebx
+    0.00 :   2c6d:   jne    2c86 <xkr_direct+0x4f6>
+    0.00 :   2c6f:   mov    0x90(%rsp),%rsi
+    0.00 :   2c77:   movhlps %xmm0,%xmm6
+    0.00 :   2c7a:   movq   %xmm6,%rax
+    0.00 :   2c7f:   xor    %rsi,%rax
+    0.00 :   2c82:   mov    %rax,0x8(%rcx)
+    0.00 :   2c86:   mov    0x60(%rsp),%rax
+    0.00 :   2c8b:   add    $0x1,%rbp
+    0.00 :   2c8f:   movdqa 0xe0(%rsp),%xmm1
+    0.00 :   2c98:   cmp    %rax,%rbp
+    0.00 :   2c9b:   je     2ef0 <xkr_direct+0x760>
+    0.00 :   2ca1:   movdqa (%rsp),%xmm0
+    0.00 :   2ca6:   movaps %xmm3,0x40(%rsp)
+    0.00 :   2cab:   movdqa %xmm1,%xmm3
+    0.00 :   2caf:   movq   %xmm0,%r13
+    0.00 :   2cb4:   movaps %xmm3,0x20(%rsp)
+    0.00 :   2cb9:   movaps %xmm0,0x10(%rsp)
+    0.00 :   2cbe:   shr    $0x4,%r13
+    0.00 :   2cc2:   data16 lea 0x112ee(%rip),%rdi        # 13fb8 <hp_state@@Base+0x13fb0>
+    0.00 :   2cca:   data16 data16 rex.W call 2250 <__tls_get_addr@plt>
+    0.00 :   2cd2:   and    %r12,%r13
+    0.00 :   2cd5:   mov    0x70(%rsp),%rdi
+    0.00 :   2cda:   movdqa (%rsp),%xmm6
+    0.00 :   2cdf:   shl    $0x4,%r13
+    0.00 :   2ce3:   mov    0x50(%rsp),%rdx
+    0.00 :   2ce8:   mov    %rdi,%rsi
+    0.00 :   2ceb:   mov    %rax,%r15
+    0.00 :   2cee:   mov    (%rax),%rax
+    0.00 :   2cf1:   movdqa (%rax,%r13,1),%xmm5
+    0.00 :   2cf7:   movaps %xmm6,0xd0(%rsp)
+    0.00 :   2cff:   movaps %xmm5,0xe0(%rsp)
+    0.00 :   2d07:   call   3d00 <aesb_single_round>
+    0.00 :   2d0c:   cmp    $0x2,%ebx
+    0.00 :   2d0f:   movdqa 0x10(%rsp),%xmm0
+    0.00 :   2d15:   movdqa 0x20(%rsp),%xmm3
+    0.00 :   2d1b:   jne    2be0 <xkr_direct+0x450>
+    0.00 :   2d21:   mov    (%r15),%rcx
+    0.00 :   2d24:   mov    %r13,%rsi
+    0.00 :   2d27:   mov    %r13,%rax
+    0.00 :   2d2a:   movdqa 0x40(%rsp),%xmm6
+    0.00 :   2d30:   xor    $0x10,%rsi
+    0.00 :   2d34:   xor    $0x30,%rax
+    0.00 :   2d38:   mov    %r13,%rdx
+    0.00 :   2d3b:   mov    0x30(%rsp),%rdi
+    0.00 :   2d40:   add    %rcx,%rsi
+    0.00 :   2d43:   add    %rcx,%rax
+    0.00 :   2d46:   xor    $0x20,%rdx
+    0.00 :   2d4a:   movabs $0x100000000,%r15
+    0.00 :   2d54:   movdqa (%rsi),%xmm4
+    0.00 :   2d58:   movdqa (%rax),%xmm5
+    0.00 :   2d5c:   add    %rcx,%rdx
+    0.00 :   2d5f:   movdqa (%rdx),%xmm1
+    0.00 :   2d63:   paddq  %xmm6,%xmm5
+    0.00 :   2d67:   paddq  %xmm3,%xmm4
+    0.00 :   2d6b:   movaps %xmm5,(%rsi)
+    0.00 :   2d6e:   movaps %xmm4,(%rdx)
+    0.00 :   2d71:   xor    %edx,%edx
+    0.00 :   2d73:   paddq  0xd0(%rsp),%xmm1
+    0.00 :   2d7c:   movaps %xmm1,(%rax)
+    0.00 :   2d7f:   mov    %r14,%rax
+    0.00 :   2d82:   movdqa 0xe0(%rsp),%xmm4
+    0.00 :   2d8b:   shl    $0x20,%rax
+    0.00 :   2d8f:   movq   %xmm4,%r8
+    0.00 :   2d94:   movdqa %xmm4,%xmm1
+    0.00 :   2d98:   movhlps %xmm4,%xmm7
+    0.00 :   2d9b:   pxor   %xmm3,%xmm1
+    0.00 :   2d9f:   lea    (%r8,%r14,2),%r9d
+    0.00 :   2da3:   pxor   %xmm4,%xmm4
+    0.00 :   2da7:   mov    %r8,%rsi
+    0.00 :   2daa:   shr    $0x4,%rsi
+    0.00 :   2dae:   movaps %xmm1,(%rcx,%r13,1)
+    0.00 :   2db3:   or     $0x80000001,%r9d
+    0.00 :   2dba:   and    %r12,%rsi
+    0.00 :   2dbd:   shl    $0x4,%rsi
+    0.00 :   2dc1:   lea    (%rcx,%rsi,1),%r10
+    0.00 :   2dc5:   xor    (%r10),%rdi
+    0.00 :   2dc8:   xor    %rax,%rdi
+    0.00 :   2dcb:   movq   %xmm7,%rax
+    0.00 :   2dd0:   div    %r9
+    0.00 :   2dd3:   movq   %rdi,%xmm1
+    0.00 :   2dd8:   movhps 0x8(%r10),%xmm1
+    0.00 :   2ddd:   shl    $0x20,%rdx
+    0.00 :   2de1:   mov    %eax,%eax
+    0.00 :   2de3:   add    %rdx,%rax
+    0.00 :   2de6:   lea    (%rax,%r8,1),%r13
+    0.00 :   2dea:   mov    %rax,0x30(%rsp)
+    0.00 :   2def:   mov    %r13,%rax
+    0.00 :   2df2:   shr    $0xc,%rax
+    0.00 :   2df6:   movq   %rax,%xmm5
+    0.00 :   2dfb:   paddq  0xb25d(%rip),%xmm5        # e060 <_fini+0x148>
+    0.00 :   2e03:   movsd  %xmm5,%xmm4
+    0.00 :   2e07:   sqrtsd %xmm4,%xmm4
+    0.00 :   2e0b:   paddq  0xb25d(%rip),%xmm4        # e070 <_fini+0x158>
+    0.00 :   2e13:   movq   %xmm4,%rax
+    0.00 :   2e18:   mov    %rax,%r11
+    0.00 :   2e1b:   shr    $0x14,%rax
+    0.00 :   2e1f:   shr    $0x13,%r11
+    0.00 :   2e23:   mov    %r11,%r9
+    0.00 :   2e26:   mov    %r11,%r14
+    0.00 :   2e29:   and    $0x1,%r9d
+    0.00 :   2e2d:   shl    $0x20,%r14
+    0.00 :   2e31:   lea    (%rax,%r9,1),%rdx
+    0.00 :   2e35:   imul   %rax,%rdx
+    0.00 :   2e39:   add    %r14,%rdx
+    0.00 :   2e3c:   mov    %r13,%r14
+    0.00 :   2e3f:   sub    %rax,%r14
+    0.00 :   2e42:   add    %rdx,%r15
+    0.00 :   2e45:   xor    %eax,%eax
+    0.00 :   2e47:   cmp    %r14,%r15
+    0.00 :   2e4a:   setb   %al
+    0.00 :   2e4d:   add    %rdx,%r9
+    0.00 :   2e50:   cmp    %r9,%r13
+    0.00 :   2e53:   mov    %rsi,%r9
+    0.00 :   2e56:   sbb    $0x0,%eax
+    0.00 :   2e59:   xor    $0x20,%r9
+    0.00 :   2e5d:   cltq
+    0.00 :   2e5f:   add    %rcx,%r9
+    0.00 :   2e62:   lea    (%rax,%r11,1),%r14
+    0.00 :   2e66:   mov    %r8,%rax
+    0.00 :   2e69:   mul    %rdi
+    0.00 :   2e6c:   mov    %rsi,%rdi
+    0.00 :   2e6f:   movq   %rdx,%xmm4
+    0.00 :   2e74:   movq   %rax,%xmm7
+    0.00 :   2e79:   xor    $0x30,%rsi
+    0.00 :   2e7d:   xor    $0x10,%rdi
+    0.00 :   2e81:   punpcklqdq %xmm7,%xmm4
+    0.00 :   2e85:   lea    (%rcx,%rdi,1),%r11
+    0.00 :   2e89:   xor    %rdx,(%r11)
+    0.00 :   2e8c:   xor    %rax,0x8(%rcx,%rdi,1)
+    0.00 :   2e91:   movdqu (%r9),%xmm5
+    0.00 :   2e96:   add    %rsi,%rcx
+    0.00 :   2e99:   paddq  (%rcx),%xmm6
+    0.00 :   2e9d:   pxor   %xmm5,%xmm4
+    0.00 :   2ea1:   paddq  %xmm4,%xmm0
+    0.00 :   2ea5:   movdqa (%r11),%xmm4
+    0.00 :   2eaa:   movaps %xmm6,(%r11)
+    0.00 :   2eae:   pxor   %xmm0,%xmm1
+    0.00 :   2eb2:   paddq  %xmm3,%xmm4
+    0.00 :   2eb6:   movaps %xmm1,(%rsp)
+    0.00 :   2eba:   movaps %xmm4,(%r9)
+    0.00 :   2ebe:   paddq  0xd0(%rsp),%xmm5
+    0.00 :   2ec7:   movaps %xmm5,(%rcx)
+    0.00 :   2eca:   movups %xmm0,(%r10)
+    0.00 :   2ece:   jmp    2c86 <xkr_direct+0x4f6>
+    0.00 :   2ed3:   nopl   0x0(%rax,%rax,1)
+    0.00 :   2ed8:   mov    0x88(%rsp),%rdi
+    0.00 :   2ee0:   mov    %r12,%rdx
+    0.00 :   2ee3:   mov    %rbp,%rsi
+    0.00 :   2ee6:   call   38b0 <hash_process>
+    0.00 :   2eeb:   jmp    286b <xkr_direct+0xdb>
+    0.00 :   2ef0:   mov    0xb8(%rsp),%r12
+    0.00 :   2ef8:   movdqa 0x150(%rsp),%xmm7
+    0.00 :   2f01:   mov    $0x20,%edx
+    0.00 :   2f06:   movdqa 0x160(%rsp),%xmm5
+    0.00 :   2f0f:   lea    0x130(%rsp),%rsi
+    0.00 :   2f17:   movdqa 0x170(%rsp),%xmm3
+    0.00 :   2f20:   mov    0xc8(%rsp),%rdi
+    0.00 :   2f28:   movdqa 0x180(%rsp),%xmm4
+    0.00 :   2f31:   movaps %xmm7,0x1e0(%rsp)
+    0.00 :   2f39:   movdqa 0x190(%rsp),%xmm6
+    0.00 :   2f42:   movdqa 0x1a0(%rsp),%xmm7
+    0.00 :   2f4b:   movaps %xmm5,0x1f0(%rsp)
+    0.00 :   2f53:   movdqa 0x1b0(%rsp),%xmm5
+    0.00 :   2f5c:   movaps %xmm3,0x200(%rsp)
+    0.00 :   2f64:   movdqa 0x1c0(%rsp),%xmm3
+    0.00 :   2f6d:   movaps %xmm4,0x210(%rsp)
+    0.00 :   2f75:   movaps %xmm6,0x220(%rsp)
+    0.00 :   2f7d:   movaps %xmm7,0x230(%rsp)
+    0.00 :   2f85:   movaps %xmm5,0x240(%rsp)
+    0.00 :   2f8d:   movaps %xmm3,0x250(%rsp)
+    0.00 :   2f95:   call   5380 <oaes_key_import_data>
+    0.00 :   2f9a:   mov    0xa0(%rsp),%eax
+    0.00 :   2fa1:   test   %eax,%eax
+    0.00 :   2fa3:   je     3020 <xkr_direct+0x890>
+    0.00 :   2fa5:   lea    0x1e0(%rsp),%r15
+    0.00 :   2fad:   xor    %r13d,%r13d
+    0.00 :   2fb0:   lea    0x260(%rsp),%rbp
+    0.00 :   2fb8:   mov    %r15,%rbx
+    0.00 :   2fbb:   neg    %rbx
+    0.00 :   2fbe:   xchg   %ax,%ax
+    0.00 :   2fc0:   mov    %r15,%r14
+    0.00 :   2fc3:   nopl   0x0(%rax,%rax,1)
+    0.00 :   2fc8:   data16 lea 0x10fe8(%rip),%rdi        # 13fb8 <hp_state@@Base+0x13fb0>
+    0.00 :   2fd0:   data16 data16 rex.W call 2250 <__tls_get_addr@plt>
+    0.00 :   2fd8:   mov    %r14,%rsi
+    0.00 :   2fdb:   mov    %r14,%rdi
+    0.00 :   2fde:   mov    %rax,%rdx
+    0.00 :   2fe1:   lea    (%r14,%rbx,1),%rax
+    0.00 :   2fe5:   add    (%rdx),%rax
+    0.00 :   2fe8:   mov    (%rax),%rdx
+    0.00 :   2feb:   xor    %rdx,(%r14)
+    0.00 :   2fee:   mov    0x8(%rax),%rax
+    0.00 :   2ff2:   xor    %rax,0x8(%r14)
+    0.00 :   2ff6:   add    $0x10,%r14
+    0.00 :   2ffa:   mov    0xc8(%rsp),%rax
+    0.00 :   3002:   mov    (%rax),%rax
+    0.00 :   3005:   mov    0x18(%rax),%rdx
+    0.00 :   3009:   call   3e70 <aesb_pseudo_round>
+    0.00 :   300e:   cmp    %rbp,%r14
+    0.00 :   3011:   jne    2fc8 <xkr_direct+0x838>
+    0.00 :   3013:   add    $0x1,%r13
+    0.00 :   3017:   sub    $0xffffffffffffff80,%rbx
+    0.00 :   301b:   cmp    %r12,%r13
+    0.00 :   301e:   jne    2fc0 <xkr_direct+0x830>
+    0.00 :   3020:   lea    0xc8(%rsp),%rdi
+    0.00 :   3028:   call   5470 <oaes_free>
+    0.00 :   302d:   movdqa 0x1e0(%rsp),%xmm6
+    0.00 :   3036:   movdqa 0x1f0(%rsp),%xmm7
+    0.00 :   303f:   movdqa 0x200(%rsp),%xmm5
+    0.00 :   3048:   mov    0x88(%rsp),%rbx
+    0.00 :   3050:   movdqa 0x210(%rsp),%xmm3
+    0.00 :   3059:   movaps %xmm6,0x150(%rsp)
+    0.00 :   3061:   movdqa 0x220(%rsp),%xmm6
+    0.00 :   306a:   movaps %xmm7,0x160(%rsp)
+    0.00 :   3072:   mov    %rbx,%rdi
+    0.00 :   3075:   movdqa 0x230(%rsp),%xmm7
+    0.00 :   307e:   movaps %xmm5,0x170(%rsp)
+    0.00 :   3086:   movdqa 0x240(%rsp),%xmm5
+    0.00 :   308f:   movaps %xmm3,0x180(%rsp)
+    0.00 :   3097:   movdqa 0x250(%rsp),%xmm3
+    0.00 :   30a0:   movaps %xmm6,0x190(%rsp)
+    0.00 :   30a8:   movaps %xmm7,0x1a0(%rsp)
+    0.00 :   30b0:   movaps %xmm5,0x1b0(%rsp)
+    0.00 :   30b8:   movaps %xmm3,0x1c0(%rsp)
+    0.00 :   30c0:   call   38a0 <hash_permutation>
+    0.00 :   30c5:   movzbl 0x110(%rsp),%eax
+    0.00 :   30cd:   mov    %rbx,%rdi
+    0.00 :   30d0:   lea    0x10cc9(%rip),%rcx        # 13da0 <extra_hashes.2>
+    0.00 :   30d7:   mov    0xb0(%rsp),%rdx
+    0.00 :   30df:   mov    $0xc8,%esi
+    0.00 :   30e4:   and    $0x3,%eax
+    0.00 :   30e7:   call   *(%rcx,%rax,8)
+    0.00 :   30ea:   mov    0x3a0(%rsp),%edi
+    0.00 :   30f1:   call   26c0 <slow_hash_free_state>
+    0.00 :   30f6:   mov    0x358(%rsp),%rax
+    0.00 :   30fe:   sub    %fs:0x28,%rax
+    0.00 :   3107:   jne    386d <xkr_direct+0x10dd>
+    0.00 :   310d:   add    $0x368,%rsp
+    0.00 :   3114:   pop    %rbx
+    0.00 :   3115:   pop    %rbp
+    0.00 :   3116:   pop    %r12
+    0.00 :   3118:   pop    %r13
+    0.00 :   311a:   pop    %r14
+    0.00 :   311c:   pop    %r15
+    0.00 :   311e:   ret
+    0.00 :   311f:   nop
+    0.00 :   3120:   mov    0x20(%rsp),%ecx
+    0.00 :   3124:   test   %ecx,%ecx
+    0.00 :   3126:   je     3455 <xkr_direct+0xcc5>
+    0.00 :   312c:   mov    0x50(%rsp),%eax
+    0.00 :   3130:   xor    %edx,%edx
+    0.00 :   3132:   mov    %r12,0x50(%rsp)
+    0.00 :   3137:   xor    %ebx,%ebx
+    0.00 :   3139:   mov    0x10(%rsp),%r12d
+    0.00 :   313e:   mov    %r13,%r15
+    0.00 :   3141:   divq   0x40(%rsp)
+    0.00 :   3146:   movaps %xmm2,0x40(%rsp)
+    0.00 :   314b:   lea    -0x1(%rax),%rbp
+    0.00 :   314f:   jmp    3218 <xkr_direct+0xa88>
+    0.00 :   3154:   nopl   0x0(%rax)
+    0.00 :   3158:   movdqa %xmm1,%xmm2
+    0.00 :   315c:   pxor   %xmm3,%xmm2
+    0.00 :   3160:   movaps %xmm2,(%rdx)
+    0.00 :   3163:   cmp    $0x1,%r12d
+    0.00 :   3167:   jne    3195 <xkr_direct+0xa05>
+    0.00 :   3169:   lea    0xb(%rcx,%r13,1),%rsi
+    0.00 :   316e:   movzbl (%rsi),%edx
+    0.00 :   3171:   mov    %edx,%ecx
+    0.00 :   3173:   mov    %edx,%edi
+    0.00 :   3175:   shr    $0x3,%cl
+    0.00 :   3178:   and    $0x1,%edi
+    0.00 :   317b:   and    $0x6,%ecx
+    0.00 :   317e:   or     %edi,%ecx
+    0.00 :   3180:   mov    $0x75310,%edi
+    0.00 :   3185:   add    %ecx,%ecx
+    0.00 :   3187:   shr    %cl,%edi
+    0.00 :   3189:   mov    %edi,%ecx
+    0.00 :   318b:   and    $0x30,%ecx
+    0.00 :   318e:   xor    %ecx,%edx
+    0.00 :   3190:   mov    %dl,(%rsi)
+    0.00 :   3192:   mov    (%rax),%rcx
+    0.00 :   3195:   movq   %xmm1,%rdx
+    0.00 :   319a:   mov    %rdx,%rax
+    0.00 :   319d:   shr    $0x4,%rax
+    0.00 :   31a1:   and    %rbp,%rax
+    0.00 :   31a4:   shl    $0x4,%rax
+    0.00 :   31a8:   add    %rax,%rcx
+    0.00 :   31ab:   mov    %rdx,%rax
+    0.00 :   31ae:   movdqu (%rcx),%xmm2
+    0.00 :   31b2:   movq   %xmm2,%rsi
+    0.00 :   31b7:   mul    %rsi
+    0.00 :   31ba:   movq   %rdx,%xmm1
+    0.00 :   31bf:   movq   %rax,%xmm7
+    0.00 :   31c4:   punpcklqdq %xmm7,%xmm1
+    0.00 :   31c8:   paddq  %xmm1,%xmm0
+    0.00 :   31cc:   pxor   %xmm0,%xmm2
+    0.00 :   31d0:   movups %xmm0,(%rcx)
+    0.00 :   31d3:   movaps %xmm2,(%rsp)
+    0.00 :   31d7:   cmp    $0x1,%r12d
+    0.00 :   31db:   jne    31f4 <xkr_direct+0xa64>
+    0.00 :   31dd:   mov    0x90(%rsp),%rsi
+    0.00 :   31e5:   movhlps %xmm0,%xmm7
+    0.00 :   31e8:   movq   %xmm7,%rax
+    0.00 :   31ed:   xor    %rsi,%rax
+    0.00 :   31f0:   mov    %rax,0x8(%rcx)
+    0.00 :   31f4:   movdqa 0xe0(%rsp),%xmm1
+    0.00 :   31fd:   add    $0x1,%rbx
+    0.00 :   3201:   cmp    %r15,%rbx
+    0.00 :   3204:   je     3450 <xkr_direct+0xcc0>
+    0.00 :   320a:   movdqa (%rsp),%xmm0
+   14.41 :   320f:   movaps %xmm3,0x40(%rsp)
+    0.00 :   3214:   movdqa %xmm1,%xmm3
+    0.00 :   3218:   movq   %xmm0,%r13
+    1.09 :   321d:   movaps %xmm3,0x20(%rsp)
+    0.00 :   3222:   movaps %xmm0,0x10(%rsp)
+    0.04 :   3227:   shr    $0x4,%r13
+    2.47 :   322b:   data16 lea 0x10d85(%rip),%rdi        # 13fb8 <hp_state@@Base+0x13fb0>
+    0.00 :   3233:   data16 data16 rex.W call 2250 <__tls_get_addr@plt>
+    0.45 :   323b:   and    %rbp,%r13
+    0.00 :   323e:   movdqa (%rsp),%xmm7
+    0.00 :   3243:   movdqa 0x10(%rsp),%xmm0
+    0.65 :   3249:   shl    $0x4,%r13
+    0.00 :   324d:   cmp    $0x2,%r12d
+    0.00 :   3251:   movdqa 0x20(%rsp),%xmm3
+    0.00 :   3257:   mov    (%rax),%rcx
+    0.36 :   325a:   lea    (%rcx,%r13,1),%rdx
+    0.00 :   325e:   movdqa (%rdx),%xmm1
+    7.02 :   3262:   movaps %xmm7,0xd0(%rsp)
+    0.00 :   326a:   aesenc %xmm7,%xmm1
+    3.48 :   326f:   movaps %xmm1,0xe0(%rsp)
+    0.65 :   3277:   jne    3158 <xkr_direct+0x9c8>
+    0.00 :   327d:   mov    %r13,%rsi
+    0.00 :   3280:   mov    %r13,%rax
+    0.00 :   3283:   xor    $0x30,%r13
+    0.00 :   3287:   movdqa 0x40(%rsp),%xmm7
+    0.00 :   328d:   xor    $0x10,%rsi
+    0.00 :   3291:   add    %rcx,%r13
+    0.04 :   3294:   xor    $0x20,%rax
+    0.49 :   3298:   mov    0x30(%rsp),%r8
+    0.00 :   329d:   add    %rcx,%rsi
+    0.00 :   32a0:   movdqa 0x0(%r13),%xmm5
+    0.24 :   32a6:   add    %rcx,%rax
+    0.00 :   32a9:   pxor   %xmm6,%xmm6
+    0.00 :   32ad:   movdqa (%rsi),%xmm4
+    0.00 :   32b1:   movdqa (%rax),%xmm1
+    0.00 :   32b5:   paddq  %xmm7,%xmm5
+    0.81 :   32b9:   paddq  %xmm3,%xmm4
+    0.00 :   32bd:   movaps %xmm5,(%rsi)
+    0.00 :   32c0:   movaps %xmm4,(%rax)
+    0.04 :   32c3:   paddq  0xd0(%rsp),%xmm1
+   12.10 :   32cc:   movaps %xmm1,0x0(%r13)
+    0.00 :   32d1:   movdqa 0xe0(%rsp),%xmm1
+    0.28 :   32da:   movq   %xmm1,%rdi
+    0.61 :   32df:   movdqa %xmm1,%xmm4
+    0.00 :   32e3:   movhlps %xmm1,%xmm5
+    0.61 :   32e6:   mov    %rdi,%rsi
+    0.00 :   32e9:   pxor   %xmm3,%xmm4
+    0.20 :   32ed:   lea    (%rdi,%r14,2),%r9d
+    1.66 :   32f1:   shr    $0x4,%rsi
+    0.00 :   32f5:   movaps %xmm4,(%rdx)
+    0.00 :   32f8:   or     $0x80000001,%r9d
+    0.69 :   32ff:   xor    %edx,%edx
+    0.00 :   3301:   and    %rbp,%rsi
+    0.00 :   3304:   shl    $0x4,%rsi
+    0.32 :   3308:   lea    (%rcx,%rsi,1),%r10
+    0.45 :   330c:   mov    0x8(%r10),%rax
+    5.62 :   3310:   xor    (%r10),%r8
+    0.85 :   3313:   mov    %rax,0x10(%rsp)
+    0.00 :   3318:   mov    %r14,%rax
+    0.00 :   331b:   shl    $0x20,%rax
+    0.00 :   331f:   xor    %rax,%r8
+    0.73 :   3322:   movq   %xmm5,%rax
+    0.00 :   3327:   div    %r9
+    0.53 :   332a:   shl    $0x20,%rdx
+    0.16 :   332e:   mov    %eax,%eax
+    0.00 :   3330:   add    %rax,%rdx
+    0.16 :   3333:   lea    (%rdi,%rdx,1),%r13
+    0.49 :   3337:   mov    %rdx,0x30(%rsp)
+    0.12 :   333c:   mov    %r13,%rax
+    0.00 :   333f:   shr    $0xc,%rax
+    0.49 :   3343:   movq   %rax,%xmm1
+    0.45 :   3348:   paddq  0xad10(%rip),%xmm1        # e060 <_fini+0x148>
+    1.17 :   3350:   shufpd $0x2,%xmm6,%xmm1
+    1.01 :   3355:   sqrtsd %xmm1,%xmm1
+   12.79 :   3359:   paddq  0xad0f(%rip),%xmm1        # e070 <_fini+0x158>
+    0.61 :   3361:   movq   %xmm1,%rax
+    0.00 :   3366:   mov    %rax,%r11
+    0.00 :   3369:   shr    $0x14,%rax
+    2.14 :   336d:   shr    $0x13,%r11
+    0.00 :   3371:   mov    %r11,%r9
+    0.00 :   3374:   mov    %r11,%r14
+    0.00 :   3377:   and    $0x1,%r9d
+    0.65 :   337b:   shl    $0x20,%r14
+    0.00 :   337f:   lea    (%rax,%r9,1),%rdx
+    0.49 :   3383:   imul   %rax,%rdx
+    0.57 :   3387:   add    %r14,%rdx
+    1.58 :   338a:   movabs $0x100000000,%r14
+    0.00 :   3394:   add    %rdx,%r14
+    0.41 :   3397:   mov    %r14,0x20(%rsp)
+    0.00 :   339c:   mov    %r13,%r14
+    0.00 :   339f:   sub    %rax,%r14
+    0.00 :   33a2:   cmp    %r14,0x20(%rsp)
+    3.41 :   33a7:   mov    %rdi,%rax
+    0.00 :   33aa:   setb   %r14b
+    0.85 :   33ae:   add    %rdx,%r9
+    0.00 :   33b1:   cmp    %r9,%r13
+    0.00 :   33b4:   movzbl %r14b,%r14d
+    0.69 :   33b8:   mov    %rsi,%r9
+    0.00 :   33bb:   sbb    $0x0,%r14d
+    0.65 :   33bf:   xor    $0x10,%r9
+    0.00 :   33c3:   lea    (%rcx,%r9,1),%rdi
+    0.00 :   33c7:   movslq %r14d,%r14
+    0.61 :   33ca:   mul    %r8
+    0.00 :   33cd:   xor    %rdx,(%rdi)
+    0.00 :   33d0:   movq   %rax,%xmm5
+    0.12 :   33d5:   movq   %rdx,%xmm1
+    0.00 :   33da:   add    %r11,%r14
+    0.53 :   33dd:   xor    %rax,0x8(%rcx,%r9,1)
+    0.00 :   33e2:   mov    %rsi,%r9
+    0.00 :   33e5:   punpcklqdq %xmm5,%xmm1
+    0.00 :   33e9:   xor    $0x30,%rsi
+    0.00 :   33ed:   xor    $0x20,%r9
+    0.00 :   33f1:   add    %rcx,%rsi
+    0.00 :   33f4:   add    %rcx,%r9
+    0.00 :   33f7:   paddq  (%rsi),%xmm7
+    0.61 :   33fb:   movdqu (%r9),%xmm4
+    0.00 :   3400:   pxor   %xmm4,%xmm1
+    0.00 :   3404:   paddq  %xmm1,%xmm0
+    0.00 :   3408:   movdqa (%rdi),%xmm1
+    9.26 :   340c:   movaps %xmm7,(%rdi)
+    0.00 :   340f:   movq   %xmm0,%rax
+    0.00 :   3414:   movhlps %xmm0,%xmm7
+    0.00 :   3417:   paddq  %xmm3,%xmm1
+    1.58 :   341b:   xor    %r8,%rax
+    0.00 :   341e:   movaps %xmm1,(%r9)
+    0.00 :   3422:   paddq  0xd0(%rsp),%xmm4
+    0.00 :   342b:   mov    %rax,(%rsp)
+    0.00 :   342f:   movq   %xmm7,%rax
+    0.00 :   3434:   movaps %xmm4,(%rsi)
+    0.00 :   3437:   movups %xmm0,(%r10)
+    0.00 :   343b:   mov    0x10(%rsp),%rcx
+    0.57 :   3440:   xor    %rax,%rcx
+    0.00 :   3443:   mov    %rcx,0x8(%rsp)
+    0.00 :   3448:   jmp    31f4 <xkr_direct+0xa64>
+    0.00 :   344d:   nopl   (%rax)
+    0.00 :   3450:   mov    0x50(%rsp),%r12
+    0.00 :   3455:   movdqa 0x150(%rsp),%xmm3
+    0.00 :   345e:   movdqa 0x160(%rsp),%xmm4
+    0.00 :   3467:   lea    0x260(%rsp),%r13
+    0.00 :   346f:   lea    0x130(%rsp),%rdi
+    0.00 :   3477:   movdqa 0x170(%rsp),%xmm6
+    0.00 :   3480:   mov    %r13,%rsi
+    0.00 :   3483:   movdqa 0x180(%rsp),%xmm7
+    0.00 :   348c:   movdqa 0x190(%rsp),%xmm5
+    0.00 :   3495:   movaps %xmm3,0x1e0(%rsp)
+    0.00 :   349d:   movdqa 0x1a0(%rsp),%xmm3
+    0.00 :   34a6:   movaps %xmm4,0x1f0(%rsp)
+    0.00 :   34ae:   movdqa 0x1b0(%rsp),%xmm4
+    0.00 :   34b7:   movaps %xmm6,0x200(%rsp)
+    0.00 :   34bf:   movdqa 0x1c0(%rsp),%xmm6
+    0.00 :   34c8:   movaps %xmm7,0x210(%rsp)
+    0.00 :   34d0:   movaps %xmm5,0x220(%rsp)
+    0.00 :   34d8:   movaps %xmm3,0x230(%rsp)
+    0.00 :   34e0:   movaps %xmm4,0x240(%rsp)
+    0.00 :   34e8:   movaps %xmm6,0x250(%rsp)
+    0.00 :   34f0:   call   23c0 <aes_expand_key>
+    0.00 :   34f5:   mov    0xa0(%rsp),%edx
+    0.00 :   34fc:   test   %edx,%edx
+    0.00 :   34fe:   je     302d <xkr_direct+0x89d>
+    0.00 :   3504:   movdqa 0x260(%rsp),%xmm10
+    0.00 :   350e:   movdqa 0x270(%rsp),%xmm9
+    0.00 :   3518:   lea    0x1e0(%rsp),%r15
+    0.00 :   3520:   movdqa 0x280(%rsp),%xmm8
+    0.00 :   352a:   movdqa 0x290(%rsp),%xmm7
+    0.00 :   3533:   movdqa 0x2a0(%rsp),%xmm6
+    0.00 :   353c:   movdqa 0x2b0(%rsp),%xmm5
+    0.00 :   3545:   movaps %xmm10,0xa0(%rsp)
+    0.00 :   354e:   movdqa 0x2c0(%rsp),%xmm4
+    0.00 :   3557:   movaps %xmm8,0x70(%rsp)
+    0.00 :   355d:   movdqa 0x2d0(%rsp),%xmm3
+    0.00 :   3566:   movdqa 0x2e0(%rsp),%xmm2
+    0.00 :   356f:   movaps %xmm7,0x60(%rsp)
+    0.00 :   3574:   movdqa 0x2f0(%rsp),%xmm1
+    0.00 :   357d:   movaps %xmm9,0x90(%rsp)
+    0.00 :   3586:   movaps %xmm6,0x50(%rsp)
+    0.00 :   358b:   movaps %xmm5,0x40(%rsp)
+    0.00 :   3590:   movaps %xmm4,0x30(%rsp)
+    0.00 :   3595:   movaps %xmm3,0x20(%rsp)
+    0.00 :   359a:   movaps %xmm2,0x10(%rsp)
+    0.00 :   359f:   movaps %xmm1,(%rsp)
+    0.00 :   35a3:   data16 lea 0x10a0d(%rip),%rdi        # 13fb8 <hp_state@@Base+0x13fb0>
+    0.00 :   35ab:   data16 data16 rex.W call 2250 <__tls_get_addr@plt>
+    0.00 :   35b3:   mov    %r12,%r8
+    0.00 :   35b6:   movdqa (%rsp),%xmm1
+    0.00 :   35bb:   movdqa 0xa0(%rsp),%xmm10
+    0.00 :   35c5:   shl    $0x7,%r8
+    0.00 :   35c9:   movdqa 0x70(%rsp),%xmm8
+    0.00 :   35d0:   movdqa 0x90(%rsp),%xmm9
+    0.00 :   35da:   movdqa 0x60(%rsp),%xmm7
+    0.00 :   35e0:   movdqa 0x50(%rsp),%xmm6
+    0.00 :   35e6:   movdqa 0x40(%rsp),%xmm5
+    0.00 :   35ec:   movdqa 0x30(%rsp),%xmm4
+    0.00 :   35f2:   movdqa 0x20(%rsp),%xmm3
+    0.00 :   35f8:   movdqa 0x10(%rsp),%xmm2
+    0.00 :   35fe:   mov    (%rax),%rdi
+    0.00 :   3601:   add    %rdi,%r8
+    0.00 :   3604:   nopl   0x0(%rax)
+    0.00 :   3608:   mov    %r15,%rax
+    0.00 :   360b:   mov    %rdi,%rdx
+    0.00 :   360e:   xchg   %ax,%ax
+    0.00 :   3610:   movdqa (%rax),%xmm0
+    0.00 :   3614:   pxor   (%rdx),%xmm0
+    0.00 :   3618:   add    $0x10,%rax
+    0.00 :   361c:   add    $0x10,%rdx
+    0.00 :   3620:   aesenc %xmm10,%xmm0
+    0.00 :   3626:   aesenc %xmm9,%xmm0
+    0.00 :   362c:   aesenc %xmm8,%xmm0
+    0.12 :   3632:   aesenc %xmm7,%xmm0
+    0.00 :   3637:   aesenc %xmm6,%xmm0
+    0.00 :   363c:   aesenc %xmm5,%xmm0
+    0.00 :   3641:   aesenc %xmm4,%xmm0
+    0.00 :   3646:   aesenc %xmm3,%xmm0
+    0.08 :   364b:   aesenc %xmm2,%xmm0
+    0.20 :   3650:   aesenc %xmm1,%xmm0
+    0.24 :   3655:   movaps %xmm0,-0x10(%rax)
+    0.12 :   3659:   cmp    %r13,%rax
+    0.00 :   365c:   jne    3610 <xkr_direct+0xe80>
+    0.00 :   365e:   sub    $0xffffffffffffff80,%rdi
+    0.00 :   3662:   cmp    %rdi,%r8
+    0.00 :   3665:   jne    3608 <xkr_direct+0xe78>
+    0.00 :   3667:   jmp    302d <xkr_direct+0x89d>
+    0.00 :   366c:   nopl   0x0(%rax)
+    0.00 :   3670:   call   5570 <oaes_alloc>
+    0.00 :   3675:   mov    $0x20,%edx
+    0.00 :   367a:   mov    0x88(%rsp),%rsi
+    0.00 :   3682:   xor    %ebp,%ebp
+    0.00 :   3684:   mov    %rax,%rdi
+    0.00 :   3687:   mov    %rax,0xc8(%rsp)
+    0.00 :   368f:   lea    0x260(%rsp),%r13
+    0.00 :   3697:   lea    0x1e0(%rsp),%r15
+    0.00 :   369f:   call   5380 <oaes_key_import_data>
+    0.00 :   36a4:   mov    0xa0(%rsp),%esi
+    0.00 :   36ab:   test   %esi,%esi
+    0.00 :   36ad:   je     2b4b <xkr_direct+0x3bb>
+    0.00 :   36b3:   mov    %ebx,(%rsp)
+    0.00 :   36b6:   cs nopw 0x0(%rax,%rax,1)
+    0.00 :   36c0:   mov    %r15,%rbx
+    0.00 :   36c3:   nopl   0x0(%rax,%rax,1)
+    0.00 :   36c8:   mov    0xc8(%rsp),%rax
+    0.00 :   36d0:   mov    %rbx,%rsi
+    0.00 :   36d3:   mov    %rbx,%rdi
+    0.00 :   36d6:   add    $0x10,%rbx
+    0.00 :   36da:   mov    (%rax),%rax
+    0.00 :   36dd:   mov    0x18(%rax),%rdx
+    0.00 :   36e1:   call   3e70 <aesb_pseudo_round>
+    0.00 :   36e6:   cmp    %rbx,%r13
+    0.00 :   36e9:   jne    36c8 <xkr_direct+0xf38>
+    0.00 :   36eb:   data16 lea 0x108c5(%rip),%rdi        # 13fb8 <hp_state@@Base+0x13fb0>
+    0.00 :   36f3:   data16 data16 rex.W call 2250 <__tls_get_addr@plt>
+    0.00 :   36fb:   movdqa 0x1e0(%rsp),%xmm6
+    0.00 :   3704:   mov    %rax,%rdx
+    0.00 :   3707:   mov    %rbp,%rax
+    0.00 :   370a:   add    $0x1,%rbp
+    0.00 :   370e:   shl    $0x7,%rax
+    0.00 :   3712:   add    (%rdx),%rax
+    0.00 :   3715:   movups %xmm6,(%rax)
+    0.00 :   3718:   movdqa 0x1f0(%rsp),%xmm7
+    0.00 :   3721:   movups %xmm7,0x10(%rax)
+    0.00 :   3725:   movdqa 0x200(%rsp),%xmm6
+    0.00 :   372e:   movups %xmm6,0x20(%rax)
+    0.00 :   3732:   movdqa 0x210(%rsp),%xmm7
+    0.00 :   373b:   movups %xmm7,0x30(%rax)
+    0.00 :   373f:   movdqa 0x220(%rsp),%xmm6
+    0.00 :   3748:   movups %xmm6,0x40(%rax)
+    0.00 :   374c:   movdqa 0x230(%rsp),%xmm7
+    0.00 :   3755:   movups %xmm7,0x50(%rax)
+    0.00 :   3759:   movdqa 0x240(%rsp),%xmm5
+    0.00 :   3762:   movups %xmm5,0x60(%rax)
+    0.00 :   3766:   movdqa 0x250(%rsp),%xmm6
+    0.00 :   376f:   movups %xmm6,0x70(%rax)
+    0.00 :   3773:   cmp    %r12,%rbp
+    0.00 :   3776:   jne    36c0 <xkr_direct+0xf30>
+    0.00 :   377c:   mov    (%rsp),%ebx
+    0.00 :   377f:   jmp    2b4b <xkr_direct+0x3bb>
+    0.00 :   3784:   cmp    $0x2a,%r12
+    0.00 :   3788:   jbe    3872 <xkr_direct+0x10e2>
+    0.00 :   378e:   mov    0x1d0(%rsp),%rax
+    0.00 :   3796:   xor    0x23(%rbp),%rax
+    0.00 :   379a:   xor    %r14d,%r14d
+    0.00 :   379d:   movq   $0x0,0x30(%rsp)
+    0.00 :   37a6:   mov    %rax,0x90(%rsp)
+    0.00 :   37ae:   jmp    2944 <xkr_direct+0x1b4>
+    0.00 :   37b3:   lea    0xa846(%rip),%rdi        # e000 <_fini+0xe8>
+    0.00 :   37ba:   call   21a0 <getenv@plt>
+    0.00 :   37bf:   test   %rax,%rax
+    0.00 :   37c2:   je     37cf <xkr_direct+0x103f>
+    0.00 :   37c4:   cmpb   $0x30,(%rax)
+    0.00 :   37c7:   jne    3847 <xkr_direct+0x10b7>
+    0.00 :   37c9:   cmpb   $0x0,0x1(%rax)
+    0.00 :   37cd:   jne    3847 <xkr_direct+0x10b7>
+    0.00 :   37cf:   movl   $0x0,0x10903(%rip)        # 140dc <use.1>
+    0.00 :   37d9:   mov    0x108f9(%rip),%eax        # 140d8 <supported.0>
+    0.00 :   37df:   lea    0x110(%rsp),%rcx
+    0.00 :   37e7:   mov    %rcx,0x88(%rsp)
+    0.00 :   37ef:   test   %eax,%eax
+    0.00 :   37f1:   js     381c <xkr_direct+0x108c>
+    0.00 :   37f3:   xor    %ebx,%ebx
+    0.00 :   37f5:   test   %eax,%eax
+    0.00 :   37f7:   setne  %bl
+    0.00 :   37fa:   jmp    283e <xkr_direct+0xae>
+    0.00 :   37ff:   movq   $0x0,0x90(%rsp)
+    0.00 :   380b:   xor    %r14d,%r14d
+    0.00 :   380e:   movq   $0x0,0x30(%rsp)
+    0.00 :   3817:   jmp    2944 <xkr_direct+0x1b4>
+    0.00 :   381c:   mov    $0x1,%esi
+    0.00 :   3821:   mov    %rcx,%rdi
+    0.00 :   3824:   xor    %ebx,%ebx
+    0.00 :   3826:   call   25f0 <cpuid>
+    0.00 :   382b:   mov    0x118(%rsp),%eax
+    0.00 :   3832:   and    $0x2000000,%eax
+    0.00 :   3837:   test   %eax,%eax
+    0.00 :   3839:   mov    %eax,0x10899(%rip)        # 140d8 <supported.0>
+    0.00 :   383f:   setne  %bl
+    0.00 :   3842:   jmp    283e <xkr_direct+0xae>
+    0.00 :   3847:   cmpb   $0x6e,(%rax)
+    0.00 :   384a:   jne    3852 <xkr_direct+0x10c2>
+    0.00 :   384c:   cmpb   $0x6f,0x1(%rax)
+    0.00 :   3850:   je     3861 <xkr_direct+0x10d1>
+    0.00 :   3852:   movl   $0x1,0x10880(%rip)        # 140dc <use.1>
+    0.00 :   385c:   jmp    282c <xkr_direct+0x9c>
+    0.00 :   3861:   cmpb   $0x0,0x2(%rax)
+    0.00 :   3865:   je     37cf <xkr_direct+0x103f>
+    0.00 :   386b:   jmp    3852 <xkr_direct+0x10c2>
+    0.00 :   386d:   call   2200 <__stack_chk_fail@plt>
+    0.00 :   3872:   mov    0x10777(%rip),%rax        # 13ff0 <stderr@GLIBC_2.2.5>
+    0.00 :   3879:   mov    $0x34,%edx
+    0.00 :   387e:   mov    $0x1,%esi
+    0.00 :   3883:   lea    0xa796(%rip),%rdi        # e020 <_fini+0x108>
+    0.00 :   388a:   mov    (%rax),%rcx
+    0.00 :   388d:   call   22c0 <fwrite@plt>
+    0.00 :   3892:   call   21c0 <abort@plt>

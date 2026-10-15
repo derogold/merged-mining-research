@@ -1,0 +1,19 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 2K of event 'cycles:u'
+# Event count (approx.): 27215683960
+#
+# Overhead  Command  Shared Object         Symbol                     
+# ........  .......  ....................  ...........................
+#
+    75.79%  python3  xkr-full.so           [.] cn_slow_hash
+    18.13%  python3  dego-full.so          [.] cn_slow_hash
+     1.58%  python3  ld-linux-x86-64.so.2  [.] __tls_get_addr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

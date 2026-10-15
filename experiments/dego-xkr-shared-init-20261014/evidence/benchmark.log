@@ -1,0 +1,22 @@
+BENCHMARK_PROGRESS 4 84
+BENCHMARK_PROGRESS 8 84
+BENCHMARK_PROGRESS 12 84
+BENCHMARK_PROGRESS 16 84
+BENCHMARK_PROGRESS 20 84
+BENCHMARK_PROGRESS 24 84
+BENCHMARK_PROGRESS 28 84
+BENCHMARK_PROGRESS 32 84
+BENCHMARK_PROGRESS 36 84
+BENCHMARK_PROGRESS 40 84
+BENCHMARK_PROGRESS 44 84
+BENCHMARK_PROGRESS 48 84
+BENCHMARK_PROGRESS 52 84
+BENCHMARK_PROGRESS 56 84
+BENCHMARK_PROGRESS 60 84
+BENCHMARK_PROGRESS 64 84
+BENCHMARK_PROGRESS 68 84
+BENCHMARK_PROGRESS 72 84
+BENCHMARK_PROGRESS 76 84
+BENCHMARK_PROGRESS 80 84
+BENCHMARK_PROGRESS 84 84
+BENCHMARK_DONE {"1": {"baseline_cpu_s": 119.77403186300003, "shared_cpu_s": 121.05155464700015, "aggregate_cpu_saving_pct": -1.0666108205001912, "throughput_speedup": 0.9894464570263016, "median_paired_saving_pct": -2.3497687107157716, "min_paired_saving_pct": -3.2271830482425212, "max_paired_saving_pct": 1.3213736099796591, "paired_trials": 21, "shared_wins": 10}, "2": {"baseline_cpu_s": 72.02582477499985, "shared_cpu_s": 72.30929008400005, "aggregate_cpu_saving_pct": -0.39356065673072926, "throughput_speedup": 0.9960798217121076, "median_paired_saving_pct": 0.6350246658082703, "min_paired_saving_pct": -2.5032879346386316, "max_paired_saving_pct": 1.4836418677532603, "paired_trials": 21, "shared_wins": 11}, "4": {"baseline_cpu_s": 47.871005878999924, "shared_cpu_s": 48.19190494500001, "aggregate_cpu_saving_pct": -0.6703411806536996, "throughput_speedup": 0.9933412247063833, "median_paired_saving_pct": 0.3255070070650623, "min_paired_saving_pct": -2.2176741888718876, "max_paired_saving_pct": 0.8178818438929314, "paired_trials": 21, "shared_wins": 11}, "8": {"baseline_cpu_s": 35.89741107900004, "shared_cpu_s": 36.00812839999997, "aggregate_cpu_saving_pct": -0.3084270360229402, "throughput_speedup": 0.9969252131138276, "median_paired_saving_pct": 0.020091033958735682, "min_paired_saving_pct": -1.431174316531747, "max_paired_saving_pct": 0.8128596525474263, "paired_trials": 21, "shared_wins": 11}}

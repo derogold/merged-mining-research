@@ -1,0 +1,7 @@
+{
+  "upstream_commit": "7c4d3e5fa11525827f8152d168c6ca7a127e16bf",
+  "unchanged_function_sha256": "d974270e352b94737839391b0e438ddd4d79b75f8ea23bedc640d3a9afda4b32",
+  "native_arith_source_sha256": "6fd9a3f69359beafd08d1943f081478925caf25b0ec84137423ccf1135f42e5a",
+  "golden_cases": 9,
+  "generated_native_comparisons": 256
+}

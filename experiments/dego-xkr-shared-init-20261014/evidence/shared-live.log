@@ -1,0 +1,4 @@
+SHARED_LIVE_PASS 0 {'dego': 14, 'xkr': 10} {'dego': 13312, 'xkr': 13312}
+SHARED_LIVE_PASS 1 {'dego': 15, 'xkr': 11} {'dego': 26624, 'xkr': 26624}
+SHARED_LIVE_PASS 2 {'dego': 16, 'xkr': 12} {'dego': 1536, 'xkr': 1536}
+ALL_THREE_SHARED_INITIALIZATION_ROUNDS_PASSED

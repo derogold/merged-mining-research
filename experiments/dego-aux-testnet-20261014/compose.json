@@ -1,0 +1,147 @@
+{
+  "name": "dego-aux-testnet",
+  "services": {
+    "node1": {
+      "image": "dego-research-build:20261014",
+      "container_name": "dego-aux-testnet-node1",
+      "command": [
+        "/research/build/src/DeroGoldd",
+        "--no-console",
+        "--allow-local-ip",
+        "--data-dir",
+        "/data",
+        "--log-file",
+        "/data/daemon.log",
+        "--log-level",
+        "3",
+        "--p2p-bind-ip",
+        "0.0.0.0",
+        "--p2p-bind-port",
+        "43071",
+        "--rpc-bind-ip",
+        "0.0.0.0",
+        "--rpc-bind-port",
+        "43171",
+        "--add-exclusive-node",
+        "172.30.247.12:43072",
+        "--add-exclusive-node",
+        "172.30.247.13:43073"
+      ],
+      "volumes": [
+        ".:/research:ro",
+        "./data/node1:/data"
+      ],
+      "ports": [
+        "127.0.0.1:43171:43171"
+      ],
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.247.11"
+        }
+      },
+      "cpus": 1,
+      "mem_limit": "2g",
+      "restart": "no",
+      "stop_grace_period": "30s"
+    },
+    "node2": {
+      "image": "dego-research-build:20261014",
+      "container_name": "dego-aux-testnet-node2",
+      "command": [
+        "/research/build/src/DeroGoldd",
+        "--no-console",
+        "--allow-local-ip",
+        "--data-dir",
+        "/data",
+        "--log-file",
+        "/data/daemon.log",
+        "--log-level",
+        "3",
+        "--p2p-bind-ip",
+        "0.0.0.0",
+        "--p2p-bind-port",
+        "43072",
+        "--rpc-bind-ip",
+        "0.0.0.0",
+        "--rpc-bind-port",
+        "43172",
+        "--add-exclusive-node",
+        "172.30.247.11:43071",
+        "--add-exclusive-node",
+        "172.30.247.13:43073"
+      ],
+      "volumes": [
+        ".:/research:ro",
+        "./data/node2:/data"
+      ],
+      "ports": [
+        "127.0.0.1:43172:43172"
+      ],
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.247.12"
+        }
+      },
+      "cpus": 1,
+      "mem_limit": "2g",
+      "restart": "no",
+      "stop_grace_period": "30s"
+    },
+    "node3": {
+      "image": "dego-research-build:20261014",
+      "container_name": "dego-aux-testnet-node3",
+      "command": [
+        "/research/build/src/DeroGoldd",
+        "--no-console",
+        "--allow-local-ip",
+        "--data-dir",
+        "/data",
+        "--log-file",
+        "/data/daemon.log",
+        "--log-level",
+        "3",
+        "--p2p-bind-ip",
+        "0.0.0.0",
+        "--p2p-bind-port",
+        "43073",
+        "--rpc-bind-ip",
+        "0.0.0.0",
+        "--rpc-bind-port",
+        "43173",
+        "--add-exclusive-node",
+        "172.30.247.11:43071",
+        "--add-exclusive-node",
+        "172.30.247.12:43072"
+      ],
+      "volumes": [
+        ".:/research:ro",
+        "./data/node3:/data"
+      ],
+      "ports": [
+        "127.0.0.1:43173:43173"
+      ],
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.247.13"
+        }
+      },
+      "cpus": 1,
+      "mem_limit": "2g",
+      "restart": "no",
+      "stop_grace_period": "30s"
+    }
+  },
+  "networks": {
+    "lab": {
+      "name": "dego-aux-testnet-lab",
+      "internal": true,
+      "ipam": {
+        "config": [
+          {
+            "subnet": "172.30.247.0/24"
+          }
+        ]
+      }
+    }
+  }
+}

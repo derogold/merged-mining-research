@@ -1,0 +1,9 @@
+{
+  "gcc": "gcc (Ubuntu 12.5.0-8ubuntu1~22~ppa1) 12.5.0",
+  "governor_cpu2": "schedutil",
+  "smt_siblings_cpu2": "2,14",
+  "notes": "No governor, turbo, affinity of other services or SMT settings changed. Benchmark pins only its own thread.",
+  "MONERO_USE_SOFTWARE_AES": null,
+  "TURTLECOIN_USE_SOFTWARE_AES": null,
+  "benchmark_process_software_aes_override": []
+}

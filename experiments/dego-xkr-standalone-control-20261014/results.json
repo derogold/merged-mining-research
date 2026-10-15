@@ -1,0 +1,694 @@
+{
+  "protocol": "3blobs x4 palindromic6run blocks x512pairs; same helpers/compiler; both standalone orders within each block",
+  "rows": [
+    {
+      "job": 0,
+      "rep": 0,
+      "runs": [
+        {
+          "mode": "original",
+          "reverse": false,
+          "cpu_s": 1.4147671279999998,
+          "wall_s": 1.4148287169955438,
+          "digest": "670930dbf8448bfc0d32aad207a6cc6f217700721849eda9792fd61789e63251"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9841897490000004,
+          "wall_s": 0.9842400800116593,
+          "digest": "670930dbf8448bfc0d32aad207a6cc6f217700721849eda9792fd61789e63251"
+        },
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9902047280000001,
+          "wall_s": 0.990235716002644,
+          "dego_cpu_s": 0.18154766600000016,
+          "xkr_cpu_s": 0.808657062,
+          "digest": "670930dbf8448bfc0d32aad207a6cc6f217700721849eda9792fd61789e63251"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9907702490000005,
+          "wall_s": 0.9908384440204827,
+          "dego_cpu_s": 0.1815587970000001,
+          "xkr_cpu_s": 0.8092114520000004,
+          "digest": "670930dbf8448bfc0d32aad207a6cc6f217700721849eda9792fd61789e63251"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9902554640000005,
+          "wall_s": 0.9903083450044505,
+          "digest": "670930dbf8448bfc0d32aad207a6cc6f217700721849eda9792fd61789e63251"
+        },
+        {
+          "mode": "original",
+          "reverse": false,
+          "cpu_s": 1.418738266,
+          "wall_s": 1.418828488996951,
+          "digest": "670930dbf8448bfc0d32aad207a6cc6f217700721849eda9792fd61789e63251"
+        }
+      ],
+      "totals": {
+        "original": 2.833505394,
+        "paired": 1.974445213000001,
+        "standalone": 1.9809749770000007
+      }
+    },
+    {
+      "job": 0,
+      "rep": 1,
+      "runs": [
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9854580080000002,
+          "wall_s": 0.9855195490090409,
+          "digest": "c0b89b1012f0165a441b7939dfd7e993a6905fffe8e798a4679b4cb177639439"
+        },
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.991124494000001,
+          "wall_s": 0.9911687739950139,
+          "dego_cpu_s": 0.18166374400000151,
+          "xkr_cpu_s": 0.8094607499999995,
+          "digest": "c0b89b1012f0165a441b7939dfd7e993a6905fffe8e798a4679b4cb177639439"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4205424410000003,
+          "wall_s": 1.4206251769937808,
+          "digest": "c0b89b1012f0165a441b7939dfd7e993a6905fffe8e798a4679b4cb177639439"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4177407469999999,
+          "wall_s": 1.417795502988156,
+          "digest": "c0b89b1012f0165a441b7939dfd7e993a6905fffe8e798a4679b4cb177639439"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.996013099999999,
+          "wall_s": 0.9960796849918552,
+          "dego_cpu_s": 0.18180601099999905,
+          "xkr_cpu_s": 0.8142070889999999,
+          "digest": "c0b89b1012f0165a441b7939dfd7e993a6905fffe8e798a4679b4cb177639439"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9864908749999994,
+          "wall_s": 0.9865359959949274,
+          "digest": "c0b89b1012f0165a441b7939dfd7e993a6905fffe8e798a4679b4cb177639439"
+        }
+      ],
+      "totals": {
+        "original": 2.838283188,
+        "paired": 1.9719488829999996,
+        "standalone": 1.987137594
+      }
+    },
+    {
+      "job": 0,
+      "rep": 2,
+      "runs": [
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9925186369999999,
+          "wall_s": 0.992585195999709,
+          "dego_cpu_s": 0.18164598099999907,
+          "xkr_cpu_s": 0.8108726560000008,
+          "digest": "ef55a5fd2469b83a10ba1cfeb8f51e8136b8727a9c0a059991d3a64c5b351452"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4275955939999996,
+          "wall_s": 1.4276817649952136,
+          "digest": "ef55a5fd2469b83a10ba1cfeb8f51e8136b8727a9c0a059991d3a64c5b351452"
+        },
+        {
+          "mode": "paired",
+          "reverse": true,
+          "cpu_s": 0.9942979630000011,
+          "wall_s": 0.9943611700000474,
+          "digest": "ef55a5fd2469b83a10ba1cfeb8f51e8136b8727a9c0a059991d3a64c5b351452"
+        },
+        {
+          "mode": "paired",
+          "reverse": true,
+          "cpu_s": 0.987227635,
+          "wall_s": 0.9872989230061648,
+          "digest": "ef55a5fd2469b83a10ba1cfeb8f51e8136b8727a9c0a059991d3a64c5b351452"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4170110879999989,
+          "wall_s": 1.417106152002816,
+          "digest": "ef55a5fd2469b83a10ba1cfeb8f51e8136b8727a9c0a059991d3a64c5b351452"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9929383949999995,
+          "wall_s": 0.9929916899855016,
+          "dego_cpu_s": 0.18163419800000113,
+          "xkr_cpu_s": 0.8113041969999983,
+          "digest": "ef55a5fd2469b83a10ba1cfeb8f51e8136b8727a9c0a059991d3a64c5b351452"
+        }
+      ],
+      "totals": {
+        "original": 2.8446066819999984,
+        "paired": 1.981525598000001,
+        "standalone": 1.9854570319999993
+      }
+    },
+    {
+      "job": 0,
+      "rep": 3,
+      "runs": [
+        {
+          "mode": "original",
+          "reverse": false,
+          "cpu_s": 1.4170631450000002,
+          "wall_s": 1.4171128449961543,
+          "digest": "de6e80cf1d7f798a06057a85aeb7be1e6990a36368abd6ba52cad5f984900d81"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.987270726000002,
+          "wall_s": 0.9873187210032484,
+          "digest": "de6e80cf1d7f798a06057a85aeb7be1e6990a36368abd6ba52cad5f984900d81"
+        },
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9940529249999983,
+          "wall_s": 0.9940933620091528,
+          "dego_cpu_s": 0.1817928860000002,
+          "xkr_cpu_s": 0.8122600389999981,
+          "digest": "de6e80cf1d7f798a06057a85aeb7be1e6990a36368abd6ba52cad5f984900d81"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.992922324000002,
+          "wall_s": 0.9929765420092735,
+          "dego_cpu_s": 0.18168822000000162,
+          "xkr_cpu_s": 0.8112341040000004,
+          "digest": "de6e80cf1d7f798a06057a85aeb7be1e6990a36368abd6ba52cad5f984900d81"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9881687499999998,
+          "wall_s": 0.9882068939914461,
+          "digest": "de6e80cf1d7f798a06057a85aeb7be1e6990a36368abd6ba52cad5f984900d81"
+        },
+        {
+          "mode": "original",
+          "reverse": false,
+          "cpu_s": 1.4264413820000001,
+          "wall_s": 1.4265136010071728,
+          "digest": "de6e80cf1d7f798a06057a85aeb7be1e6990a36368abd6ba52cad5f984900d81"
+        }
+      ],
+      "totals": {
+        "original": 2.8435045270000003,
+        "paired": 1.9754394760000018,
+        "standalone": 1.9869752490000003
+      }
+    },
+    {
+      "job": 1,
+      "rep": 0,
+      "runs": [
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9879805779999984,
+          "wall_s": 0.9880374419881264,
+          "digest": "c960ed8a6884b80a96e6fca2475dcb880bfa54fc3ccd77bdcaae2447b20a8b8a"
+        },
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9977662549999984,
+          "wall_s": 0.9978211949928664,
+          "dego_cpu_s": 0.1817712649999983,
+          "xkr_cpu_s": 0.8159949900000001,
+          "digest": "c960ed8a6884b80a96e6fca2475dcb880bfa54fc3ccd77bdcaae2447b20a8b8a"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4177788080000013,
+          "wall_s": 1.4178624479973223,
+          "digest": "c960ed8a6884b80a96e6fca2475dcb880bfa54fc3ccd77bdcaae2447b20a8b8a"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4181392429999988,
+          "wall_s": 1.4182178449991625,
+          "digest": "c960ed8a6884b80a96e6fca2475dcb880bfa54fc3ccd77bdcaae2447b20a8b8a"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9938037560000055,
+          "wall_s": 0.9938423830026295,
+          "dego_cpu_s": 0.18168558500000387,
+          "xkr_cpu_s": 0.8121181710000016,
+          "digest": "c960ed8a6884b80a96e6fca2475dcb880bfa54fc3ccd77bdcaae2447b20a8b8a"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9884145219999994,
+          "wall_s": 0.9884689649916254,
+          "digest": "c960ed8a6884b80a96e6fca2475dcb880bfa54fc3ccd77bdcaae2447b20a8b8a"
+        }
+      ],
+      "totals": {
+        "original": 2.835918051,
+        "paired": 1.9763950999999977,
+        "standalone": 1.9915700110000039
+      }
+    },
+    {
+      "job": 1,
+      "rep": 1,
+      "runs": [
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9937561179999932,
+          "wall_s": 0.9937981809925986,
+          "dego_cpu_s": 0.1817381239999989,
+          "xkr_cpu_s": 0.8120179939999943,
+          "digest": "de127b4511c160193e761e334102df4fb297eb123350a386c17a1980a4cd8081"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4225695009999981,
+          "wall_s": 1.4226445419917582,
+          "digest": "de127b4511c160193e761e334102df4fb297eb123350a386c17a1980a4cd8081"
+        },
+        {
+          "mode": "paired",
+          "reverse": true,
+          "cpu_s": 0.9940684720000021,
+          "wall_s": 0.9941133209940745,
+          "digest": "de127b4511c160193e761e334102df4fb297eb123350a386c17a1980a4cd8081"
+        },
+        {
+          "mode": "paired",
+          "reverse": true,
+          "cpu_s": 0.9886435200000037,
+          "wall_s": 0.988708762000897,
+          "digest": "de127b4511c160193e761e334102df4fb297eb123350a386c17a1980a4cd8081"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4192351879999947,
+          "wall_s": 1.4193226329953177,
+          "digest": "de127b4511c160193e761e334102df4fb297eb123350a386c17a1980a4cd8081"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9962198070000028,
+          "wall_s": 0.9962550740019651,
+          "dego_cpu_s": 0.18170844800000197,
+          "xkr_cpu_s": 0.8145113590000008,
+          "digest": "de127b4511c160193e761e334102df4fb297eb123350a386c17a1980a4cd8081"
+        }
+      ],
+      "totals": {
+        "original": 2.841804688999993,
+        "paired": 1.9827119920000058,
+        "standalone": 1.989975924999996
+      }
+    },
+    {
+      "job": 1,
+      "rep": 2,
+      "runs": [
+        {
+          "mode": "original",
+          "reverse": false,
+          "cpu_s": 1.4226678850000027,
+          "wall_s": 1.4227583489991957,
+          "digest": "e022bb819c96b33a5bfca76b6c2a88cc27bd8ed4b095a1365a82021e21cf9d49"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9889087279999984,
+          "wall_s": 0.9889538510033162,
+          "digest": "e022bb819c96b33a5bfca76b6c2a88cc27bd8ed4b095a1365a82021e21cf9d49"
+        },
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9943676749999923,
+          "wall_s": 0.9944303170050262,
+          "dego_cpu_s": 0.18179833699999648,
+          "xkr_cpu_s": 0.8125693379999959,
+          "digest": "e022bb819c96b33a5bfca76b6c2a88cc27bd8ed4b095a1365a82021e21cf9d49"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9941691020000007,
+          "wall_s": 0.9942175020114519,
+          "dego_cpu_s": 0.1817709549999975,
+          "xkr_cpu_s": 0.8123981470000032,
+          "digest": "e022bb819c96b33a5bfca76b6c2a88cc27bd8ed4b095a1365a82021e21cf9d49"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9893102500000026,
+          "wall_s": 0.9893620790098794,
+          "digest": "e022bb819c96b33a5bfca76b6c2a88cc27bd8ed4b095a1365a82021e21cf9d49"
+        },
+        {
+          "mode": "original",
+          "reverse": false,
+          "cpu_s": 1.4255916179999986,
+          "wall_s": 1.4256595309998374,
+          "digest": "e022bb819c96b33a5bfca76b6c2a88cc27bd8ed4b095a1365a82021e21cf9d49"
+        }
+      ],
+      "totals": {
+        "original": 2.8482595030000013,
+        "paired": 1.978218978000001,
+        "standalone": 1.988536776999993
+      }
+    },
+    {
+      "job": 1,
+      "rep": 3,
+      "runs": [
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9935494200000008,
+          "wall_s": 0.9936437580035999,
+          "digest": "59cb9124815399b23fbf455f616d360e912106712f521a16dca5d51942020290"
+        },
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9942732370000016,
+          "wall_s": 0.9943323220068123,
+          "dego_cpu_s": 0.18183252000000039,
+          "xkr_cpu_s": 0.8124407170000012,
+          "digest": "59cb9124815399b23fbf455f616d360e912106712f521a16dca5d51942020290"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4190672840000005,
+          "wall_s": 1.4191326720028883,
+          "digest": "59cb9124815399b23fbf455f616d360e912106712f521a16dca5d51942020290"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4196417510000003,
+          "wall_s": 1.4197192919964436,
+          "digest": "59cb9124815399b23fbf455f616d360e912106712f521a16dca5d51942020290"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9943178409999973,
+          "wall_s": 0.9943588320020353,
+          "dego_cpu_s": 0.18181869499999692,
+          "xkr_cpu_s": 0.8124991460000004,
+          "digest": "59cb9124815399b23fbf455f616d360e912106712f521a16dca5d51942020290"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.988808480000003,
+          "wall_s": 0.9888800229964545,
+          "digest": "59cb9124815399b23fbf455f616d360e912106712f521a16dca5d51942020290"
+        }
+      ],
+      "totals": {
+        "original": 2.838709035000001,
+        "paired": 1.9823579000000038,
+        "standalone": 1.988591077999999
+      }
+    },
+    {
+      "job": 2,
+      "rep": 0,
+      "runs": [
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9943224690000037,
+          "wall_s": 0.9943729200022062,
+          "dego_cpu_s": 0.18190907400000356,
+          "xkr_cpu_s": 0.8124133950000001,
+          "digest": "34f1ff48f795921435b0db1e2596cd4cbb8075a958be0b5240c99d615ceea5cc"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4220636009999978,
+          "wall_s": 1.4221386029967107,
+          "digest": "34f1ff48f795921435b0db1e2596cd4cbb8075a958be0b5240c99d615ceea5cc"
+        },
+        {
+          "mode": "paired",
+          "reverse": true,
+          "cpu_s": 0.9920515720000012,
+          "wall_s": 0.9921093660086626,
+          "digest": "34f1ff48f795921435b0db1e2596cd4cbb8075a958be0b5240c99d615ceea5cc"
+        },
+        {
+          "mode": "paired",
+          "reverse": true,
+          "cpu_s": 0.9888946029999985,
+          "wall_s": 0.9889549570070812,
+          "digest": "34f1ff48f795921435b0db1e2596cd4cbb8075a958be0b5240c99d615ceea5cc"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4225043900000003,
+          "wall_s": 1.4225898230070015,
+          "digest": "34f1ff48f795921435b0db1e2596cd4cbb8075a958be0b5240c99d615ceea5cc"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9962691599999971,
+          "wall_s": 0.9963165049994132,
+          "dego_cpu_s": 0.18192073599999503,
+          "xkr_cpu_s": 0.8143484240000021,
+          "digest": "34f1ff48f795921435b0db1e2596cd4cbb8075a958be0b5240c99d615ceea5cc"
+        }
+      ],
+      "totals": {
+        "original": 2.844567990999998,
+        "paired": 1.9809461749999997,
+        "standalone": 1.9905916290000008
+      }
+    },
+    {
+      "job": 2,
+      "rep": 1,
+      "runs": [
+        {
+          "mode": "original",
+          "reverse": false,
+          "cpu_s": 1.4199457519999896,
+          "wall_s": 1.4200834090006538,
+          "digest": "4d74c4523aa796ae9a577aa4e21f9bdc2ab150b8be3cb6b7387e11920c8c0603"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9889059619999898,
+          "wall_s": 0.9889781609963393,
+          "digest": "4d74c4523aa796ae9a577aa4e21f9bdc2ab150b8be3cb6b7387e11920c8c0603"
+        },
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9943770310000133,
+          "wall_s": 0.994428809004603,
+          "dego_cpu_s": 0.18191359300000443,
+          "xkr_cpu_s": 0.8124634380000089,
+          "digest": "4d74c4523aa796ae9a577aa4e21f9bdc2ab150b8be3cb6b7387e11920c8c0603"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9944780319999893,
+          "wall_s": 0.9945237789943349,
+          "dego_cpu_s": 0.18198532799999612,
+          "xkr_cpu_s": 0.8124927039999932,
+          "digest": "4d74c4523aa796ae9a577aa4e21f9bdc2ab150b8be3cb6b7387e11920c8c0603"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9892022089999983,
+          "wall_s": 0.9892460720002418,
+          "digest": "4d74c4523aa796ae9a577aa4e21f9bdc2ab150b8be3cb6b7387e11920c8c0603"
+        },
+        {
+          "mode": "original",
+          "reverse": false,
+          "cpu_s": 1.4255215160000034,
+          "wall_s": 1.4256101020000642,
+          "digest": "4d74c4523aa796ae9a577aa4e21f9bdc2ab150b8be3cb6b7387e11920c8c0603"
+        }
+      ],
+      "totals": {
+        "original": 2.845467267999993,
+        "paired": 1.9781081709999881,
+        "standalone": 1.9888550630000026
+      }
+    },
+    {
+      "job": 2,
+      "rep": 2,
+      "runs": [
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9897632599999895,
+          "wall_s": 0.9898089639900718,
+          "digest": "41a18875307acb65702953cd640e768e37216219704ae7a86987c14e69dbe810"
+        },
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9947647690000139,
+          "wall_s": 0.9948262779944343,
+          "dego_cpu_s": 0.18205507800000476,
+          "xkr_cpu_s": 0.8127096910000091,
+          "digest": "41a18875307acb65702953cd640e768e37216219704ae7a86987c14e69dbe810"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4217233330000028,
+          "wall_s": 1.4218101510050474,
+          "digest": "41a18875307acb65702953cd640e768e37216219704ae7a86987c14e69dbe810"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4259119670000047,
+          "wall_s": 1.4259873410046566,
+          "digest": "41a18875307acb65702953cd640e768e37216219704ae7a86987c14e69dbe810"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.9981633320000043,
+          "wall_s": 0.9982412539975485,
+          "dego_cpu_s": 0.18223506600000405,
+          "xkr_cpu_s": 0.8159282660000002,
+          "digest": "41a18875307acb65702953cd640e768e37216219704ae7a86987c14e69dbe810"
+        },
+        {
+          "mode": "paired",
+          "reverse": false,
+          "cpu_s": 0.9890063410000067,
+          "wall_s": 0.9890553800069029,
+          "digest": "41a18875307acb65702953cd640e768e37216219704ae7a86987c14e69dbe810"
+        }
+      ],
+      "totals": {
+        "original": 2.8476353000000074,
+        "paired": 1.9787696009999962,
+        "standalone": 1.9929281010000182
+      }
+    },
+    {
+      "job": 2,
+      "rep": 3,
+      "runs": [
+        {
+          "mode": "standalone",
+          "reverse": false,
+          "cpu_s": 0.9947757609999854,
+          "wall_s": 0.9948231229936937,
+          "dego_cpu_s": 0.18211926899999753,
+          "xkr_cpu_s": 0.8126564919999879,
+          "digest": "c094fb0e0b20681c2ac96defe0afe9ac6cfb02594ea3367cef72d7b7d4e9dcf2"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4211777410000082,
+          "wall_s": 1.4212689999985741,
+          "digest": "c094fb0e0b20681c2ac96defe0afe9ac6cfb02594ea3367cef72d7b7d4e9dcf2"
+        },
+        {
+          "mode": "paired",
+          "reverse": true,
+          "cpu_s": 0.9912838909999948,
+          "wall_s": 0.9913409269938711,
+          "digest": "c094fb0e0b20681c2ac96defe0afe9ac6cfb02594ea3367cef72d7b7d4e9dcf2"
+        },
+        {
+          "mode": "paired",
+          "reverse": true,
+          "cpu_s": 0.9929824869999919,
+          "wall_s": 0.9930450639949413,
+          "digest": "c094fb0e0b20681c2ac96defe0afe9ac6cfb02594ea3367cef72d7b7d4e9dcf2"
+        },
+        {
+          "mode": "original",
+          "reverse": true,
+          "cpu_s": 1.4260159730000055,
+          "wall_s": 1.4260974429926137,
+          "digest": "c094fb0e0b20681c2ac96defe0afe9ac6cfb02594ea3367cef72d7b7d4e9dcf2"
+        },
+        {
+          "mode": "standalone",
+          "reverse": true,
+          "cpu_s": 0.994917805,
+          "wall_s": 0.9949750509986188,
+          "dego_cpu_s": 0.18232641699999874,
+          "xkr_cpu_s": 0.8125913880000013,
+          "digest": "c094fb0e0b20681c2ac96defe0afe9ac6cfb02594ea3367cef72d7b7d4e9dcf2"
+        }
+      ],
+      "totals": {
+        "original": 2.8471937140000136,
+        "paired": 1.9842663779999867,
+        "standalone": 1.9896935659999855
+      }
+    }
+  ],
+  "cpu_totals": {
+    "original": 34.109455342000004,
+    "paired": 23.74513346499998,
+    "standalone": 23.861287001999997
+  }
+}

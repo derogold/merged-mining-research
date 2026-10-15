@@ -1,0 +1,47 @@
+[
+  {
+    "major_version": 1,
+    "minor_version": 0,
+    "timestamp": 0,
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 70,
+    "orphan_status": false,
+    "height": 0,
+    "depth": 0,
+    "hash": "7fb97df81221dd1366051b2d0bc7f49c66c22ac4431d879c895b06d66ef66f4c",
+    "difficulty": 1,
+    "reward": 2980232,
+    "num_txes": 1,
+    "block_size": 117
+  },
+  {
+    "major_version": 1,
+    "minor_version": 0,
+    "timestamp": 0,
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 70,
+    "orphan_status": false,
+    "height": 0,
+    "depth": 0,
+    "hash": "7fb97df81221dd1366051b2d0bc7f49c66c22ac4431d879c895b06d66ef66f4c",
+    "difficulty": 1,
+    "reward": 2980232,
+    "num_txes": 1,
+    "block_size": 117
+  },
+  {
+    "major_version": 1,
+    "minor_version": 0,
+    "timestamp": 0,
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 70,
+    "orphan_status": false,
+    "height": 0,
+    "depth": 0,
+    "hash": "7fb97df81221dd1366051b2d0bc7f49c66c22ac4431d879c895b06d66ef66f4c",
+    "difficulty": 1,
+    "reward": 2980232,
+    "num_txes": 1,
+    "block_size": 117
+  }
+]

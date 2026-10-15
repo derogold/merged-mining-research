@@ -1,0 +1,4 @@
+DUAL_PASS 0 {'dego': 11, 'xkr': 7} {'dego': 16924, 'xkr': 155}
+DUAL_PASS 1 {'dego': 12, 'xkr': 8} {'dego': 5886, 'xkr': 64}
+DUAL_PASS 2 {'dego': 13, 'xkr': 9} {'dego': 882, 'xkr': 8}
+ALL_THREE_SHARED_PARENT_ROUNDS_PASSED

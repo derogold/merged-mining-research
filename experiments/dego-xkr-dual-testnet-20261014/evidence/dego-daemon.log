@@ -1,0 +1,838 @@
+2026-Oct-14 19:42:48.933276 INFO    [daemon] 
+            .:|iv2X##mB#Xovi;..           
+         .=inno2XXZ##mBmmm#mXwa;.         
+       _ivnnnooSSXZ##mBBmm#ZZX2ooi:       
+     _vo2onnnno2SSXXU######ZXX22nvv|.     
+    <dSSS2onnn11I|++~~+|*YXXSoonvvlii:    
+  .vmXXXSS2o1+-- . .   . - =|1vvvliii|;   
+  vdXXZZXX2>-                -+iii|i||+;  
+ iXXXZZZZ2~  ..:..:____..      -<||++++=: 
+.oSSSXXXe`   .-=vnnommmpa;.      =+===:-. 
+|nooo222~      .n2nSZ##o1l>      .: .     
+ivvnnnnl       .XXSnXmXIi|=:              
+iililii=        v2oSXX>==;;:    .  .   .  
+||+|+|+:       .||lnoZns|||=    ==========
+:;;;;;;:       .voXXoZmXonv=.  .|||||||+|=
+.==++|||.      .3ZXooXmBmX}.   .<ii||||||:
+ <|iiills.     .3X11nXX#S(-     :vllliii| 
+ =ivvvnnon,.    --------      ._uvvvvvli= 
+  <vno22XSoc.   . . . .     ..voXo2onvv+  
+   {nSSXXXZZqs,. .       ..=umZZZXX2on>   
+    +X2XXZZZXSoos|;;_==|vomm#####XXXe+    
+     -{XXUZXXX22nvnnooXXZ#mmBmm##ZZ}-     
+       +*SXXS22onnno2XXZ###mWmm#U}+       
+         -+{12nnvnno2SXXXZZ##UY+-         
+            --=||Ivo22S22nI|~-            
+
+ DeroGold v1.0.1.0 (aux-testnet-20261014-NOT-MAINNET)
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2018-2026, The DeroGold Developers
+
+ Additional Copyright(s) may apply, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/derogold/derogold/blob/master/LICENSE
+
+
+2026-Oct-14 19:42:48.933363 INFO    [daemon] Program Working Directory: "/research"
+2026-Oct-14 19:42:48.933400 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2026-Oct-14 19:42:48.933411 INFO    [daemon] Loaded 1 default checkpoints
+2026-Oct-14 19:42:48.933432 INFO    [RocksDBWrapper] Opening DB in /data/DB
+2026-Oct-14 19:42:48.952654 INFO    [RocksDBWrapper] DB opened in /data/DB
+2026-Oct-14 19:42:48.952732 INFO    [daemon] Initializing core...
+2026-Oct-14 19:42:48.953578 DEBUG   [DatabaseBlockchainCache] DB scheme version not found, writing: 2
+2026-Oct-14 19:42:48.953649 DEBUG   [DatabaseBlockchainCache] top block index is null, add genesis block
+2026-Oct-14 19:42:48.953669 DEBUG   [DatabaseBlockchainCache] push transaction with hash 0d1c0f28b5f5eaa6a21c110eed1339ac9a9eb6a1689d8c31c51a011983069e9b
+2026-Oct-14 19:42:48.953724 DEBUG   [DatabaseBlockchainCache] push transaction with hash 0d1c0f28b5f5eaa6a21c110eed1339ac9a9eb6a1689d8c31c51a011983069e9b finished
+2026-Oct-14 19:42:48.953775 INFO    [daemon] Core initialized OK
+2026-Oct-14 19:42:48.953788 INFO    [daemon] Prune DB mode disabled.
+2026-Oct-14 19:42:48.953798 INFO    [daemon] Background prune task enabled (depth 2016).
+2026-Oct-14 19:42:48.953837 INFO    [daemon] Initializing p2p server...
+2026-Oct-14 19:42:48.953861 INFO    [node_server] Generated new peer ID: 3377220226794608358
+2026-Oct-14 19:42:48.953872 INFO    [node_server] Binding on 0.0.0.0:43071
+2026-Oct-14 19:42:48.953898 INFO    [node_server] Net service binded on 0.0.0.0:43071
+2026-Oct-14 19:42:48.953909 INFO    [node_server] Attempting to add IGD port mapping.
+2026-Oct-14 19:42:49.955400 INFO    [daemon] P2p server initialized OK
+2026-Oct-14 19:42:49.955471 INFO    [daemon] Starting core rpc server on address 0.0.0.0:43171
+2026-Oct-14 19:42:49.955778 INFO    [daemon] Starting p2p net loop...
+2026-Oct-14 19:42:49.955806 INFO    [node_server] Starting node_server
+2026-Oct-14 19:42:49.955872 DEBUG   [node_server] onIdle started
+2026-Oct-14 19:42:49.955894 DEBUG   [node_server] Connecting to 172.30.247.12:43072 (white=1, last_seen: never)...
+2026-Oct-14 19:42:49.956228 INFO    [protocol] 
+2026-Oct-14 19:42:49.956254 INFO    [protocol] ===[ DeroGold Tip! ]=============================
+2026-Oct-14 19:42:49.956273 INFO    [protocol]  Always exit DeroGoldd and degwallet with the "exit" command to preserve your chain and wallet data.
+2026-Oct-14 19:42:49.956293 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2026-Oct-14 19:42:49.956311 INFO    [protocol]  Use the "backup" command in degwallet to display your keys/seed for restoring a corrupted wallet.
+2026-Oct-14 19:42:49.956344 INFO    [protocol]  If you need more assistance, you can contact us for support at https://derogold.com/
+2026-Oct-14 19:42:49.956363 INFO    [protocol] ===================================================
+2026-Oct-14 19:42:49.956363 INFO    [protocol] 
+2026-Oct-14 19:42:49.956395 INFO    [protocol]             .:|iv2X##mB#Xovi;..           
+         .=inno2XXZ##mBmmm#mXwa;.         
+       _ivnnnooSSXZ##mBBmm#ZZX2ooi:       
+     _vo2onnnno2SSXXU######ZXX22nvv|.     
+    <dSSS2onnn11I|++~~+|*YXXSoonvvlii:    
+  .vmXXXSS2o1+-- . .   . - =|1vvvliii|;   
+  vdXXZZXX2>-                -+iii|i||+;  
+ iXXXZZZZ2~  ..:..:____..      -<||++++=: 
+.oSSSXXXe`   .-=vnnommmpa;.      =+===:-. 
+|nooo222~      .n2nSZ##o1l>      .: .     
+ivvnnnnl       .XXSnXmXIi|=:              
+iililii=        v2oSXX>==;;:    .  .   .  
+||+|+|+:       .||lnoZns|||=    ==========
+:;;;;;;:       .voXXoZmXonv=.  .|||||||+|=
+.==++|||.      .3ZXooXmBmX}.   .<ii||||||:
+ <|iiills.     .3X11nXX#S(-     :vllliii| 
+ =ivvvnnon,.    --------      ._uvvvvvli= 
+  <vno22XSoc.   . . . .     ..voXo2onvv+  
+   {nSSXXXZZqs,. .       ..=umZZZXX2on>   
+    +X2XXZZZXSoos|;;_==|vomm#####XXXe+    
+     -{XXUZXXX22nvnnooXXZ#mmBmm##ZZ}-     
+       +*SXXS22onnno2XXZ###mWmm#U}+       
+         -+{12nnvnno2SXXXZZ##UY+-         
+            --=||Ivo22S22nI|~-            
+
+2026-Oct-14 19:42:49.956464 INFO    [protocol] New Top Block Detected: 1
+2026-Oct-14 19:42:49.956506 DEBUG   [node_server] [172.30.247.13:52671 INC] writeHandler started
+2026-Oct-14 19:42:49.956867 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:42:49.956903 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 1:1001
+2026-Oct-14 19:42:49.956948 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2008
+2026-Oct-14 19:42:49.962126 DEBUG   [node_server] [172.30.247.12:40571 INC] writeHandler started
+2026-Oct-14 19:42:49.962772 DEBUG   [node_server] [172.30.247.12:41405 INC] writeHandler started
+2026-Oct-14 19:42:49.963311 DEBUG   [node_server] [172.30.247.12:41405 INC] msg 1:1003
+2026-Oct-14 19:42:49.963511 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:42:49.963555 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 1:1001
+2026-Oct-14 19:42:49.963608 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2008
+2026-Oct-14 19:42:49.963662 DEBUG   [node_server] [172.30.247.12:41405 INC] Interrupt connection
+2026-Oct-14 19:42:49.963697 DEBUG   [node_server] [172.30.247.12:41405 INC] writeHandler finished
+2026-Oct-14 19:42:49.963807 DEBUG   [node_server] [172.30.247.12:43072 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:42:49.963858 DEBUG   [node_server] Connecting to 172.30.247.13:43073 (white=1, last_seen: never)...
+2026-Oct-14 19:42:49.963986 DEBUG   [node_server] [172.30.247.12:43072 OUT] writeHandler started
+2026-Oct-14 19:42:49.964019 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2008
+2026-Oct-14 19:42:49.964378 DEBUG   [node_server] [172.30.247.13:50155 INC] writeHandler started
+2026-Oct-14 19:42:49.964642 DEBUG   [node_server] [172.30.247.13:50155 INC] msg 1:1003
+2026-Oct-14 19:42:49.964734 DEBUG   [node_server] [172.30.247.13:50155 INC] Interrupt connection
+2026-Oct-14 19:42:49.964773 DEBUG   [node_server] [172.30.247.13:50155 INC] writeHandler finished
+2026-Oct-14 19:42:49.964908 DEBUG   [node_server] [172.30.247.13:43073 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:42:49.964978 DEBUG   [node_server] [172.30.247.13:43073 OUT] writeHandler started
+2026-Oct-14 19:42:49.965004 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2008
+2026-Oct-14 19:42:49.986077 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:42:50.163515 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:50.167730 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:50.349672 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:50.350374 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:50.350499 DEBUG   [Core] Request to add block 1 (4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587)
+2026-Oct-14 19:42:50.379690 DEBUG   [DatabaseBlockchainCache] push block with hash 4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587, and 1 transactions
+2026-Oct-14 19:42:50.379820 DEBUG   [DatabaseBlockchainCache] push transaction with hash 64ab9e4545ae337ff86595f7672d0a5a6eebeffc0c04368e124bbd40689200b4
+2026-Oct-14 19:42:50.380068 DEBUG   [DatabaseBlockchainCache] push transaction with hash 64ab9e4545ae337ff86595f7672d0a5a6eebeffc0c04368e124bbd40689200b4 finished
+2026-Oct-14 19:42:50.380211 DEBUG   [DatabaseBlockchainCache] push block 4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587 completed
+2026-Oct-14 19:42:50.380245 DEBUG   [Core] Block 1 (4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587) added to main chain.
+2026-Oct-14 19:42:50.380279 DEBUG   [Core] Block: 1 (4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587) successfully added
+2026-Oct-14 19:42:50.380327 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 576
+2026-Oct-14 19:42:50.380351 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 580
+2026-Oct-14 19:42:50.380374 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:50.380407 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:50.380433 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:50.380458 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:50.380601 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:50.380709 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:50.380759 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:50.380794 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:50.381043 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:50.386486 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:50.402528 INFO    [protocol] New Top Block Detected: 2
+2026-Oct-14 19:42:50.402598 DEBUG   [Core] Request to add block 1 (4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587)
+2026-Oct-14 19:42:50.402649 DEBUG   [Core] Block 1 (4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587) already exists
+2026-Oct-14 19:42:50.402714 DEBUG   [Core] Request to add block 1 (4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587)
+2026-Oct-14 19:42:50.402744 DEBUG   [Core] Block 1 (4e696a20f9be8058ff9dadeacab214d763b938c0c98b9768757c845c17dc8587) already exists
+2026-Oct-14 19:42:51.089986 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.090538 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.090609 DEBUG   [Core] Request to add block 2 (d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d)
+2026-Oct-14 19:42:51.111081 DEBUG   [DatabaseBlockchainCache] push block with hash d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d, and 1 transactions
+2026-Oct-14 19:42:51.111173 DEBUG   [DatabaseBlockchainCache] push transaction with hash 3cfbc7157f04d3fcaa3a3168ee1491bd97f0b49d174e37a5c770c358338261b8
+2026-Oct-14 19:42:51.111306 DEBUG   [DatabaseBlockchainCache] push transaction with hash 3cfbc7157f04d3fcaa3a3168ee1491bd97f0b49d174e37a5c770c358338261b8 finished
+2026-Oct-14 19:42:51.111413 DEBUG   [DatabaseBlockchainCache] push block d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d completed
+2026-Oct-14 19:42:51.111440 DEBUG   [Core] Block 2 (d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d) added to main chain.
+2026-Oct-14 19:42:51.111466 DEBUG   [Core] Block: 2 (d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d) successfully added
+2026-Oct-14 19:42:51.111501 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 576
+2026-Oct-14 19:42:51.111520 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 580
+2026-Oct-14 19:42:51.111537 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.111558 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.111577 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.111596 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.111880 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:51.111978 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:51.112025 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:51.112060 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:51.112155 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.115886 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.133578 INFO    [protocol] New Top Block Detected: 3
+2026-Oct-14 19:42:51.133646 DEBUG   [Core] Request to add block 2 (d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d)
+2026-Oct-14 19:42:51.133697 DEBUG   [Core] Block 2 (d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d) already exists
+2026-Oct-14 19:42:51.133764 DEBUG   [Core] Request to add block 2 (d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d)
+2026-Oct-14 19:42:51.133795 DEBUG   [Core] Block 2 (d8dc4494ec15bba5e2caf7ee2b1b3bca7ab7f7dcff799bbf7375dd99655df87d) already exists
+2026-Oct-14 19:42:51.630956 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.631443 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.631505 DEBUG   [Core] Request to add block 3 (df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686)
+2026-Oct-14 19:42:51.640263 DEBUG   [DatabaseBlockchainCache] push block with hash df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686, and 1 transactions
+2026-Oct-14 19:42:51.640349 DEBUG   [DatabaseBlockchainCache] push transaction with hash 407ddc6cd51ec73b839573037165884ed8223893f1f05cc923ffcc9b7d6e7444
+2026-Oct-14 19:42:51.640468 DEBUG   [DatabaseBlockchainCache] push transaction with hash 407ddc6cd51ec73b839573037165884ed8223893f1f05cc923ffcc9b7d6e7444 finished
+2026-Oct-14 19:42:51.640563 DEBUG   [DatabaseBlockchainCache] push block df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686 completed
+2026-Oct-14 19:42:51.640588 DEBUG   [Core] Block 3 (df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686) added to main chain.
+2026-Oct-14 19:42:51.640608 DEBUG   [Core] Block: 3 (df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686) successfully added
+2026-Oct-14 19:42:51.640641 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 542
+2026-Oct-14 19:42:51.640659 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 546
+2026-Oct-14 19:42:51.640676 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.640697 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.640716 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.640735 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.640811 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:51.640905 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:51.640964 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:51.641007 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:51.641341 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.645461 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.653981 INFO    [protocol] New Top Block Detected: 4
+2026-Oct-14 19:42:51.654078 DEBUG   [Core] Request to add block 3 (df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686)
+2026-Oct-14 19:42:51.654132 DEBUG   [Core] Block 3 (df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686) already exists
+2026-Oct-14 19:42:51.654215 DEBUG   [Core] Request to add block 3 (df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686)
+2026-Oct-14 19:42:51.654254 DEBUG   [Core] Block 3 (df282ecde833153a20a7230e260a3d4957d50fa7af26bde79c54c62815d53686) already exists
+2026-Oct-14 19:42:51.710391 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.710877 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.710939 DEBUG   [Core] Request to add block 4 (f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60)
+2026-Oct-14 19:42:51.713849 DEBUG   [DatabaseBlockchainCache] push block with hash f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60, and 1 transactions
+2026-Oct-14 19:42:51.713935 DEBUG   [DatabaseBlockchainCache] push transaction with hash a37ca558f69245d3071427d687d05f8fa95e0add70f187c9b7e74e6aa8997eee
+2026-Oct-14 19:42:51.714071 DEBUG   [DatabaseBlockchainCache] push transaction with hash a37ca558f69245d3071427d687d05f8fa95e0add70f187c9b7e74e6aa8997eee finished
+2026-Oct-14 19:42:51.714172 DEBUG   [DatabaseBlockchainCache] push block f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60 completed
+2026-Oct-14 19:42:51.714197 DEBUG   [Core] Block 4 (f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60) added to main chain.
+2026-Oct-14 19:42:51.714217 DEBUG   [Core] Block: 4 (f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60) successfully added
+2026-Oct-14 19:42:51.714250 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 576
+2026-Oct-14 19:42:51.714269 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 580
+2026-Oct-14 19:42:51.714287 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.714307 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.714326 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.714345 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.714409 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:51.714500 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:51.714556 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:51.714598 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:51.714706 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.718521 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.719860 INFO    [protocol] New Top Block Detected: 5
+2026-Oct-14 19:42:51.719945 DEBUG   [Core] Request to add block 4 (f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60)
+2026-Oct-14 19:42:51.719995 DEBUG   [Core] Block 4 (f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60) already exists
+2026-Oct-14 19:42:51.720155 DEBUG   [Core] Request to add block 4 (f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60)
+2026-Oct-14 19:42:51.720200 DEBUG   [Core] Block 4 (f9337c8489411f119ca4dc8efc1a187c9d8cc717be415edc8ccd08e32b1efa60) already exists
+2026-Oct-14 19:42:51.924034 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.924518 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:51.924581 DEBUG   [Core] Request to add block 5 (e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df)
+2026-Oct-14 19:42:51.927688 DEBUG   [DatabaseBlockchainCache] push block with hash e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df, and 1 transactions
+2026-Oct-14 19:42:51.927774 DEBUG   [DatabaseBlockchainCache] push transaction with hash 86b5dada2fcacb56aa1a94f227de330bebc60cbdbd391f258c2484d87fde46bc
+2026-Oct-14 19:42:51.927904 DEBUG   [DatabaseBlockchainCache] push transaction with hash 86b5dada2fcacb56aa1a94f227de330bebc60cbdbd391f258c2484d87fde46bc finished
+2026-Oct-14 19:42:51.927995 DEBUG   [DatabaseBlockchainCache] push block e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df completed
+2026-Oct-14 19:42:51.928020 DEBUG   [Core] Block 5 (e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df) added to main chain.
+2026-Oct-14 19:42:51.928040 DEBUG   [Core] Block: 5 (e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df) successfully added
+2026-Oct-14 19:42:51.928073 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 576
+2026-Oct-14 19:42:51.928091 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 580
+2026-Oct-14 19:42:51.928108 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.928128 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.928147 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.928166 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:51.928456 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:51.928557 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:51.928615 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:51.928667 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:51.933984 INFO    [protocol] New Top Block Detected: 6
+2026-Oct-14 19:42:51.934071 DEBUG   [Core] Request to add block 5 (e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df)
+2026-Oct-14 19:42:51.934120 DEBUG   [Core] Block 5 (e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df) already exists
+2026-Oct-14 19:42:51.934203 DEBUG   [Core] Request to add block 5 (e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df)
+2026-Oct-14 19:42:51.934244 DEBUG   [Core] Block 5 (e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df) already exists
+2026-Oct-14 19:42:52.155479 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:42:52.330092 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:52.334159 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:52.448742 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:52.449283 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:52.449349 DEBUG   [Core] Request to add block 6 (90b3d4e311d8e7e9e252ba3726e7b0576fc560b4189b8d297e3b545849d9d077)
+2026-Oct-14 19:42:52.450158 ERROR   [currency] Aux block hash wasn't found in merkle tree
+2026-Oct-14 19:42:52.450185 DEBUG   [Core] Proof of work too weak for block 6 (90b3d4e311d8e7e9e252ba3726e7b0576fc560b4189b8d297e3b545849d9d077)
+2026-Oct-14 19:42:52.673771 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:42:52.830542 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:52.833365 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:52.864535 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:52.864984 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:52.865050 DEBUG   [Core] Request to add block 6 (ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b)
+2026-Oct-14 19:42:52.865762 DEBUG   [DatabaseBlockchainCache] push block with hash ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b, and 1 transactions
+2026-Oct-14 19:42:52.865845 DEBUG   [DatabaseBlockchainCache] push transaction with hash 5b29ae7cd5e3f9ca2b84caeb09457d831bd1fa9a456100de1a677cb1ad2a3d39
+2026-Oct-14 19:42:52.865989 DEBUG   [DatabaseBlockchainCache] push transaction with hash 5b29ae7cd5e3f9ca2b84caeb09457d831bd1fa9a456100de1a677cb1ad2a3d39 finished
+2026-Oct-14 19:42:52.866090 DEBUG   [DatabaseBlockchainCache] push block ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b completed
+2026-Oct-14 19:42:52.866114 DEBUG   [Core] Block 6 (ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b) added to main chain.
+2026-Oct-14 19:42:52.866133 DEBUG   [Core] Block: 6 (ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b) successfully added
+2026-Oct-14 19:42:52.866166 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 575
+2026-Oct-14 19:42:52.866183 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 579
+2026-Oct-14 19:42:52.866199 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:52.866219 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:52.866238 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:52.866257 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:52.866311 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:52.866424 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:52.866486 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:52.866535 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:52.867909 INFO    [protocol] New Top Block Detected: 7
+2026-Oct-14 19:42:52.867955 DEBUG   [Core] Request to add block 6 (ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b)
+2026-Oct-14 19:42:52.867989 DEBUG   [Core] Block 6 (ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b) already exists
+2026-Oct-14 19:42:52.868039 DEBUG   [Core] Request to add block 6 (ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b)
+2026-Oct-14 19:42:52.868063 DEBUG   [Core] Block 6 (ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b) already exists
+2026-Oct-14 19:42:53.090845 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:42:53.266708 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.269188 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.278181 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.278742 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.278822 DEBUG   [Core] Request to add block 7 (7d33e8f476bc87a9ccc3e242335cda8d0587b28a3f8a1d474b6bec64101615b2)
+2026-Oct-14 19:42:53.279816 ERROR   [currency] Aux block hash wasn't found in merkle tree
+2026-Oct-14 19:42:53.279842 DEBUG   [Core] Proof of work too weak for block 7 (7d33e8f476bc87a9ccc3e242335cda8d0587b28a3f8a1d474b6bec64101615b2)
+2026-Oct-14 19:42:53.508732 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:42:53.695060 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.697622 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.913942 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.914765 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.914873 DEBUG   [Core] Request to add block 7 (3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf)
+2026-Oct-14 19:42:53.916252 DEBUG   [DatabaseBlockchainCache] push block with hash 3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf, and 1 transactions
+2026-Oct-14 19:42:53.916362 DEBUG   [DatabaseBlockchainCache] push transaction with hash e50add8eaf6355d44e1d1863122704725d2018590d647710196b1a7158bbc875
+2026-Oct-14 19:42:53.916534 DEBUG   [DatabaseBlockchainCache] push transaction with hash e50add8eaf6355d44e1d1863122704725d2018590d647710196b1a7158bbc875 finished
+2026-Oct-14 19:42:53.916682 DEBUG   [DatabaseBlockchainCache] push block 3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf completed
+2026-Oct-14 19:42:53.916717 DEBUG   [Core] Block 7 (3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf) added to main chain.
+2026-Oct-14 19:42:53.916743 DEBUG   [Core] Block: 7 (3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf) successfully added
+2026-Oct-14 19:42:53.916788 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 541
+2026-Oct-14 19:42:53.916812 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 545
+2026-Oct-14 19:42:53.916835 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:53.916862 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:53.916888 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:53.916913 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:53.916993 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:53.917113 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:53.917163 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:53.917200 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:53.917719 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:53.919061 INFO    [protocol] New Top Block Detected: 8
+2026-Oct-14 19:42:53.919132 DEBUG   [Core] Request to add block 7 (3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf)
+2026-Oct-14 19:42:53.919182 DEBUG   [Core] Block 7 (3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf) already exists
+2026-Oct-14 19:42:53.919703 DEBUG   [Core] Request to add block 7 (3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf)
+2026-Oct-14 19:42:53.919753 DEBUG   [Core] Block 7 (3be887b96ff4b7a718f3056d5872b7c1be7127a4a7d3e1893ebdafdbff6cd3cf) already exists
+2026-Oct-14 19:42:53.922079 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.018678 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.019116 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.019177 DEBUG   [Core] Request to add block 8 (d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7)
+2026-Oct-14 19:42:54.019976 DEBUG   [DatabaseBlockchainCache] push block with hash d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7, and 1 transactions
+2026-Oct-14 19:42:54.020057 DEBUG   [DatabaseBlockchainCache] push transaction with hash 58ecf950beb9d097faecb892d002350562d90ee2e1780ca0701b2b5ad2969f93
+2026-Oct-14 19:42:54.020173 DEBUG   [DatabaseBlockchainCache] push transaction with hash 58ecf950beb9d097faecb892d002350562d90ee2e1780ca0701b2b5ad2969f93 finished
+2026-Oct-14 19:42:54.020262 DEBUG   [DatabaseBlockchainCache] push block d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7 completed
+2026-Oct-14 19:42:54.020287 DEBUG   [Core] Block 8 (d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7) added to main chain.
+2026-Oct-14 19:42:54.020307 DEBUG   [Core] Block: 8 (d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7) successfully added
+2026-Oct-14 19:42:54.020339 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 509
+2026-Oct-14 19:42:54.020357 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 513
+2026-Oct-14 19:42:54.020374 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.020394 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.020414 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.020433 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.020489 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:54.020558 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:54.020602 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:54.020633 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:54.020797 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.022263 INFO    [protocol] New Top Block Detected: 9
+2026-Oct-14 19:42:54.022330 DEBUG   [Core] Request to add block 8 (d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7)
+2026-Oct-14 19:42:54.022367 DEBUG   [Core] Block 8 (d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7) already exists
+2026-Oct-14 19:42:54.022429 DEBUG   [Core] Request to add block 8 (d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7)
+2026-Oct-14 19:42:54.022469 DEBUG   [Core] Block 8 (d2e2fa5f1447f79e910a44616601c45c6dd459e09071cc8b8bd62d867397d4e7) already exists
+2026-Oct-14 19:42:54.024914 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.026425 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.026979 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.027046 DEBUG   [Core] Request to add block 9 (980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84)
+2026-Oct-14 19:42:54.027840 DEBUG   [DatabaseBlockchainCache] push block with hash 980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84, and 1 transactions
+2026-Oct-14 19:42:54.027910 DEBUG   [DatabaseBlockchainCache] push transaction with hash b84b998d47f078e841efbe3d503cc0d22a451222a5ac18fc580a9abfaae99ac6
+2026-Oct-14 19:42:54.027999 DEBUG   [DatabaseBlockchainCache] push transaction with hash b84b998d47f078e841efbe3d503cc0d22a451222a5ac18fc580a9abfaae99ac6 finished
+2026-Oct-14 19:42:54.028057 DEBUG   [DatabaseBlockchainCache] push block 980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84 completed
+2026-Oct-14 19:42:54.028079 DEBUG   [Core] Block 9 (980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84) added to main chain.
+2026-Oct-14 19:42:54.028091 DEBUG   [Core] Block: 9 (980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84) successfully added
+2026-Oct-14 19:42:54.028118 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 577
+2026-Oct-14 19:42:54.028128 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 581
+2026-Oct-14 19:42:54.028138 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.028150 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.028161 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.028172 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.028219 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:54.028288 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:54.028337 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:54.028373 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:54.028412 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.030005 INFO    [protocol] New Top Block Detected: 10
+2026-Oct-14 19:42:54.030072 DEBUG   [Core] Request to add block 9 (980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84)
+2026-Oct-14 19:42:54.030113 DEBUG   [Core] Block 9 (980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84) already exists
+2026-Oct-14 19:42:54.030176 DEBUG   [Core] Request to add block 9 (980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84)
+2026-Oct-14 19:42:54.030207 DEBUG   [Core] Block 9 (980994e79c0de1e2b3e276608eca946328d219033f0800b37fc1baa5fe19ea84) already exists
+2026-Oct-14 19:42:54.031923 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.125131 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.125949 DEBUG   [daemon] [172.30.247.2] Incoming POST request: /json_rpc, User-Agent: cpp-httplib/0.18.7
+2026-Oct-14 19:42:54.126049 DEBUG   [Core] Request to add block 10 (8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05)
+2026-Oct-14 19:42:54.127430 DEBUG   [DatabaseBlockchainCache] push block with hash 8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05, and 1 transactions
+2026-Oct-14 19:42:54.127540 DEBUG   [DatabaseBlockchainCache] push transaction with hash 29c2ae75eadd6ed947bcaaaf997ec2259f4ac3bdaee36a21a7387ae6c3444b7a
+2026-Oct-14 19:42:54.127695 DEBUG   [DatabaseBlockchainCache] push transaction with hash 29c2ae75eadd6ed947bcaaaf997ec2259f4ac3bdaee36a21a7387ae6c3444b7a finished
+2026-Oct-14 19:42:54.127820 DEBUG   [DatabaseBlockchainCache] push block 8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05 completed
+2026-Oct-14 19:42:54.127855 DEBUG   [Core] Block 10 (8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05) added to main chain.
+2026-Oct-14 19:42:54.127880 DEBUG   [Core] Block: 10 (8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05) successfully added
+2026-Oct-14 19:42:54.127925 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 577
+2026-Oct-14 19:42:54.127949 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 581
+2026-Oct-14 19:42:54.127971 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.127998 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.128023 DEBUG   [protocol] [172.30.247.12:40571 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.128047 DEBUG   [protocol] [172.30.247.13:52671 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:42:54.128106 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:42:54.128163 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:42:54.128199 DEBUG   [node_server] [172.30.247.12:40571 INC] msg 2:2009
+2026-Oct-14 19:42:54.128224 DEBUG   [node_server] [172.30.247.13:52671 INC] msg 2:2009
+2026-Oct-14 19:42:54.129730 INFO    [protocol] New Top Block Detected: 11
+2026-Oct-14 19:42:54.129772 DEBUG   [Core] Request to add block 10 (8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05)
+2026-Oct-14 19:42:54.129796 DEBUG   [Core] Block 10 (8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05) already exists
+2026-Oct-14 19:42:54.129835 DEBUG   [Core] Request to add block 10 (8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05)
+2026-Oct-14 19:42:54.129858 DEBUG   [Core] Block 10 (8d49be776944944cdb39ee8a077a07eea8a6e9c61786fba5f6c9d84871759e05) already exists
+2026-Oct-14 19:42:54.378062 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.864481 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.865748 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.866816 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.867403 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.867901 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.868477 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.869054 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.869627 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.870172 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.870651 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.871186 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:26.946531 DEBUG   [node_server] [172.30.247.12:43072 OUT] Interrupt connection
+2026-Oct-14 19:43:26.946582 DEBUG   [node_server] [172.30.247.12:43072 OUT] writeHandler finished
+2026-Oct-14 19:43:26.946661 DEBUG   [node_server] [172.30.247.12:40571 INC] Interrupt connection
+2026-Oct-14 19:43:26.946687 DEBUG   [node_server] [172.30.247.12:40571 INC] writeHandler finished
+2026-Oct-14 19:43:26.946739 DEBUG   [node_server] [172.30.247.13:52671 INC] Interrupt connection
+2026-Oct-14 19:43:26.946764 DEBUG   [node_server] [172.30.247.13:52671 INC] writeHandler finished
+2026-Oct-14 19:43:26.946810 DEBUG   [node_server] [172.30.247.13:43073 OUT] Interrupt connection
+2026-Oct-14 19:43:26.946838 DEBUG   [node_server] [172.30.247.13:43073 OUT] writeHandler finished
+2026-Oct-14 19:43:26.947121 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2026-Oct-14 19:43:26.947150 INFO    [node_server] Stopping NodeServer and its 0 connections...
+2026-Oct-14 19:43:26.947191 DEBUG   [node_server] acceptLoop() is interrupted
+2026-Oct-14 19:43:26.947204 DEBUG   [node_server] acceptLoop finished
+2026-Oct-14 19:43:26.947217 DEBUG   [node_server] onIdle() is interrupted
+2026-Oct-14 19:43:26.947227 DEBUG   [node_server] onIdle finished
+2026-Oct-14 19:43:26.947242 DEBUG   [node_server] timedSyncLoop() is interrupted
+2026-Oct-14 19:43:26.947252 DEBUG   [node_server] timedSyncLoop finished
+2026-Oct-14 19:43:26.947266 DEBUG   [node_server] timeoutLoop() is interrupted
+2026-Oct-14 19:43:26.947277 INFO    [node_server] NodeServer loop stopped
+2026-Oct-14 19:43:26.947292 INFO    [daemon] p2p net loop stopped
+2026-Oct-14 19:43:26.947302 INFO    [daemon] Stopping core rpc server...
+2026-Oct-14 19:43:26.947754 INFO    [daemon] Deinitializing p2p...
+2026-Oct-14 19:43:27.965768 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2026-Oct-14 19:43:27.966449 INFO    [RocksDBWrapper] Closing DB.
+2026-Oct-14 19:43:27.982046 INFO    [daemon] Node stopped.
+2026-Oct-14 19:43:28.298884 INFO    [daemon] 
+            .:|iv2X##mB#Xovi;..           
+         .=inno2XXZ##mBmmm#mXwa;.         
+       _ivnnnooSSXZ##mBBmm#ZZX2ooi:       
+     _vo2onnnno2SSXXU######ZXX22nvv|.     
+    <dSSS2onnn11I|++~~+|*YXXSoonvvlii:    
+  .vmXXXSS2o1+-- . .   . - =|1vvvliii|;   
+  vdXXZZXX2>-                -+iii|i||+;  
+ iXXXZZZZ2~  ..:..:____..      -<||++++=: 
+.oSSSXXXe`   .-=vnnommmpa;.      =+===:-. 
+|nooo222~      .n2nSZ##o1l>      .: .     
+ivvnnnnl       .XXSnXmXIi|=:              
+iililii=        v2oSXX>==;;:    .  .   .  
+||+|+|+:       .||lnoZns|||=    ==========
+:;;;;;;:       .voXXoZmXonv=.  .|||||||+|=
+.==++|||.      .3ZXooXmBmX}.   .<ii||||||:
+ <|iiills.     .3X11nXX#S(-     :vllliii| 
+ =ivvvnnon,.    --------      ._uvvvvvli= 
+  <vno22XSoc.   . . . .     ..voXo2onvv+  
+   {nSSXXXZZqs,. .       ..=umZZZXX2on>   
+    +X2XXZZZXSoos|;;_==|vomm#####XXXe+    
+     -{XXUZXXX22nvnnooXXZ#mmBmm##ZZ}-     
+       +*SXXS22onnno2XXZ###mWmm#U}+       
+         -+{12nnvnno2SXXXZZ##UY+-         
+            --=||Ivo22S22nI|~-            
+
+ DeroGold v1.0.1.0 (aux-testnet-20261014-NOT-MAINNET)
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2018-2026, The DeroGold Developers
+
+ Additional Copyright(s) may apply, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/derogold/derogold/blob/master/LICENSE
+
+
+2026-Oct-14 19:43:28.298975 INFO    [daemon] Program Working Directory: "/research"
+2026-Oct-14 19:43:28.299016 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2026-Oct-14 19:43:28.299028 INFO    [daemon] Loaded 1 default checkpoints
+2026-Oct-14 19:43:28.299056 INFO    [RocksDBWrapper] Opening DB in /data/DB
+2026-Oct-14 19:43:28.311748 INFO    [RocksDBWrapper] DB opened in /data/DB
+2026-Oct-14 19:43:28.311862 INFO    [daemon] Initializing core...
+2026-Oct-14 19:43:28.312739 DEBUG   [DatabaseBlockchainCache] Current db scheme version: 2
+2026-Oct-14 19:43:28.312861 INFO    [daemon] Core initialized OK
+2026-Oct-14 19:43:28.312876 INFO    [daemon] Prune DB mode disabled.
+2026-Oct-14 19:43:28.312886 INFO    [daemon] Background prune task enabled (depth 2016).
+2026-Oct-14 19:43:28.312927 INFO    [daemon] Initializing p2p server...
+2026-Oct-14 19:43:28.312960 INFO    [node_server] Binding on 0.0.0.0:43071
+2026-Oct-14 19:43:28.312985 INFO    [node_server] Net service binded on 0.0.0.0:43071
+2026-Oct-14 19:43:28.312997 INFO    [node_server] Attempting to add IGD port mapping.
+2026-Oct-14 19:43:29.313945 INFO    [daemon] P2p server initialized OK
+2026-Oct-14 19:43:29.313992 INFO    [daemon] Starting core rpc server on address 0.0.0.0:43171
+2026-Oct-14 19:43:29.314187 INFO    [daemon] Starting p2p net loop...
+2026-Oct-14 19:43:29.314210 INFO    [node_server] Starting node_server
+2026-Oct-14 19:43:29.314256 DEBUG   [node_server] onIdle started
+2026-Oct-14 19:43:29.314272 DEBUG   [node_server] Connecting to 172.30.247.12:43072 (white=1, last_seen: never)...
+2026-Oct-14 19:43:29.314485 INFO    [protocol] 
+2026-Oct-14 19:43:29.314507 INFO    [protocol] ===[ DeroGold Tip! ]=============================
+2026-Oct-14 19:43:29.314522 INFO    [protocol]  Always exit DeroGoldd and degwallet with the "exit" command to preserve your chain and wallet data.
+2026-Oct-14 19:43:29.314539 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2026-Oct-14 19:43:29.314553 INFO    [protocol]  Use the "backup" command in degwallet to display your keys/seed for restoring a corrupted wallet.
+2026-Oct-14 19:43:29.314565 INFO    [protocol]  If you need more assistance, you can contact us for support at https://derogold.com/
+2026-Oct-14 19:43:29.314584 INFO    [protocol] ===================================================
+2026-Oct-14 19:43:29.314584 INFO    [protocol] 
+2026-Oct-14 19:43:29.314603 INFO    [protocol]             .:|iv2X##mB#Xovi;..           
+         .=inno2XXZ##mBmmm#mXwa;.         
+       _ivnnnooSSXZ##mBBmm#ZZX2ooi:       
+     _vo2onnnno2SSXXU######ZXX22nvv|.     
+    <dSSS2onnn11I|++~~+|*YXXSoonvvlii:    
+  .vmXXXSS2o1+-- . .   . - =|1vvvliii|;   
+  vdXXZZXX2>-                -+iii|i||+;  
+ iXXXZZZZ2~  ..:..:____..      -<||++++=: 
+.oSSSXXXe`   .-=vnnommmpa;.      =+===:-. 
+|nooo222~      .n2nSZ##o1l>      .: .     
+ivvnnnnl       .XXSnXmXIi|=:              
+iililii=        v2oSXX>==;;:    .  .   .  
+||+|+|+:       .||lnoZns|||=    ==========
+:;;;;;;:       .voXXoZmXonv=.  .|||||||+|=
+.==++|||.      .3ZXooXmBmX}.   .<ii||||||:
+ <|iiills.     .3X11nXX#S(-     :vllliii| 
+ =ivvvnnon,.    --------      ._uvvvvvli= 
+  <vno22XSoc.   . . . .     ..voXo2onvv+  
+   {nSSXXXZZqs,. .       ..=umZZZXX2on>   
+    +X2XXZZZXSoos|;;_==|vomm#####XXXe+    
+     -{XXUZXXX22nvnnooXXZ#mmBmm##ZZ}-     
+       +*SXXS22onnno2XXZ###mWmm#U}+       
+         -+{12nnvnno2SXXXZZ##UY+-         
+            --=||Ivo22S22nI|~-            
+
+2026-Oct-14 19:43:29.314642 INFO    [protocol] New Top Block Detected: 11
+2026-Oct-14 19:43:29.314660 DEBUG   [node_server] [172.30.247.12:55553 INC] writeHandler started
+2026-Oct-14 19:43:29.315127 DEBUG   [node_server] [172.30.247.12:47383 INC] writeHandler started
+2026-Oct-14 19:43:29.315198 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:43:29.315225 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1001
+2026-Oct-14 19:43:29.315263 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 2:2008
+2026-Oct-14 19:43:29.315303 DEBUG   [node_server] [172.30.247.12:47383 INC] msg 1:1003
+2026-Oct-14 19:43:29.315477 DEBUG   [node_server] [172.30.247.12:47383 INC] Interrupt connection
+2026-Oct-14 19:43:29.315499 DEBUG   [node_server] [172.30.247.12:47383 INC] writeHandler finished
+2026-Oct-14 19:43:29.315568 DEBUG   [node_server] [172.30.247.12:43072 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:43:29.315592 DEBUG   [node_server] Connecting to 172.30.247.13:43073 (white=1, last_seen: never)...
+2026-Oct-14 19:43:29.315667 DEBUG   [node_server] [172.30.247.12:43072 OUT] writeHandler started
+2026-Oct-14 19:43:29.315682 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2008
+2026-Oct-14 19:43:30.235990 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.237230 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.238573 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.239894 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.241188 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.242582 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.243904 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.244902 DEBUG   [node_server] [172.30.247.13:32891 INC] writeHandler started
+2026-Oct-14 19:43:30.245195 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.245968 DEBUG   [node_server] [172.30.247.13:43239 INC] writeHandler started
+2026-Oct-14 19:43:30.246222 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:43:30.246280 DEBUG   [node_server] [172.30.247.13:32891 INC] msg 1:1001
+2026-Oct-14 19:43:30.246338 DEBUG   [node_server] [172.30.247.13:32891 INC] msg 2:2008
+2026-Oct-14 19:43:30.246412 DEBUG   [node_server] [172.30.247.13:43239 INC] msg 1:1003
+2026-Oct-14 19:43:30.246527 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.246857 DEBUG   [node_server] [172.30.247.13:43239 INC] Interrupt connection
+2026-Oct-14 19:43:30.246926 DEBUG   [node_server] [172.30.247.13:43239 INC] writeHandler finished
+2026-Oct-14 19:43:30.247070 DEBUG   [node_server] [172.30.247.13:43073 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:43:30.247167 DEBUG   [node_server] [172.30.247.13:43073 OUT] writeHandler started
+2026-Oct-14 19:43:30.247195 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2008
+2026-Oct-14 19:43:30.247515 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.248205 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:30.336086 DEBUG   [node_server] [172.30.247.13:43073 OUT] Interrupt connection
+2026-Oct-14 19:43:30.336130 DEBUG   [node_server] [172.30.247.13:43073 OUT] writeHandler finished
+2026-Oct-14 19:43:30.336185 DEBUG   [node_server] [172.30.247.13:32891 INC] Interrupt connection
+2026-Oct-14 19:43:30.336211 DEBUG   [node_server] [172.30.247.13:32891 INC] writeHandler finished
+2026-Oct-14 19:43:32.247221 DEBUG   [node_server] Connecting to 172.30.247.13:43073 (white=1, last_seen: never)...
+2026-Oct-14 19:43:32.247468 DEBUG   [node_server] Connection to 172.30.247.13:43073 failed: TcpConnector::connect, connection failed
+2026-Oct-14 19:43:32.247520 DEBUG   [node_server] Connecting to 172.30.247.13:43073 (white=1, last_seen: never)...
+2026-Oct-14 19:43:32.247643 DEBUG   [node_server] Connection to 172.30.247.13:43073 failed: TcpConnector::connect, connection failed
+2026-Oct-14 19:43:32.720237 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.720902 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.721551 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.722198 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.722778 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.723320 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.724004 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.724520 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.725025 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.725527 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:32.726089 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.734291 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.734600 DEBUG   [node_server] [172.30.247.13:48549 INC] writeHandler started
+2026-Oct-14 19:43:33.735068 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:43:33.735118 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1001
+2026-Oct-14 19:43:33.735176 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 2:2008
+2026-Oct-14 19:43:33.735518 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.735834 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 2:2007
+2026-Oct-14 19:43:33.736366 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 2:2004
+2026-Oct-14 19:43:33.736657 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.737784 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.738889 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.740048 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.741189 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.742379 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.743470 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.744582 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.745762 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:33.767198 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 2:2004
+2026-Oct-14 19:43:34.248007 DEBUG   [node_server] Connecting to 172.30.247.13:43073 (white=1, last_seen: never)...
+2026-Oct-14 19:43:34.248565 DEBUG   [node_server] [172.30.247.13:41055 INC] writeHandler started
+2026-Oct-14 19:43:34.248624 DEBUG   [node_server] [172.30.247.13:41055 INC] msg 1:1003
+2026-Oct-14 19:43:34.248740 DEBUG   [node_server] [172.30.247.13:41055 INC] Interrupt connection
+2026-Oct-14 19:43:34.248795 DEBUG   [node_server] [172.30.247.13:41055 INC] writeHandler finished
+2026-Oct-14 19:43:34.248922 DEBUG   [node_server] [172.30.247.13:43073 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:43:34.249004 DEBUG   [node_server] [172.30.247.13:43073 OUT] writeHandler started
+2026-Oct-14 19:43:34.249030 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2008
+2026-Oct-14 19:43:34.759377 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.760711 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.761852 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.763017 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.764176 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.765365 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.766567 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.767766 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.768972 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.770116 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:43:34.771294 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:44:28.306910 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:44:28.307057 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:44:29.314826 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:44:29.315001 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:44:29.315062 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:44:29.315123 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:44:29.330644 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:44:29.330788 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:44:33.735019 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:44:33.735153 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:45:28.307230 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:45:28.307395 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:45:29.314888 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:45:29.315068 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:45:29.315128 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:45:29.315190 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:45:29.347883 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:45:29.347997 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:45:33.735404 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:45:33.735539 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:46:28.307194 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:46:28.307334 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:46:29.315247 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:46:29.315421 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:46:29.315482 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:46:29.315543 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:46:29.366986 INFO    [daemon] Adaptive compact_db scheduler interval switched to 1800s (lag 0).
+2026-Oct-14 19:46:29.367098 INFO    [daemon] Starting DB compaction (automatic scheduler).
+2026-Oct-14 19:46:29.367168 INFO    [daemon] Automatic periodic DB compaction started in background.
+2026-Oct-14 19:46:29.367122 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:46:29.367328 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:46:29.367204 INFO    [RocksDBWrapper] Preparing to optimize DB for reading... This may take a long time.
+2026-Oct-14 19:46:29.367426 INFO    [RocksDBWrapper] Please do not close the program abruptly to prevent DB corruption.
+2026-Oct-14 19:46:29.367714 INFO    [RocksDBWrapper] 
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/1   43.59 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum      1/1   43.59 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+
+2026-Oct-14 19:46:30.368250 INFO    [RocksDBWrapper] Optimized DeroGold DB.
+2026-Oct-14 19:46:33.735726 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:46:33.735859 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:47:28.307623 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:47:28.307755 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:47:29.315601 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:47:29.315773 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:47:29.315834 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:47:29.315896 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:47:29.386584 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:47:29.386684 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:47:33.735793 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:47:33.735950 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:48:28.307966 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:48:28.308095 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:48:29.316064 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:48:29.316236 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:48:29.316295 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:48:29.316358 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:48:29.405961 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:48:29.406055 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:48:33.736176 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:48:33.736312 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:49:28.308319 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:49:28.308458 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:49:29.316436 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:49:29.316607 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:49:29.316668 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:49:29.316729 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:49:29.420147 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:49:29.420239 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:49:33.736200 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:49:33.736307 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:50:28.308409 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:50:28.308491 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:50:29.316476 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:50:29.316594 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:50:29.316631 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:50:29.316671 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:50:29.424989 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:50:29.425177 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:50:33.736648 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:50:33.736901 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:51:28.308679 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:51:28.308819 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:51:29.316603 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:51:29.316701 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:51:29.316760 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:51:29.316813 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:51:29.436414 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:51:29.436473 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:51:33.737009 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:51:33.737148 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:52:28.308785 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:52:28.308916 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:52:29.316955 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:52:29.317130 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:52:29.317192 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:52:29.317275 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:52:29.452079 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:52:29.452178 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:52:33.737010 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:52:33.737144 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:53:28.309146 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:53:28.309279 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:53:29.317029 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:53:29.317189 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:53:29.317249 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:53:29.317310 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:53:29.465664 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:53:29.465757 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:53:33.737389 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:53:33.737527 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:54:28.309031 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:54:28.309130 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:54:29.317062 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:54:29.317193 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:54:29.317230 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:54:29.317270 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:54:29.478307 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:54:29.478365 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:54:33.737469 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:54:33.737619 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:55:26.140115 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:28.309230 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:55:28.309308 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:55:29.317074 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:55:29.317129 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:55:29.317162 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:55:29.317192 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:55:29.490845 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:55:29.490915 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:55:33.737368 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:55:33.737446 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:55:37.797625 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:37.797737 DEBUG   [Core] Request to add block 11 (9523c661e6d935af548f74f1265e54b0735850e09e1aa66c5007f5850fb31c73)
+2026-Oct-14 19:55:37.799095 ERROR   [currency] Aux block hash wasn't found in merkle tree
+2026-Oct-14 19:55:37.799129 DEBUG   [Core] Proof of work too weak for block 11 (9523c661e6d935af548f74f1265e54b0735850e09e1aa66c5007f5850fb31c73)
+2026-Oct-14 19:55:37.799831 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:37.799895 DEBUG   [Core] Request to add block 11 (69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713)
+2026-Oct-14 19:55:37.800889 DEBUG   [DatabaseBlockchainCache] push block with hash 69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713, and 1 transactions
+2026-Oct-14 19:55:37.800965 DEBUG   [DatabaseBlockchainCache] push transaction with hash 02b8dfb47bb5d9ad33a2c85255dec6f6ab46e2478f00d73101cfab872949fe5f
+2026-Oct-14 19:55:37.801114 DEBUG   [DatabaseBlockchainCache] push transaction with hash 02b8dfb47bb5d9ad33a2c85255dec6f6ab46e2478f00d73101cfab872949fe5f finished
+2026-Oct-14 19:55:37.801242 DEBUG   [DatabaseBlockchainCache] push block 69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713 completed
+2026-Oct-14 19:55:37.801316 DEBUG   [Core] Block 11 (69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713) added to main chain.
+2026-Oct-14 19:55:37.801333 DEBUG   [Core] Block: 11 (69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713) successfully added
+2026-Oct-14 19:55:37.801361 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 579
+2026-Oct-14 19:55:37.801375 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 583
+2026-Oct-14 19:55:37.801388 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:37.801404 DEBUG   [protocol] [172.30.247.13:48549 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:37.801419 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:37.801434 DEBUG   [protocol] [172.30.247.12:55553 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:37.801482 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:55:37.801542 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 2:2009
+2026-Oct-14 19:55:37.801578 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:55:37.801609 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 2:2009
+2026-Oct-14 19:55:37.803053 INFO    [protocol] New Top Block Detected: 12
+2026-Oct-14 19:55:37.803104 DEBUG   [Core] Request to add block 11 (69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713)
+2026-Oct-14 19:55:37.803134 DEBUG   [Core] Block 11 (69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713) already exists
+2026-Oct-14 19:55:37.803816 DEBUG   [Core] Request to add block 11 (69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713)
+2026-Oct-14 19:55:37.803854 DEBUG   [Core] Block 11 (69e9040e428e4a14e52b82682fe652bea27b5269db223fb6cbc9cb2d32ca9713) already exists
+2026-Oct-14 19:55:38.399513 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:38.405002 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:43.498876 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:43.498980 DEBUG   [Core] Request to add block 12 (c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f)
+2026-Oct-14 19:55:43.500028 DEBUG   [DatabaseBlockchainCache] push block with hash c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f, and 1 transactions
+2026-Oct-14 19:55:43.500082 DEBUG   [DatabaseBlockchainCache] push transaction with hash 4516f9d77e5ab92a924186776ca05c42145c1d7b4565bf09eb0e16176b3ed181
+2026-Oct-14 19:55:43.500177 DEBUG   [DatabaseBlockchainCache] push transaction with hash 4516f9d77e5ab92a924186776ca05c42145c1d7b4565bf09eb0e16176b3ed181 finished
+2026-Oct-14 19:55:43.500256 DEBUG   [DatabaseBlockchainCache] push block c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f completed
+2026-Oct-14 19:55:43.500314 DEBUG   [Core] Block 12 (c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f) added to main chain.
+2026-Oct-14 19:55:43.500328 DEBUG   [Core] Block: 12 (c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f) successfully added
+2026-Oct-14 19:55:43.500353 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 579
+2026-Oct-14 19:55:43.500364 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 583
+2026-Oct-14 19:55:43.500385 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:43.500399 DEBUG   [protocol] [172.30.247.13:48549 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:43.500411 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:43.500423 DEBUG   [protocol] [172.30.247.12:55553 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:43.500458 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:55:43.500518 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 2:2009
+2026-Oct-14 19:55:43.500549 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:55:43.500586 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 2:2009
+2026-Oct-14 19:55:43.501673 INFO    [protocol] New Top Block Detected: 13
+2026-Oct-14 19:55:43.501722 DEBUG   [Core] Request to add block 12 (c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f)
+2026-Oct-14 19:55:43.501752 DEBUG   [Core] Block 12 (c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f) already exists
+2026-Oct-14 19:55:43.502330 DEBUG   [Core] Request to add block 12 (c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f)
+2026-Oct-14 19:55:43.502355 DEBUG   [Core] Block 12 (c6823da980ac90b08981aa8d8f591ef0e9871f4d555f89e8b3e3029d3d00556f) already exists
+2026-Oct-14 19:55:43.809931 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:43.815179 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:45.865183 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:55:45.865297 DEBUG   [Core] Request to add block 13 (0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04)
+2026-Oct-14 19:55:45.866642 DEBUG   [DatabaseBlockchainCache] push block with hash 0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04, and 1 transactions
+2026-Oct-14 19:55:45.866732 DEBUG   [DatabaseBlockchainCache] push transaction with hash 9fd9d6d5bbfc8ffd9f4ddeab577c98248fd5a6b1d2bd0afd98506ad873300ed5
+2026-Oct-14 19:55:45.866883 DEBUG   [DatabaseBlockchainCache] push transaction with hash 9fd9d6d5bbfc8ffd9f4ddeab577c98248fd5a6b1d2bd0afd98506ad873300ed5 finished
+2026-Oct-14 19:55:45.867003 DEBUG   [DatabaseBlockchainCache] push block 0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04 completed
+2026-Oct-14 19:55:45.867095 DEBUG   [Core] Block 13 (0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04) added to main chain.
+2026-Oct-14 19:55:45.867118 DEBUG   [Core] Block: 13 (0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04) successfully added
+2026-Oct-14 19:55:45.867156 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 578
+2026-Oct-14 19:55:45.867174 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 582
+2026-Oct-14 19:55:45.867192 DEBUG   [protocol] [172.30.247.13:43073 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:45.867213 DEBUG   [protocol] [172.30.247.13:48549 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:45.867233 DEBUG   [protocol] [172.30.247.12:43072 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:45.867253 DEBUG   [protocol] [172.30.247.12:55553 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:45.867305 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 2:2009
+2026-Oct-14 19:55:45.867388 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 2:2009
+2026-Oct-14 19:55:45.867432 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 2:2009
+2026-Oct-14 19:55:45.867477 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 2:2009
+2026-Oct-14 19:55:45.869015 INFO    [protocol] New Top Block Detected: 14
+2026-Oct-14 19:55:45.869054 DEBUG   [Core] Request to add block 13 (0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04)
+2026-Oct-14 19:55:45.869088 DEBUG   [Core] Block 13 (0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04) already exists
+2026-Oct-14 19:55:45.869136 DEBUG   [Core] Request to add block 13 (0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04)
+2026-Oct-14 19:55:45.869158 DEBUG   [Core] Block 13 (0de9e9963ac9136b28a797cd314a9aa159b1b15b7b676f1e4108f459f12e1e04) already exists
+2026-Oct-14 19:55:46.174670 DEBUG   [daemon] [172.30.247.1] Incoming POST request: /json_rpc, User-Agent: Python-urllib/3.10
+2026-Oct-14 19:56:28.309581 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:56:28.309730 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002
+2026-Oct-14 19:56:29.317476 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 0:1002
+2026-Oct-14 19:56:29.317649 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 0:1002
+2026-Oct-14 19:56:29.318086 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 0:1002
+2026-Oct-14 19:56:29.318165 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 0:1002
+2026-Oct-14 19:56:29.503625 INFO    [daemon] Starting periodic prune pass in background (depth 2016).
+2026-Oct-14 19:56:29.503724 INFO    [daemon] Periodic prune pass completed. Prune floor now at: 0
+2026-Oct-14 19:56:33.737888 DEBUG   [node_server] [172.30.247.13:43073 OUT] msg 1:1002
+2026-Oct-14 19:56:33.738019 DEBUG   [node_server] [172.30.247.13:48549 INC] msg 1:1002
+2026-Oct-14 19:57:28.309809 DEBUG   [node_server] [172.30.247.12:55553 INC] msg 1:1002
+2026-Oct-14 19:57:28.309938 DEBUG   [node_server] [172.30.247.12:43072 OUT] msg 1:1002

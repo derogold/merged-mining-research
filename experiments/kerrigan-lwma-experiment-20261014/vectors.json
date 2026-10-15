@@ -1,0 +1,47 @@
+[
+  {
+    "name": "upstream_steady",
+    "got": "0x1c07f41f",
+    "expected": "0x1c07f41f"
+  },
+  {
+    "name": "upstream_bootstrap",
+    "got": "0x1d010000",
+    "expected": "0x1d010000"
+  },
+  {
+    "name": "upstream_clamps",
+    "got": "0x1c07a63d",
+    "expected": "0x1c07a63d"
+  },
+  {
+    "name": "upstream_weighted_floor",
+    "got": "0x1b65ce66",
+    "expected": "0x1b65ce66"
+  },
+  {
+    "name": "upstream_hardware_floor",
+    "got": "0x1c7f4200",
+    "expected": "0x1c7f4200"
+  },
+  {
+    "name": "upstream_eq192_overflow",
+    "got": "0x1f0fffff",
+    "expected": "0x1f0fffff"
+  },
+  {
+    "name": "upstream_gap44_rearm",
+    "got": "0x1c7f4200",
+    "expected": "0x1c7f4200"
+  },
+  {
+    "name": "upstream_single_gap41_pre",
+    "got": "0x1d010000",
+    "expected": "0x1d010000"
+  },
+  {
+    "name": "upstream_single_gap41_post",
+    "got": "0x1c1fd080",
+    "expected": "0x1c1fd080"
+  }
+]

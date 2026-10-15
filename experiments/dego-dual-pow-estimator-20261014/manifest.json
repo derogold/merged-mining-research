@@ -1,0 +1,20 @@
+{
+  "run.py": "3d55f14c229f46f54a34586e7c1ff69453e87da25f40040223ef7e16fbd9f5b8",
+  "frozen-spec.json": "e81d6c19bd04a50647f38f1bc3f7b7845946f1db36043b19098b948545b8d57d",
+  "checks.py": "826e45fed018f01b76531938c82f2909297a4fcc7047b4398f2faff20e8d3166",
+  "results.json": "901baabd11a2a15dbd243caee1ad4bfe8411be7f542d587d8261b0e34c3d2c22",
+  "model.py": "a7ef171dab1e640659b0e1fdd5454aca7c6a2beaa7199dd556bcd4b99f3f73d2",
+  "checks.json": "4d6e91b11f760771ddce35362ac1a362e62ef4efdbefe174be136f3430199872",
+  "README.md": "73674b5615da6609d2e5a3d3376a1a5d62288e5138fb0c4587138336fd5cbaf5",
+  "RESULTS.md": "46b877ed8bd4cf1800b91c70929f760bbff8d16c28911d9c91c5563ca3bdfa41",
+  "SPEC.md": "f1631c4d7807bf982fa13c88052678b38b49994703972faafc73f8d050d3847e",
+  "report.py": "6243a775a8d5dcc2f820c6b9106794a6587c209326478da3f19484d592ef6f9f",
+  "dormancy/run.py": "3d55f14c229f46f54a34586e7c1ff69453e87da25f40040223ef7e16fbd9f5b8",
+  "dormancy/frozen-spec.json": "406bea6333c246c0ff8828c5a2918c7ccad299aeeba5f2c8ce9dfb9d49446e60",
+  "dormancy/checks.py": "d18464579a7b8d3790faa6ef839f695f1aa5f1f006271a3d12e18ca9f9242d5f",
+  "dormancy/results.json": "807922501394c2c7eb921f56abfde2e1b0899206dfedb7c322cfb52c7045496a",
+  "dormancy/model.py": "2d4b6b5cd5b1038a8c8096ecb22d53e2aa4795d127e68c9d5ce89f43fe0e0add",
+  "dormancy/checks.json": "2341fc381856ba1e089ce67db256ceff18cb00c9723aed2e8d86955f9d4815f2",
+  "dormancy/SPEC.md": "ec1db6d7d18b871fc89e13b03f879276a6c2fa5e22df541127b8e6d25d889cf5",
+  "dormancy/weak_lane.json": "9c9d144da128f17cb6d82e09578c9fad241ed160ee062bbd1a35d951b5a5d87a"
+}

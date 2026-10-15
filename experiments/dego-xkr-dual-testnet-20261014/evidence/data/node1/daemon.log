@@ -1,0 +1,490 @@
+2026-Oct-14 19:55:05.049180 INFO    [daemon] 
+
+                                                                            
+oooo                                            .             oooo     
+`888                                          .o8             `888                                                 
+ 888  oooo  oooo d8b oooo    ooo oo.ooooo.  .o888oo  .ooooo.   888  oooo  oooo d8b  .ooooo.  ooo. .oo.    .oooo.   
+ 888 .8P'   `888""8P  `88.  .8'   888' `88b   888   d88' `88b  888 .8P'   `888""8P d88' `88b `888P"Y88b  `P  )88b  
+ 888888.     888       `88..8'    888   888   888   888   888  888888.     888     888   888  888   888   .oP"888  
+ 888 `88b.   888        `888'     888   888   888 . 888   888  888 `88b.   888     888   888  888   888  d8(  888  
+o888o o888o d888b        .8'      888bod8P'   "888" `Y8bod8P' o888o o888o d888b    `Y8bod8P' o888o o888o `Y888""8o 
+                     .o..P'       888                                                                              
+                     `Y8P'       o888o                                                                             
+
+ Kryptokrona v1.2.2
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2026, The Kryptokrona Developers
+
+ Additional Copyright(s) may apply, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/kryptokrona/kryptokrona/blob/master/LICENSE
+
+
+2026-Oct-14 19:55:05.049281 INFO    [daemon] Program Working Directory: "/research"
+2026-Oct-14 19:55:05.049331 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2026-Oct-14 19:55:05.049342 INFO    [daemon] Loaded 0 default checkpoints
+2026-Oct-14 19:55:05.049369 INFO    [RocksDBWrapper] Opening DB in /data/DB
+2026-Oct-14 19:55:05.050051 INFO    [RocksDBWrapper] DB not found in /data/DB. Creating new DB...
+2026-Oct-14 19:55:05.098497 INFO    [daemon] Initializing core...
+2026-Oct-14 19:55:05.098615 DEBUG   [DatabaseBlockchainCache] DB scheme version not found, writing: 2
+2026-Oct-14 19:55:05.099002 DEBUG   [DatabaseBlockchainCache] top block index is nill, add genesis block
+2026-Oct-14 19:55:05.099029 DEBUG   [DatabaseBlockchainCache] push transaction with hash 0d1c0f28b5f5eaa6a21c110eed1339ac9a9eb6a1689d8c31c51a011983069e9b
+2026-Oct-14 19:55:05.099091 DEBUG   [DatabaseBlockchainCache] push transaction with hash 0d1c0f28b5f5eaa6a21c110eed1339ac9a9eb6a1689d8c31c51a011983069e9b finished
+2026-Oct-14 19:55:05.099160 DEBUG   [Core] Blockchain storage blocks count: 1, DB blocks count: 1
+2026-Oct-14 19:55:05.099187 DEBUG   [Core] Blockchain storage and root segment are on the same height and chain
+2026-Oct-14 19:55:05.099199 INFO    [daemon] Core initialized OK
+2026-Oct-14 19:55:05.099221 INFO    [daemon] Initializing p2p server...
+2026-Oct-14 19:55:05.099257 INFO    [node_server] Generated new peer ID: 8413998406485104923
+2026-Oct-14 19:55:05.099268 INFO    [node_server] Binding on 0.0.0.0:43271
+2026-Oct-14 19:55:05.099292 INFO    [node_server] Net service binded on 0.0.0.0:43271
+2026-Oct-14 19:55:05.099303 INFO    [daemon] p2p server initialized OK
+2026-Oct-14 19:55:05.099313 INFO    [daemon] Starting core rpc server on address 0.0.0.0:43371
+2026-Oct-14 19:55:05.099337 INFO    [daemon] Core rpc server started ok
+2026-Oct-14 19:55:05.099350 INFO    [daemon] Starting p2p net loop...
+2026-Oct-14 19:55:05.099360 INFO    [node_server] Starting node_server
+2026-Oct-14 19:55:05.099390 DEBUG   [node_server] onIdle started
+2026-Oct-14 19:55:05.099403 DEBUG   [node_server] Connecting to 172.30.248.12:43272 (white=1, last_seen: never)...
+2026-Oct-14 19:55:05.110601 DEBUG   [node_server] Connection to 172.30.248.12:43272 failed: TcpConnector::connect, connection failed
+2026-Oct-14 19:55:05.110633 DEBUG   [node_server] Connecting to 172.30.248.13:43273 (white=1, last_seen: never)...
+2026-Oct-14 19:55:05.110733 DEBUG   [node_server] Connection to 172.30.248.13:43273 failed: TcpConnector::connect, connection failed
+2026-Oct-14 19:55:05.164929 DEBUG   [node_server] [172.30.248.13:49565 INC] writeHandler started
+2026-Oct-14 19:55:05.164989 INFO    [protocol] 
+2026-Oct-14 19:55:05.165004 INFO    [protocol] ===[ kryptokrona Tip! ]=============================
+2026-Oct-14 19:55:05.165018 INFO    [protocol]  Always exit kryptokronad and xkrwallet with the "exit" command to preserve your chain and wallet data.
+2026-Oct-14 19:55:05.165032 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2026-Oct-14 19:55:05.165050 INFO    [protocol]  Use the "backup" command in xkrwallet to display your keys/seed for restoring a corrupted wallet.
+2026-Oct-14 19:55:05.165065 INFO    [protocol]  If you need more assistance, you can contact us for support at https://kryptokrona.org
+2026-Oct-14 19:55:05.165079 INFO    [protocol] ===================================================
+2026-Oct-14 19:55:05.165079 INFO    [protocol] 
+2026-Oct-14 19:55:05.165102 INFO    [protocol] 
+                                                                            
+oooo                                            .             oooo     
+`888                                          .o8             `888                                                 
+ 888  oooo  oooo d8b oooo    ooo oo.ooooo.  .o888oo  .ooooo.   888  oooo  oooo d8b  .ooooo.  ooo. .oo.    .oooo.   
+ 888 .8P'   `888""8P  `88.  .8'   888' `88b   888   d88' `88b  888 .8P'   `888""8P d88' `88b `888P"Y88b  `P  )88b  
+ 888888.     888       `88..8'    888   888   888   888   888  888888.     888     888   888  888   888   .oP"888  
+ 888 `88b.   888        `888'     888   888   888 . 888   888  888 `88b.   888     888   888  888   888  d8(  888  
+o888o o888o d888b        .8'      888bod8P'   "888" `Y8bod8P' o888o o888o d888b    `Y8bod8P' o888o o888o `Y888""8o 
+                     .o..P'       888                                                                              
+                     `Y8P'       o888o                                                                             
+
+2026-Oct-14 19:55:05.165145 INFO    [protocol] New Top Block Detected: 1
+2026-Oct-14 19:55:05.165158 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:55:05.165179 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 1:1001
+2026-Oct-14 19:55:05.165217 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2008
+2026-Oct-14 19:55:05.273083 DEBUG   [node_server] [172.30.248.12:40905 INC] writeHandler started
+2026-Oct-14 19:55:05.273169 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:55:05.273200 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 1:1001
+2026-Oct-14 19:55:05.273251 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2008
+2026-Oct-14 19:55:05.736802 DEBUG   [HttpServer] Incoming connection from 172.30.248.2:54848
+2026-Oct-14 19:55:05.763791 DEBUG   [Core] Request to add block 1 (8e291f7e2ddb3b3207d9883bdce373b8c27ee2aabdc6c7b1c7c084653e0828e5)
+2026-Oct-14 19:55:05.778699 DEBUG   [DatabaseBlockchainCache] push block with hash 8e291f7e2ddb3b3207d9883bdce373b8c27ee2aabdc6c7b1c7c084653e0828e5, and 1 transactions
+2026-Oct-14 19:55:05.778757 DEBUG   [DatabaseBlockchainCache] push transaction with hash d711eaa4c55d7a829d8350f634cb89a3d968c5e387e7e885afa41edc1ee13e66
+2026-Oct-14 19:55:05.778861 DEBUG   [DatabaseBlockchainCache] push transaction with hash d711eaa4c55d7a829d8350f634cb89a3d968c5e387e7e885afa41edc1ee13e66 finished
+2026-Oct-14 19:55:05.778931 DEBUG   [DatabaseBlockchainCache] push block 8e291f7e2ddb3b3207d9883bdce373b8c27ee2aabdc6c7b1c7c084653e0828e5 completed
+2026-Oct-14 19:55:05.778948 DEBUG   [Core] Block 1 (8e291f7e2ddb3b3207d9883bdce373b8c27ee2aabdc6c7b1c7c084653e0828e5) added to main chain.
+2026-Oct-14 19:55:05.778960 DEBUG   [Core] Block: 1 (8e291f7e2ddb3b3207d9883bdce373b8c27ee2aabdc6c7b1c7c084653e0828e5) successfully added
+2026-Oct-14 19:55:05.778982 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 506
+2026-Oct-14 19:55:05.778993 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 510
+2026-Oct-14 19:55:05.779004 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:05.779020 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:05.779063 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:05.779125 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:07.075262 DEBUG   [Core] Request to add block 2 (0664efc5506fa36b1bf67f7d38ad58073fc62865d6854785e07dd380e535e711)
+2026-Oct-14 19:55:07.089206 DEBUG   [DatabaseBlockchainCache] push block with hash 0664efc5506fa36b1bf67f7d38ad58073fc62865d6854785e07dd380e535e711, and 1 transactions
+2026-Oct-14 19:55:07.089258 DEBUG   [DatabaseBlockchainCache] push transaction with hash 9bc0e3444d9ac36d8b6377dbb4c369a6d8f9b7b9636dbb63de2132c570ee14b5
+2026-Oct-14 19:55:07.089336 DEBUG   [DatabaseBlockchainCache] push transaction with hash 9bc0e3444d9ac36d8b6377dbb4c369a6d8f9b7b9636dbb63de2132c570ee14b5 finished
+2026-Oct-14 19:55:07.089411 DEBUG   [DatabaseBlockchainCache] push block 0664efc5506fa36b1bf67f7d38ad58073fc62865d6854785e07dd380e535e711 completed
+2026-Oct-14 19:55:07.089428 DEBUG   [Core] Block 2 (0664efc5506fa36b1bf67f7d38ad58073fc62865d6854785e07dd380e535e711) added to main chain.
+2026-Oct-14 19:55:07.089442 DEBUG   [Core] Block: 2 (0664efc5506fa36b1bf67f7d38ad58073fc62865d6854785e07dd380e535e711) successfully added
+2026-Oct-14 19:55:07.089463 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 506
+2026-Oct-14 19:55:07.089474 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 510
+2026-Oct-14 19:55:07.089484 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:07.089498 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:07.089855 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:07.089957 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:07.110845 DEBUG   [node_server] Connecting to 172.30.248.12:43272 (white=1, last_seen: never)...
+2026-Oct-14 19:55:07.120837 INFO    [protocol] New Top Block Detected: 3
+2026-Oct-14 19:55:07.120891 DEBUG   [node_server] [172.30.248.12:43272 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:55:07.120940 DEBUG   [node_server] Connecting to 172.30.248.13:43273 (white=1, last_seen: never)...
+2026-Oct-14 19:55:07.121167 DEBUG   [Core] Request to add block 2 (0664efc5506fa36b1bf67f7d38ad58073fc62865d6854785e07dd380e535e711)
+2026-Oct-14 19:55:07.121231 DEBUG   [Core] Block 2 (0664efc5506fa36b1bf67f7d38ad58073fc62865d6854785e07dd380e535e711) already exists
+2026-Oct-14 19:55:07.121269 DEBUG   [node_server] [172.30.248.12:43272 OUT] writeHandler started
+2026-Oct-14 19:55:07.121299 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2008
+2026-Oct-14 19:55:07.121621 DEBUG   [node_server] [172.30.248.13:43273 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:55:07.121729 DEBUG   [node_server] [172.30.248.13:43273 OUT] writeHandler started
+2026-Oct-14 19:55:07.121766 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2008
+2026-Oct-14 19:55:08.280259 DEBUG   [Core] Request to add block 3 (b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35)
+2026-Oct-14 19:55:08.285855 DEBUG   [DatabaseBlockchainCache] push block with hash b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35, and 1 transactions
+2026-Oct-14 19:55:08.285905 DEBUG   [DatabaseBlockchainCache] push transaction with hash 01fcbe15db4708c8154b803980c3ac75b0510cd7d8821d8181de8dc5637e401f
+2026-Oct-14 19:55:08.285979 DEBUG   [DatabaseBlockchainCache] push transaction with hash 01fcbe15db4708c8154b803980c3ac75b0510cd7d8821d8181de8dc5637e401f finished
+2026-Oct-14 19:55:08.286037 DEBUG   [DatabaseBlockchainCache] push block b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35 completed
+2026-Oct-14 19:55:08.286053 DEBUG   [Core] Block 3 (b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35) added to main chain.
+2026-Oct-14 19:55:08.286065 DEBUG   [Core] Block: 3 (b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35) successfully added
+2026-Oct-14 19:55:08.286089 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 506
+2026-Oct-14 19:55:08.286100 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 510
+2026-Oct-14 19:55:08.286110 DEBUG   [protocol] [172.30.248.13:43273 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:08.286123 DEBUG   [protocol] [172.30.248.12:43272 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:08.286135 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:08.286146 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:08.286212 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2009
+2026-Oct-14 19:55:08.286303 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2009
+2026-Oct-14 19:55:08.286361 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:08.286412 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:08.298735 INFO    [protocol] New Top Block Detected: 4
+2026-Oct-14 19:55:08.298822 DEBUG   [Core] Request to add block 3 (b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35)
+2026-Oct-14 19:55:08.298875 DEBUG   [Core] Block 3 (b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35) already exists
+2026-Oct-14 19:55:08.298966 DEBUG   [Core] Request to add block 3 (b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35)
+2026-Oct-14 19:55:08.299007 DEBUG   [Core] Block 3 (b79c06d10cf0367b99eeff0e459f0986768bf586cf704acf118f3e0db8337a35) already exists
+2026-Oct-14 19:55:09.563748 DEBUG   [Core] Request to add block 4 (b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84)
+2026-Oct-14 19:55:09.569547 DEBUG   [DatabaseBlockchainCache] push block with hash b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84, and 1 transactions
+2026-Oct-14 19:55:09.569600 DEBUG   [DatabaseBlockchainCache] push transaction with hash dc6859c21281727c684e3d1b93076d8f2facf2b2008219e6f7013e39890a1359
+2026-Oct-14 19:55:09.569675 DEBUG   [DatabaseBlockchainCache] push transaction with hash dc6859c21281727c684e3d1b93076d8f2facf2b2008219e6f7013e39890a1359 finished
+2026-Oct-14 19:55:09.569754 DEBUG   [DatabaseBlockchainCache] push block b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84 completed
+2026-Oct-14 19:55:09.569772 DEBUG   [Core] Block 4 (b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84) added to main chain.
+2026-Oct-14 19:55:09.569785 DEBUG   [Core] Block: 4 (b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84) successfully added
+2026-Oct-14 19:55:09.569807 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 506
+2026-Oct-14 19:55:09.569817 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 510
+2026-Oct-14 19:55:09.569828 DEBUG   [protocol] [172.30.248.13:43273 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:09.569847 DEBUG   [protocol] [172.30.248.12:43272 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:09.569858 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:09.569870 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:09.569930 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2009
+2026-Oct-14 19:55:09.570043 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2009
+2026-Oct-14 19:55:09.570105 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:09.570152 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:09.583509 INFO    [protocol] New Top Block Detected: 5
+2026-Oct-14 19:55:09.583606 DEBUG   [Core] Request to add block 4 (b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84)
+2026-Oct-14 19:55:09.583662 DEBUG   [Core] Block 4 (b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84) already exists
+2026-Oct-14 19:55:09.583760 DEBUG   [Core] Request to add block 4 (b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84)
+2026-Oct-14 19:55:09.583801 DEBUG   [Core] Block 4 (b080c4c5c5ca349bdac60c388fb0148d3520f5152224a475ca2cda66d3f40d84) already exists
+2026-Oct-14 19:55:10.205711 DEBUG   [Core] Request to add block 5 (04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9)
+2026-Oct-14 19:55:10.211308 DEBUG   [DatabaseBlockchainCache] push block with hash 04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9, and 1 transactions
+2026-Oct-14 19:55:10.211358 DEBUG   [DatabaseBlockchainCache] push transaction with hash fb420932dcc77c9d08a158c07ae2ee0ff7ce1bc79e67259d0822d344cfd9c1d7
+2026-Oct-14 19:55:10.211431 DEBUG   [DatabaseBlockchainCache] push transaction with hash fb420932dcc77c9d08a158c07ae2ee0ff7ce1bc79e67259d0822d344cfd9c1d7 finished
+2026-Oct-14 19:55:10.211496 DEBUG   [DatabaseBlockchainCache] push block 04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9 completed
+2026-Oct-14 19:55:10.211513 DEBUG   [Core] Block 5 (04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9) added to main chain.
+2026-Oct-14 19:55:10.211525 DEBUG   [Core] Block: 5 (04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9) successfully added
+2026-Oct-14 19:55:10.211545 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 506
+2026-Oct-14 19:55:10.211555 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 510
+2026-Oct-14 19:55:10.211566 DEBUG   [protocol] [172.30.248.13:43273 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:10.211579 DEBUG   [protocol] [172.30.248.12:43272 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:10.211590 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:10.211607 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:10.211663 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2009
+2026-Oct-14 19:55:10.211754 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2009
+2026-Oct-14 19:55:10.211812 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:10.211857 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:10.225235 INFO    [protocol] New Top Block Detected: 6
+2026-Oct-14 19:55:10.225324 DEBUG   [Core] Request to add block 5 (04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9)
+2026-Oct-14 19:55:10.225372 DEBUG   [Core] Block 5 (04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9) already exists
+2026-Oct-14 19:55:10.225858 DEBUG   [Core] Request to add block 5 (04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9)
+2026-Oct-14 19:55:10.225925 DEBUG   [Core] Block 5 (04fde033210ed57bbf631d5e7b80df2f747beca55c9d5c40cff6cc47f26138f9) already exists
+2026-Oct-14 19:55:10.229729 DEBUG   [Core] Request to add block 6 (83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8)
+2026-Oct-14 19:55:10.233121 DEBUG   [DatabaseBlockchainCache] push block with hash 83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8, and 1 transactions
+2026-Oct-14 19:55:10.233196 DEBUG   [DatabaseBlockchainCache] push transaction with hash 1be4be82f4d89c5f7ec40aacf924594d716caca96f9ca33b7f8e1f8dfa980244
+2026-Oct-14 19:55:10.233281 DEBUG   [DatabaseBlockchainCache] push transaction with hash 1be4be82f4d89c5f7ec40aacf924594d716caca96f9ca33b7f8e1f8dfa980244 finished
+2026-Oct-14 19:55:10.233370 DEBUG   [DatabaseBlockchainCache] push block 83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8 completed
+2026-Oct-14 19:55:10.233396 DEBUG   [Core] Block 6 (83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8) added to main chain.
+2026-Oct-14 19:55:10.233416 DEBUG   [Core] Block: 6 (83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8) successfully added
+2026-Oct-14 19:55:10.233448 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 438
+2026-Oct-14 19:55:10.233472 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 442
+2026-Oct-14 19:55:10.233489 DEBUG   [protocol] [172.30.248.13:43273 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:10.233510 DEBUG   [protocol] [172.30.248.12:43272 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:10.233530 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:10.233549 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:10.233615 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2009
+2026-Oct-14 19:55:10.233743 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2009
+2026-Oct-14 19:55:10.233824 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:10.233867 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:10.236600 DEBUG   [HttpServer] Closing connection from 172.30.248.2:54848 total=1
+2026-Oct-14 19:55:10.238995 INFO    [protocol] New Top Block Detected: 7
+2026-Oct-14 19:55:10.239078 DEBUG   [Core] Request to add block 6 (83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8)
+2026-Oct-14 19:55:10.239126 DEBUG   [Core] Block 6 (83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8) already exists
+2026-Oct-14 19:55:10.239464 DEBUG   [Core] Request to add block 6 (83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8)
+2026-Oct-14 19:55:10.239508 DEBUG   [Core] Block 6 (83c0f61c8714fab29a16bd7c31c20d748b7abcfeaebf6bd1029ea92f116c1ef8) already exists
+2026-Oct-14 19:55:26.491746 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:33318
+2026-Oct-14 19:55:26.495470 DEBUG   [HttpServer] Closing connection from 172.30.248.1:33318 total=1
+2026-Oct-14 19:55:38.391663 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:40040
+2026-Oct-14 19:55:38.391880 DEBUG   [Core] Request to add block 7 (c4b21baa16a98bf663241a53785297a29d58498a1f1ea929dd3807c53cf402f4)
+2026-Oct-14 19:55:38.395391 ERROR   [currency] Aux block hash wasn't found in merkle tree
+2026-Oct-14 19:55:38.395422 WARNING [Core] Proof of work too weak for block 7 (c4b21baa16a98bf663241a53785297a29d58498a1f1ea929dd3807c53cf402f4)
+2026-Oct-14 19:55:38.395720 DEBUG   [HttpServer] Closing connection from 172.30.248.1:40040 total=1
+2026-Oct-14 19:55:38.395915 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:40052
+2026-Oct-14 19:55:38.396050 DEBUG   [Core] Request to add block 7 (054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b)
+2026-Oct-14 19:55:38.398414 DEBUG   [DatabaseBlockchainCache] push block with hash 054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b, and 1 transactions
+2026-Oct-14 19:55:38.398468 DEBUG   [DatabaseBlockchainCache] push transaction with hash 05f3c41d371c6cb56b268a0cc2144a88cb04228ed5ac244c36d743aa9aa6b734
+2026-Oct-14 19:55:38.398547 DEBUG   [DatabaseBlockchainCache] push transaction with hash 05f3c41d371c6cb56b268a0cc2144a88cb04228ed5ac244c36d743aa9aa6b734 finished
+2026-Oct-14 19:55:38.398627 DEBUG   [DatabaseBlockchainCache] push block 054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b completed
+2026-Oct-14 19:55:38.398644 DEBUG   [Core] Block 7 (054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b) added to main chain.
+2026-Oct-14 19:55:38.398656 DEBUG   [Core] Block: 7 (054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b) successfully added
+2026-Oct-14 19:55:38.398677 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 540
+2026-Oct-14 19:55:38.398687 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 544
+2026-Oct-14 19:55:38.398698 DEBUG   [protocol] [172.30.248.13:43273 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:38.398713 DEBUG   [protocol] [172.30.248.12:43272 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:38.398724 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:38.398740 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:38.398789 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2009
+2026-Oct-14 19:55:38.398868 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2009
+2026-Oct-14 19:55:38.398921 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:38.398959 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:38.399192 DEBUG   [HttpServer] Closing connection from 172.30.248.1:40052 total=1
+2026-Oct-14 19:55:38.401838 INFO    [protocol] New Top Block Detected: 8
+2026-Oct-14 19:55:38.401891 DEBUG   [Core] Request to add block 7 (054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b)
+2026-Oct-14 19:55:38.401925 DEBUG   [Core] Block 7 (054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b) already exists
+2026-Oct-14 19:55:38.402335 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:40056
+2026-Oct-14 19:55:38.402635 DEBUG   [Core] Request to add block 7 (054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b)
+2026-Oct-14 19:55:38.402664 DEBUG   [Core] Block 7 (054963e0c84101e164250855bc13dd6d8669a5e6120b525d7de4e4dcd3cdbd3b) already exists
+2026-Oct-14 19:55:38.402835 DEBUG   [HttpServer] Closing connection from 172.30.248.1:40056 total=1
+2026-Oct-14 19:55:38.700627 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:40068
+2026-Oct-14 19:55:38.704394 DEBUG   [HttpServer] Closing connection from 172.30.248.1:40068 total=1
+2026-Oct-14 19:55:43.804904 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:40076
+2026-Oct-14 19:55:43.805135 DEBUG   [Core] Request to add block 8 (aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021)
+2026-Oct-14 19:55:43.808579 DEBUG   [DatabaseBlockchainCache] push block with hash aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021, and 1 transactions
+2026-Oct-14 19:55:43.808666 DEBUG   [DatabaseBlockchainCache] push transaction with hash 7cb6b988f759360191de39ecd613123444aff63956c510a97a60d788e625a1fc
+2026-Oct-14 19:55:43.808789 DEBUG   [DatabaseBlockchainCache] push transaction with hash 7cb6b988f759360191de39ecd613123444aff63956c510a97a60d788e625a1fc finished
+2026-Oct-14 19:55:43.808903 DEBUG   [DatabaseBlockchainCache] push block aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021 completed
+2026-Oct-14 19:55:43.808931 DEBUG   [Core] Block 8 (aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021) added to main chain.
+2026-Oct-14 19:55:43.808951 DEBUG   [Core] Block: 8 (aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021) successfully added
+2026-Oct-14 19:55:43.808985 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 540
+2026-Oct-14 19:55:43.809003 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 544
+2026-Oct-14 19:55:43.809026 DEBUG   [protocol] [172.30.248.13:43273 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:43.809050 DEBUG   [protocol] [172.30.248.12:43272 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:43.809069 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:43.809089 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:43.809132 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2009
+2026-Oct-14 19:55:43.809201 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2009
+2026-Oct-14 19:55:43.809249 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:43.809285 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:43.809554 DEBUG   [HttpServer] Closing connection from 172.30.248.1:40076 total=1
+2026-Oct-14 19:55:43.812179 INFO    [protocol] New Top Block Detected: 9
+2026-Oct-14 19:55:43.812228 DEBUG   [Core] Request to add block 8 (aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021)
+2026-Oct-14 19:55:43.812271 DEBUG   [Core] Block 8 (aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021) already exists
+2026-Oct-14 19:55:43.812589 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:40078
+2026-Oct-14 19:55:43.812982 DEBUG   [Core] Request to add block 8 (aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021)
+2026-Oct-14 19:55:43.813021 DEBUG   [Core] Block 8 (aac640ccf335a692b6be6746cbbbe2a75c930883749c052aaa391820684c3021) already exists
+2026-Oct-14 19:55:43.813047 DEBUG   [HttpServer] Closing connection from 172.30.248.1:40078 total=1
+2026-Oct-14 19:55:44.162707 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:40086
+2026-Oct-14 19:55:44.167481 DEBUG   [HttpServer] Closing connection from 172.30.248.1:40086 total=1
+2026-Oct-14 19:55:46.169629 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38394
+2026-Oct-14 19:55:46.169858 DEBUG   [Core] Request to add block 9 (725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d)
+2026-Oct-14 19:55:46.173288 DEBUG   [DatabaseBlockchainCache] push block with hash 725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d, and 1 transactions
+2026-Oct-14 19:55:46.173370 DEBUG   [DatabaseBlockchainCache] push transaction with hash a8d0b8988418d14ba97b7a4e5c17b3298ea368b59b886f85e7c7aec1895da27d
+2026-Oct-14 19:55:46.173494 DEBUG   [DatabaseBlockchainCache] push transaction with hash a8d0b8988418d14ba97b7a4e5c17b3298ea368b59b886f85e7c7aec1895da27d finished
+2026-Oct-14 19:55:46.173611 DEBUG   [DatabaseBlockchainCache] push block 725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d completed
+2026-Oct-14 19:55:46.173639 DEBUG   [Core] Block 9 (725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d) added to main chain.
+2026-Oct-14 19:55:46.173660 DEBUG   [Core] Block: 9 (725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d) successfully added
+2026-Oct-14 19:55:46.173706 DEBUG   [protocol] NOTIFY_NEW_BLOCK - MSG_SIZE = 540
+2026-Oct-14 19:55:46.173727 DEBUG   [protocol] NOTIFY_NEW_LITE_BLOCK - MSG_SIZE = 544
+2026-Oct-14 19:55:46.173745 DEBUG   [protocol] [172.30.248.13:43273 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:46.173772 DEBUG   [protocol] [172.30.248.12:43272 OUT] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:46.173791 DEBUG   [protocol] [172.30.248.12:40905 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:46.173811 DEBUG   [protocol] [172.30.248.13:49565 INC] Peer supports lite-blocks... adding peer to lite block list
+2026-Oct-14 19:55:46.173854 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2009
+2026-Oct-14 19:55:46.173923 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2009
+2026-Oct-14 19:55:46.173972 DEBUG   [node_server] [172.30.248.12:40905 INC] msg 2:2009
+2026-Oct-14 19:55:46.174010 DEBUG   [node_server] [172.30.248.13:49565 INC] msg 2:2009
+2026-Oct-14 19:55:46.174291 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38394 total=1
+2026-Oct-14 19:55:46.176784 INFO    [protocol] New Top Block Detected: 10
+2026-Oct-14 19:55:46.176829 DEBUG   [Core] Request to add block 9 (725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d)
+2026-Oct-14 19:55:46.176862 DEBUG   [Core] Block 9 (725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d) already exists
+2026-Oct-14 19:55:46.177045 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38400
+2026-Oct-14 19:55:46.177473 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38400 total=1
+2026-Oct-14 19:55:46.177648 DEBUG   [Core] Request to add block 9 (725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d)
+2026-Oct-14 19:55:46.177683 DEBUG   [Core] Block 9 (725f593c9e5ccadcba029e097aa223a24bf5f0951c6d3009db4683a02538a35d) already exists
+2026-Oct-14 19:55:54.122228 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38416
+2026-Oct-14 19:55:54.122802 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38416 total=1
+2026-Oct-14 19:55:54.122972 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38428
+2026-Oct-14 19:55:54.123523 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38428 total=1
+2026-Oct-14 19:55:54.123678 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38440
+2026-Oct-14 19:55:54.124207 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38440 total=1
+2026-Oct-14 19:55:54.124357 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38450
+2026-Oct-14 19:55:54.124878 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38450 total=1
+2026-Oct-14 19:55:54.125027 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38462
+2026-Oct-14 19:55:54.125543 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38462 total=1
+2026-Oct-14 19:55:54.125695 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38472
+2026-Oct-14 19:55:54.126220 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38472 total=1
+2026-Oct-14 19:55:54.126369 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38486
+2026-Oct-14 19:55:54.126848 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38486 total=1
+2026-Oct-14 19:55:54.126994 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38492
+2026-Oct-14 19:55:54.127507 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38492 total=1
+2026-Oct-14 19:55:54.127654 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38502
+2026-Oct-14 19:55:54.128164 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38502 total=1
+2026-Oct-14 19:55:54.128313 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:38514
+2026-Oct-14 19:55:54.128808 DEBUG   [HttpServer] Closing connection from 172.30.248.1:38514 total=1
+2026-Oct-14 19:55:54.213281 DEBUG   [node_server] [172.30.248.12:40905 INC] Interrupt connection
+2026-Oct-14 19:55:54.213330 DEBUG   [node_server] [172.30.248.12:40905 INC] writeHandler finished
+2026-Oct-14 19:55:54.213395 DEBUG   [node_server] [172.30.248.12:43272 OUT] Interrupt connection
+2026-Oct-14 19:55:54.213421 DEBUG   [node_server] [172.30.248.12:43272 OUT] writeHandler finished
+2026-Oct-14 19:55:54.217506 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2026-Oct-14 19:55:54.217559 INFO    [node_server] Stopping NodeServer and its 2 connections...
+2026-Oct-14 19:55:54.217612 DEBUG   [node_server] acceptLoop() is interrupted
+2026-Oct-14 19:55:54.217637 DEBUG   [node_server] acceptLoop finished
+2026-Oct-14 19:55:54.217663 DEBUG   [node_server] onIdle() is interrupted
+2026-Oct-14 19:55:54.217695 DEBUG   [node_server] onIdle finished
+2026-Oct-14 19:55:54.217727 DEBUG   [node_server] timedSyncLoop() is interrupted
+2026-Oct-14 19:55:54.217749 DEBUG   [node_server] timedSyncLoop finished
+2026-Oct-14 19:55:54.217778 DEBUG   [node_server] timeoutLoop() is interrupted
+2026-Oct-14 19:55:54.217823 DEBUG   [node_server] [172.30.248.13:49565 INC] connectionHandler() inner context is interrupted
+2026-Oct-14 19:55:54.217859 DEBUG   [node_server] [172.30.248.13:49565 INC] Interrupt connection
+2026-Oct-14 19:55:54.217893 DEBUG   [node_server] [172.30.248.13:43273 OUT] connectionHandler() inner context is interrupted
+2026-Oct-14 19:55:54.217918 DEBUG   [node_server] [172.30.248.13:43273 OUT] Interrupt connection
+2026-Oct-14 19:55:54.217949 DEBUG   [node_server] [172.30.248.13:49565 INC] writeHandler finished
+2026-Oct-14 19:55:54.217992 DEBUG   [node_server] [172.30.248.13:43273 OUT] writeHandler finished
+2026-Oct-14 19:55:54.218027 TRACE   [node_server] [172.30.248.13:49565 INC] CLOSE CONNECTION
+2026-Oct-14 19:55:54.218091 TRACE   [node_server] [172.30.248.13:43273 OUT] CLOSE CONNECTION
+2026-Oct-14 19:55:54.218149 INFO    [node_server] NodeServer loop stopped
+2026-Oct-14 19:55:54.218174 INFO    [daemon] p2p net loop stopped
+2026-Oct-14 19:55:54.218195 INFO    [daemon] Stopping core rpc server...
+2026-Oct-14 19:55:54.218242 INFO    [daemon] Deinitializing p2p...
+2026-Oct-14 19:55:54.218407 INFO    [Core] transactionPoolCleaningProcedure has been interrupted
+2026-Oct-14 19:55:54.218663 INFO    [RocksDBWrapper] Closing DB.
+2026-Oct-14 19:55:54.288606 INFO    [daemon] Node stopped.
+2026-Oct-14 19:55:55.102962 INFO    [daemon] 
+
+                                                                            
+oooo                                            .             oooo     
+`888                                          .o8             `888                                                 
+ 888  oooo  oooo d8b oooo    ooo oo.ooooo.  .o888oo  .ooooo.   888  oooo  oooo d8b  .ooooo.  ooo. .oo.    .oooo.   
+ 888 .8P'   `888""8P  `88.  .8'   888' `88b   888   d88' `88b  888 .8P'   `888""8P d88' `88b `888P"Y88b  `P  )88b  
+ 888888.     888       `88..8'    888   888   888   888   888  888888.     888     888   888  888   888   .oP"888  
+ 888 `88b.   888        `888'     888   888   888 . 888   888  888 `88b.   888     888   888  888   888  d8(  888  
+o888o o888o d888b        .8'      888bod8P'   "888" `Y8bod8P' o888o o888o d888b    `Y8bod8P' o888o o888o `Y888""8o 
+                     .o..P'       888                                                                              
+                     `Y8P'       o888o                                                                             
+
+ Kryptokrona v1.2.2
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2026, The Kryptokrona Developers
+
+ Additional Copyright(s) may apply, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/kryptokrona/kryptokrona/blob/master/LICENSE
+
+
+2026-Oct-14 19:55:55.103049 INFO    [daemon] Program Working Directory: "/research"
+2026-Oct-14 19:55:55.103093 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2026-Oct-14 19:55:55.103104 INFO    [daemon] Loaded 0 default checkpoints
+2026-Oct-14 19:55:55.103127 INFO    [RocksDBWrapper] Opening DB in /data/DB
+2026-Oct-14 19:55:55.143483 INFO    [RocksDBWrapper] DB opened in /data/DB
+2026-Oct-14 19:55:55.143587 INFO    [daemon] Initializing core...
+2026-Oct-14 19:55:55.143631 DEBUG   [DatabaseBlockchainCache] Current db scheme version: 2
+2026-Oct-14 19:55:55.143726 DEBUG   [Core] Blockchain storage blocks count: 10, DB blocks count: 10
+2026-Oct-14 19:55:55.143785 DEBUG   [Core] Blockchain storage and root segment are on the same height and chain
+2026-Oct-14 19:55:55.143803 INFO    [daemon] Core initialized OK
+2026-Oct-14 19:55:55.143828 INFO    [daemon] Initializing p2p server...
+2026-Oct-14 19:55:55.143875 INFO    [node_server] Binding on 0.0.0.0:43271
+2026-Oct-14 19:55:55.143906 INFO    [node_server] Net service binded on 0.0.0.0:43271
+2026-Oct-14 19:55:55.143921 INFO    [daemon] p2p server initialized OK
+2026-Oct-14 19:55:55.143934 INFO    [daemon] Starting core rpc server on address 0.0.0.0:43371
+2026-Oct-14 19:55:55.143963 INFO    [daemon] Core rpc server started ok
+2026-Oct-14 19:55:55.143979 INFO    [daemon] Starting p2p net loop...
+2026-Oct-14 19:55:55.143992 INFO    [node_server] Starting node_server
+2026-Oct-14 19:55:55.144031 DEBUG   [node_server] onIdle started
+2026-Oct-14 19:55:55.144048 DEBUG   [node_server] Connecting to 172.30.248.12:43272 (white=1, last_seen: never)...
+2026-Oct-14 19:55:55.144361 INFO    [protocol] 
+2026-Oct-14 19:55:55.144377 INFO    [protocol] ===[ kryptokrona Tip! ]=============================
+2026-Oct-14 19:55:55.144389 INFO    [protocol]  Always exit kryptokronad and xkrwallet with the "exit" command to preserve your chain and wallet data.
+2026-Oct-14 19:55:55.144401 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2026-Oct-14 19:55:55.144411 INFO    [protocol]  Use the "backup" command in xkrwallet to display your keys/seed for restoring a corrupted wallet.
+2026-Oct-14 19:55:55.144422 INFO    [protocol]  If you need more assistance, you can contact us for support at https://kryptokrona.org
+2026-Oct-14 19:55:55.144433 INFO    [protocol] ===================================================
+2026-Oct-14 19:55:55.144433 INFO    [protocol] 
+2026-Oct-14 19:55:55.144452 INFO    [protocol] 
+                                                                            
+oooo                                            .             oooo     
+`888                                          .o8             `888                                                 
+ 888  oooo  oooo d8b oooo    ooo oo.ooooo.  .o888oo  .ooooo.   888  oooo  oooo d8b  .ooooo.  ooo. .oo.    .oooo.   
+ 888 .8P'   `888""8P  `88.  .8'   888' `88b   888   d88' `88b  888 .8P'   `888""8P d88' `88b `888P"Y88b  `P  )88b  
+ 888888.     888       `88..8'    888   888   888   888   888  888888.     888     888   888  888   888   .oP"888  
+ 888 `88b.   888        `888'     888   888   888 . 888   888  888 `88b.   888     888   888  888   888  d8(  888  
+o888o o888o d888b        .8'      888bod8P'   "888" `Y8bod8P' o888o o888o d888b    `Y8bod8P' o888o o888o `Y888""8o 
+                     .o..P'       888                                                                              
+                     `Y8P'       o888o                                                                             
+
+2026-Oct-14 19:55:55.144496 INFO    [protocol] New Top Block Detected: 10
+2026-Oct-14 19:55:55.144507 DEBUG   [node_server] [172.30.248.12:43272 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:55:55.144526 DEBUG   [node_server] Connecting to 172.30.248.13:43273 (white=1, last_seen: never)...
+2026-Oct-14 19:55:55.144601 DEBUG   [node_server] [172.30.248.12:43272 OUT] writeHandler started
+2026-Oct-14 19:55:55.144618 DEBUG   [node_server] [172.30.248.12:43272 OUT] msg 2:2008
+2026-Oct-14 19:55:55.144782 DEBUG   [node_server] [172.30.248.13:43273 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:55:55.144820 DEBUG   [node_server] [172.30.248.13:43273 OUT] writeHandler started
+2026-Oct-14 19:55:55.144834 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2008
+2026-Oct-14 19:55:56.125203 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54670
+2026-Oct-14 19:55:56.126355 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54670 total=1
+2026-Oct-14 19:55:56.126776 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54678
+2026-Oct-14 19:55:56.127683 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54678 total=1
+2026-Oct-14 19:55:56.127951 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54688
+2026-Oct-14 19:55:56.128806 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54688 total=1
+2026-Oct-14 19:55:56.129075 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54702
+2026-Oct-14 19:55:56.130194 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54702 total=1
+2026-Oct-14 19:55:56.130468 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54706
+2026-Oct-14 19:55:56.131322 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54706 total=1
+2026-Oct-14 19:55:56.131596 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54710
+2026-Oct-14 19:55:56.132477 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54710 total=1
+2026-Oct-14 19:55:56.132732 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54720
+2026-Oct-14 19:55:56.133584 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54720 total=1
+2026-Oct-14 19:55:56.133844 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54724
+2026-Oct-14 19:55:56.134714 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54724 total=1
+2026-Oct-14 19:55:56.134958 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54738
+2026-Oct-14 19:55:56.135778 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54738 total=1
+2026-Oct-14 19:55:56.136022 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54746
+2026-Oct-14 19:55:56.136847 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54746 total=1
+2026-Oct-14 19:55:56.224076 DEBUG   [node_server] [172.30.248.13:43273 OUT] Interrupt connection
+2026-Oct-14 19:55:56.224133 DEBUG   [node_server] [172.30.248.13:43273 OUT] writeHandler finished
+2026-Oct-14 19:55:56.814709 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54758
+2026-Oct-14 19:55:56.815313 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54758 total=1
+2026-Oct-14 19:55:56.815478 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54760
+2026-Oct-14 19:55:56.815994 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54760 total=1
+2026-Oct-14 19:55:56.816124 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54768
+2026-Oct-14 19:55:56.816625 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54768 total=1
+2026-Oct-14 19:55:56.816744 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54778
+2026-Oct-14 19:55:56.817207 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54778 total=1
+2026-Oct-14 19:55:56.817327 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54788
+2026-Oct-14 19:55:56.817715 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54788 total=1
+2026-Oct-14 19:55:56.817834 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54798
+2026-Oct-14 19:55:56.818199 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54798 total=1
+2026-Oct-14 19:55:56.818322 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54810
+2026-Oct-14 19:55:56.818757 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54810 total=1
+2026-Oct-14 19:55:56.818873 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54812
+2026-Oct-14 19:55:56.819317 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54812 total=1
+2026-Oct-14 19:55:56.819429 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54824
+2026-Oct-14 19:55:56.819794 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54824 total=1
+2026-Oct-14 19:55:56.819906 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54826
+2026-Oct-14 19:55:56.820271 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54826 total=1
+2026-Oct-14 19:55:56.843033 DEBUG   [node_server] [172.30.248.13:47159 INC] writeHandler started
+2026-Oct-14 19:55:56.843103 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:55:56.843129 DEBUG   [node_server] [172.30.248.13:47159 INC] msg 1:1001
+2026-Oct-14 19:55:56.843167 DEBUG   [node_server] [172.30.248.13:47159 INC] msg 2:2008
+2026-Oct-14 19:55:56.843519 DEBUG   [node_server] [172.30.248.13:47159 INC] msg 2:2007
+2026-Oct-14 19:55:56.843999 DEBUG   [node_server] [172.30.248.13:47159 INC] msg 2:2004
+2026-Oct-14 19:55:57.068114 DEBUG   [node_server] COMMAND_HANDSHAKE
+2026-Oct-14 19:55:57.068174 DEBUG   [node_server] [172.30.248.12:42525 INC] writeHandler started
+2026-Oct-14 19:55:57.068206 DEBUG   [node_server] [172.30.248.12:42525 INC] msg 1:1001
+2026-Oct-14 19:55:57.068269 DEBUG   [node_server] [172.30.248.12:42525 INC] msg 2:2008
+2026-Oct-14 19:55:57.145339 DEBUG   [node_server] Connecting to 172.30.248.13:43273 (white=1, last_seen: never)...
+2026-Oct-14 19:55:57.146082 DEBUG   [node_server] [172.30.248.13:43273 OUT] COMMAND_HANDSHAKE INVOKED OK
+2026-Oct-14 19:55:57.146184 DEBUG   [node_server] [172.30.248.13:43273 OUT] writeHandler started
+2026-Oct-14 19:55:57.146221 DEBUG   [node_server] [172.30.248.13:43273 OUT] msg 2:2008
+2026-Oct-14 19:55:57.827759 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54834
+2026-Oct-14 19:55:57.828576 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54834 total=1
+2026-Oct-14 19:55:57.828810 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54836
+2026-Oct-14 19:55:57.829508 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54836 total=1
+2026-Oct-14 19:55:57.829728 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54844
+2026-Oct-14 19:55:57.830482 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54844 total=1
+2026-Oct-14 19:55:57.830703 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54858
+2026-Oct-14 19:55:57.831522 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54858 total=1
+2026-Oct-14 19:55:57.831733 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54870
+2026-Oct-14 19:55:57.832534 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54870 total=1
+2026-Oct-14 19:55:57.832747 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54884
+2026-Oct-14 19:55:57.833555 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54884 total=1
+2026-Oct-14 19:55:57.833776 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54894
+2026-Oct-14 19:55:57.834627 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54894 total=1
+2026-Oct-14 19:55:57.834839 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54896
+2026-Oct-14 19:55:57.835678 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54896 total=1
+2026-Oct-14 19:55:57.835890 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54904
+2026-Oct-14 19:55:57.836732 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54904 total=1
+2026-Oct-14 19:55:57.836943 DEBUG   [HttpServer] Incoming connection from 172.30.248.1:54920
+2026-Oct-14 19:55:57.837788 DEBUG   [HttpServer] Closing connection from 172.30.248.1:54920 total=1

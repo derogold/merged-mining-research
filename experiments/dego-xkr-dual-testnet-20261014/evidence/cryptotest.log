@@ -1,0 +1,32 @@
+
+
+                                                                            
+oooo                                            .             oooo     
+`888                                          .o8             `888                                                 
+ 888  oooo  oooo d8b oooo    ooo oo.ooooo.  .o888oo  .ooooo.   888  oooo  oooo d8b  .ooooo.  ooo. .oo.    .oooo.   
+ 888 .8P'   `888""8P  `88.  .8'   888' `88b   888   d88' `88b  888 .8P'   `888""8P d88' `88b `888P"Y88b  `P  )88b  
+ 888888.     888       `88..8'    888   888   888   888   888  888888.     888     888   888  888   888   .oP"888  
+ 888 `88b.   888        `888'     888   888   888 . 888   888  888 `88b.   888     888   888  888   888  d8(  888  
+o888o o888o d888b        .8'      888bod8P'   "888" `Y8bod8P' o888o o888o d888b    `Y8bod8P' o888o o888o `Y888""8o 
+                     .o..P'       888                                                                              
+                     `Y8P'       o888o                                                                             
+
+ Kryptokrona v1.2.2
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2026, The Kryptokrona Developers
+
+ Additional Copyright(s) may apply, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/kryptokrona/kryptokrona/blob/master/LICENSE
+
+
+Input: 0100fb8e8ac805899323371bb790db19218afd8db8e3755d8b90f39b3d5506a9abce4fa912244500000000ee8146d49fa93ee724deb57d12cbc6c6f3b924d946127c7a97418f9348828f0f02
+
+cn_slow_hash_v0: 1b606a3f4a07d6489a1bcd07697bd16696b61c8ae982f61a90160f4e52828a7f
+cn_slow_hash_v1: c9fae8425d8688dc236bcdbc42fdb42d376c6ec190501aa84b04a4b4cf1ee122
+cn_slow_hash_v2: 871fcd6823f6a879bb3f33951c8e8e891d4043880b02dfa1bb3be498b50e7578
+
+cn_lite_slow_hash_v0: 28a22bad3f93d1408fca472eb5ad1cbe75f21d053c8ce5b3af105a57713e21dd
+cn_lite_slow_hash_v1: 81db15880da42189f0270e559aa166f663703d6202d42f20e55c471911de75bc
+crypto_test: /research/source/src/crypto_test/main.cpp:167: void testHashFunction(T, std::string, std::string, int64_t, Args&& ...) [with T = void (*)(const void*, long unsigned int, crypto::Hash&); Args = {}; std::string = std::__cxx11::basic_string<char>; int64_t = long int]: Assertion `CompareHashes(hash, expectedOutput)' failed.

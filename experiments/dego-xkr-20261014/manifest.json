@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-14",
+  "platform": "Linux x86_64, GCC 12.5.0, hardware AES",
+  "sources": {
+    "dego": "c502139f6ec02928c20dd2c8683c40daf97f352f",
+    "xkr": "cf5a63e16b64200adb5445ea97d4186a0fdcb88a"
+  },
+  "files": {
+    "run.log": "383de9c0c612cc172100e2d29bdbfe3dd581ce1a3c354d8c82865abf7f8f01f6",
+    "results.json": "400f0bcb78db3b334ddd7ff9b2e55b677495639acb6eec301648ef977cd15a88",
+    "README.md": "fe5762640d902e7db01fe4d40370b43a7eec94482f099488c3990e6813034314",
+    "REPRODUCE.md": "5fbc084e8b299d490bbbd8a7e45f5d92f83488bc486aa8c8f9c449521a76f01a",
+    "probe.py": "077093fe3d669563c12f252efc309aa571778263c3dbd1da1c64028932028427"
+  }
+}

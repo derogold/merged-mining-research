@@ -1,0 +1,47 @@
+[
+  {
+    "major_version": 7,
+    "minor_version": 0,
+    "timestamp": 1792006972,
+    "prev_hash": "e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df",
+    "nonce": 3587236392,
+    "orphan_status": false,
+    "height": 6,
+    "depth": 0,
+    "hash": "ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b",
+    "difficulty": 100,
+    "reward": 1192092184,
+    "num_txes": 1,
+    "block_size": 512
+  },
+  {
+    "major_version": 7,
+    "minor_version": 0,
+    "timestamp": 1792006972,
+    "prev_hash": "e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df",
+    "nonce": 3587236392,
+    "orphan_status": false,
+    "height": 6,
+    "depth": 0,
+    "hash": "ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b",
+    "difficulty": 100,
+    "reward": 1192092184,
+    "num_txes": 1,
+    "block_size": 512
+  },
+  {
+    "major_version": 7,
+    "minor_version": 0,
+    "timestamp": 1792006972,
+    "prev_hash": "e6bac78fe71906a767c5c356520452af234680e24af79858a56d8a31ecdd59df",
+    "nonce": 3587236392,
+    "orphan_status": false,
+    "height": 6,
+    "depth": 0,
+    "hash": "ba7b3f53501c52b4ee0e7c713bdc23aa1c5217583e2ddedfdcb0d4d27f13506b",
+    "difficulty": 100,
+    "reward": 1192092184,
+    "num_txes": 1,
+    "block_size": 512
+  }
+]

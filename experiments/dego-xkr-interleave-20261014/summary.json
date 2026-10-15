@@ -1,0 +1,13 @@
+{
+  "selected_chunk": 1024,
+  "sequential_vs_original_cpu_reduction_pct": 31.485731181107866,
+  "interleave_vs_sequential_cpu_increase_pct": 5.584808500633609,
+  "sequential_wins_vs_original": 12,
+  "interleave_wins_vs_sequential": 0,
+  "blocks": 12,
+  "cpu_seconds": {
+    "original": 34.688836423000026,
+    "0": 23.766802637000005,
+    "1024": 25.094133050999993
+  }
+}

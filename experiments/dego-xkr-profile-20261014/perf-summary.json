@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "cycles:u": 27104104161.0,
+    "instructions:u": 36843543571.5,
+    "cache-references:u": 929554622.0,
+    "cache-misses:u": 5160554.5
+  },
+  "direct": {
+    "cycles:u": 27900242767.5,
+    "instructions:u": 27822121411.5,
+    "cache-references:u": 990481021.0,
+    "cache-misses:u": 6842612.0
+  },
+  "change_pct": {
+    "cycles:u": 2.937335990781653,
+    "instructions:u": -24.485761372254224,
+    "cache-references:u": 6.554364591175155,
+    "cache-misses:u": 32.594510919320776
+  }
+}

@@ -1,0 +1,6 @@
+# started on Wed Oct 14 20:40:09 2026
+
+27110444646,,cycles:u,5748408807,100.00,,
+36843573779,,instructions:u,5748408807,100.00,1.36,insn per cycle
+926851621,,cache-references:u,5748408807,100.00,,
+5441557,,cache-misses:u,5748408807,100.00,0.587,of all cache refs

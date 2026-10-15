@@ -1,0 +1,7 @@
+/tmp/wrkz-research-20261011/src/crypto/slow-hash-portable.c:14:9: warning: info: Using slow-hash-portable.c [-W#pragma-messages]
+   14 | #pragma message("info: Using slow-hash-portable.c")
+      |         ^
+/tmp/wrkz-research-20261011/src/crypto/slow-hash-portable.c:145:9: warning: warning: ACTIVATING FORCE_USE_HEAP IN slow-hash-portable.c [-W#pragma-messages]
+  145 | #pragma message("warning: ACTIVATING FORCE_USE_HEAP IN slow-hash-portable.c")
+      |         ^
+2 warnings generated.

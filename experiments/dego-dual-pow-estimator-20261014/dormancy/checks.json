@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "dormant block credited at old target",
+    "difficulty retained and history reset",
+    "first9intervals retain difficulty",
+    "estimator resumes on10thinterval",
+    "29blocks do not trigger reset",
+    "30blocks trigger reset",
+    "deterministic replay"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "adapted20block4xrescue",
+    "adapted22block16xrescue",
+    "insufficienthistorybootstrapbeforegap",
+    "creditactualpreupdatecompactwork",
+    "targetspositiveandbounded",
+    "seedreplay",
+    "futuretimestampreject",
+    "runcounts"
+  ]
+}

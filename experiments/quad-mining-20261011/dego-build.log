@@ -1,0 +1,7 @@
+/tmp/dego-core-research-20261011/src/crypto/slow-hash-arm.c:12:9: warning: info: Using slow-hash-arm.c [-W#pragma-messages]
+   12 | #pragma message("info: Using slow-hash-arm.c")
+      |         ^
+/tmp/dego-core-research-20261011/src/crypto/slow-hash-arm.c:275:9: warning: warning: ACTIVATING FORCE_USE_HEAP IN aarch64 + crypto in slow-hash-arm.c [-W#pragma-messages]
+  275 | #pragma message("warning: ACTIVATING FORCE_USE_HEAP IN aarch64 + crypto in slow-hash-arm.c")
+      |         ^
+2 warnings generated.

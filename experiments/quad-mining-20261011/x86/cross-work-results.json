@@ -1,0 +1,70 @@
+[
+  {
+    "coin": "dego",
+    "type": "published WRKZ CN_UPX known answer",
+    "pass": true,
+    "hash": "38591572f820d4de253cf55a2192b622b0289e2e5c3616e61e787a8fe462ec5a"
+  },
+  {
+    "coin": "wrkz",
+    "type": "published WRKZ CN_UPX known answer",
+    "pass": true,
+    "hash": "38591572f820d4de253cf55a2192b622b0289e2e5c3616e61e787a8fe462ec5a"
+  },
+  {
+    "coin": "upx",
+    "type": "published WRKZ CN_UPX known answer",
+    "pass": true,
+    "hash": "38591572f820d4de253cf55a2192b622b0289e2e5c3616e61e787a8fe462ec5a"
+  },
+  {
+    "coin": "xfg",
+    "type": "published WRKZ CN_UPX known answer",
+    "pass": true,
+    "hash": "38591572f820d4de253cf55a2192b622b0289e2e5c3616e61e787a8fe462ec5a"
+  },
+  {
+    "type": "modeled carrier work",
+    "transactions": 1,
+    "pass": true,
+    "hashes": {
+      "dego": "68fe4f3edb6e78a25369f38db66a62cfce54256e3c4c201c78803de6a3a2857e",
+      "wrkz": "68fe4f3edb6e78a25369f38db66a62cfce54256e3c4c201c78803de6a3a2857e",
+      "upx": "68fe4f3edb6e78a25369f38db66a62cfce54256e3c4c201c78803de6a3a2857e",
+      "xfg": "68fe4f3edb6e78a25369f38db66a62cfce54256e3c4c201c78803de6a3a2857e"
+    }
+  },
+  {
+    "type": "modeled carrier work",
+    "transactions": 2,
+    "pass": true,
+    "hashes": {
+      "dego": "bc3904519e8fa293e004905934a91db10b498603657ba8e1d7ea6d7ffdf8aa4c",
+      "wrkz": "bc3904519e8fa293e004905934a91db10b498603657ba8e1d7ea6d7ffdf8aa4c",
+      "upx": "bc3904519e8fa293e004905934a91db10b498603657ba8e1d7ea6d7ffdf8aa4c",
+      "xfg": "bc3904519e8fa293e004905934a91db10b498603657ba8e1d7ea6d7ffdf8aa4c"
+    }
+  },
+  {
+    "type": "modeled carrier work",
+    "transactions": 3,
+    "pass": true,
+    "hashes": {
+      "dego": "f0e4df55dca74833560631a431fcbb088903331c9fb5e398a94693abad4361ea",
+      "wrkz": "f0e4df55dca74833560631a431fcbb088903331c9fb5e398a94693abad4361ea",
+      "upx": "f0e4df55dca74833560631a431fcbb088903331c9fb5e398a94693abad4361ea",
+      "xfg": "f0e4df55dca74833560631a431fcbb088903331c9fb5e398a94693abad4361ea"
+    }
+  },
+  {
+    "type": "modeled carrier work",
+    "transactions": 7,
+    "pass": true,
+    "hashes": {
+      "dego": "67e194997149f7eddff27053a50237a010bb236c61d7e4e51e43b004e26787a1",
+      "wrkz": "67e194997149f7eddff27053a50237a010bb236c61d7e4e51e43b004e26787a1",
+      "upx": "67e194997149f7eddff27053a50237a010bb236c61d7e4e51e43b004e26787a1",
+      "xfg": "67e194997149f7eddff27053a50237a010bb236c61d7e4e51e43b004e26787a1"
+    }
+  }
+]

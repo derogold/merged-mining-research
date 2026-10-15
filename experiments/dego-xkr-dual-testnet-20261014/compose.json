@@ -1,0 +1,138 @@
+{
+  "name": "xkr-aux-testnet",
+  "services": {
+    "node1": {
+      "image": "xkr-research-build:20261014",
+      "container_name": "xkr-aux-testnet-node1",
+      "command": [
+        "/research/build/src/kryptokronad",
+        "--no-console",
+        "--allow-local-ip",
+        "--data-dir",
+        "/data",
+        "--log-file",
+        "/data/daemon.log",
+        "--log-level",
+        "3",
+        "--p2p-bind-ip",
+        "0.0.0.0",
+        "--p2p-bind-port",
+        "43271",
+        "--rpc-bind-ip",
+        "0.0.0.0",
+        "--rpc-bind-port",
+        "43371",
+        "--add-exclusive-node",
+        "172.30.248.12:43272",
+        "--add-exclusive-node",
+        "172.30.248.13:43273"
+      ],
+      "volumes": [
+        ".:/research:ro",
+        "./data/node1:/data"
+      ],
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.248.11"
+        }
+      },
+      "cpus": 1,
+      "mem_limit": "2g",
+      "restart": "no",
+      "stop_grace_period": "30s"
+    },
+    "node2": {
+      "image": "xkr-research-build:20261014",
+      "container_name": "xkr-aux-testnet-node2",
+      "command": [
+        "/research/build/src/kryptokronad",
+        "--no-console",
+        "--allow-local-ip",
+        "--data-dir",
+        "/data",
+        "--log-file",
+        "/data/daemon.log",
+        "--log-level",
+        "3",
+        "--p2p-bind-ip",
+        "0.0.0.0",
+        "--p2p-bind-port",
+        "43272",
+        "--rpc-bind-ip",
+        "0.0.0.0",
+        "--rpc-bind-port",
+        "43372",
+        "--add-exclusive-node",
+        "172.30.248.11:43271",
+        "--add-exclusive-node",
+        "172.30.248.13:43273"
+      ],
+      "volumes": [
+        ".:/research:ro",
+        "./data/node2:/data"
+      ],
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.248.12"
+        }
+      },
+      "cpus": 1,
+      "mem_limit": "2g",
+      "restart": "no",
+      "stop_grace_period": "30s"
+    },
+    "node3": {
+      "image": "xkr-research-build:20261014",
+      "container_name": "xkr-aux-testnet-node3",
+      "command": [
+        "/research/build/src/kryptokronad",
+        "--no-console",
+        "--allow-local-ip",
+        "--data-dir",
+        "/data",
+        "--log-file",
+        "/data/daemon.log",
+        "--log-level",
+        "3",
+        "--p2p-bind-ip",
+        "0.0.0.0",
+        "--p2p-bind-port",
+        "43273",
+        "--rpc-bind-ip",
+        "0.0.0.0",
+        "--rpc-bind-port",
+        "43373",
+        "--add-exclusive-node",
+        "172.30.248.11:43271",
+        "--add-exclusive-node",
+        "172.30.248.12:43272"
+      ],
+      "volumes": [
+        ".:/research:ro",
+        "./data/node3:/data"
+      ],
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.248.13"
+        }
+      },
+      "cpus": 1,
+      "mem_limit": "2g",
+      "restart": "no",
+      "stop_grace_period": "30s"
+    }
+  },
+  "networks": {
+    "lab": {
+      "name": "xkr-aux-testnet-lab",
+      "internal": true,
+      "ipam": {
+        "config": [
+          {
+            "subnet": "172.30.248.0/24"
+          }
+        ]
+      }
+    }
+  }
+}

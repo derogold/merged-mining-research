@@ -1,0 +1,7 @@
+/tmp/uplexa-research-20261011/src/crypto/aesb.c:38:9: warning: 'ALIGN' macro redefined [-Wmacro-redefined]
+   38 | #define ALIGN __attribute__ ((aligned(16)))
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/arm/param.h:61:9: note: previous definition is here
+   61 | #define ALIGN(p)        __DARWIN_ALIGN(p)
+      |         ^
+1 warning generated.

@@ -1,0 +1,1150 @@
+{
+  "info": {
+    "dego": {
+      "genesis": "7fb97df81221dd1366051b2d0bc7f49c66c22ac4431d879c895b06d66ef66f4c",
+      "aux_leaf": "51339d8e708ed5f37ff577e0f9deae04665868627c2f826a8c45178a0e23b85a"
+    },
+    "xkr": {
+      "genesis": "7fb97df81221dd1366051b2d0bc7f49c66c22ac4431d879c895b06d66ef66f4c",
+      "aux_leaf": "c29b3fdb89cad5477d2ab5c31468722a641b40ed52c4b51719284959f4f75878"
+    }
+  },
+  "same_genesis": true,
+  "rows": [
+    {
+      "depth": 1,
+      "root_owner": "dego",
+      "root": "313ec8ce2986a2b51a897a8a6f32524ac56015d0cb654d02dcbe78b774f5c496",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000000000000cfc3d5e21186fb89558dce082a5cd8c69bb7782cc2bfbe48b8d5a599873d499601",
+          "pow": "2fdb64fbbd0117ed72982fb76b72de3391b330ca67f78e034cfca4125dd157f1",
+          "parent_bytes": "118",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000000000000cfc3d5e21186fb89558dce082a5cd8c69bb7782cc2bfbe48b8d5a599873d499601",
+          "pow": "8d1268c4aab2be44b3373e50dc18fb3207e620b1b474ad47719597e45f921d88",
+          "parent_bytes": "118",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 1,
+      "root_owner": "dego",
+      "root": "313ec8ce2986a2b51a897a8a6f32524ac56015d0cb654d02dcbe78b774f5c496",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000001000000cfc3d5e21186fb89558dce082a5cd8c69bb7782cc2bfbe48b8d5a599873d499601",
+          "pow": "5df69de863721c004256560cc6d245642ad8e1a0ef46bf97e95d164166c5262f",
+          "parent_bytes": "118",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000001000000cfc3d5e21186fb89558dce082a5cd8c69bb7782cc2bfbe48b8d5a599873d499601",
+          "pow": "601737985dd43a7d2861a45491c3fa485d7f84c2d2428421cfda150a98a1b273",
+          "parent_bytes": "118",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 1,
+      "root_owner": "dego",
+      "root": "313ec8ce2986a2b51a897a8a6f32524ac56015d0cb654d02dcbe78b774f5c496",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000039300000cfc3d5e21186fb89558dce082a5cd8c69bb7782cc2bfbe48b8d5a599873d499601",
+          "pow": "508891cd0211db98e4f4f9512b43f7d9f044e1594b0660365c1ddc04315c5fb0",
+          "parent_bytes": "118",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000039300000cfc3d5e21186fb89558dce082a5cd8c69bb7782cc2bfbe48b8d5a599873d499601",
+          "pow": "0b52c7c32602fec5d113e9d3ed97b8af0c4949ec4febad5a47053edee8fa9907",
+          "parent_bytes": "118",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 1,
+      "root_owner": "xkr",
+      "root": "cba322a789a47cd63e361ca345ed580efb065f4de63b5a2ac60a9cc369164ca6",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000000000000d730d857a6006a88a0ddaadd704a8627c25c34cf18f9a18a4eea1c0038c67f3601",
+          "pow": "f2bb311e9e5820e35b7a508fed42ce509c1afedecc70db5641dcfffc9990f4d0",
+          "parent_bytes": "118",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000000000000d730d857a6006a88a0ddaadd704a8627c25c34cf18f9a18a4eea1c0038c67f3601",
+          "pow": "6489e5a05920f89b58d257bc57e1214521f6e3821339b1cba92cf7b23045b2c0",
+          "parent_bytes": "118",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 1,
+      "root_owner": "xkr",
+      "root": "cba322a789a47cd63e361ca345ed580efb065f4de63b5a2ac60a9cc369164ca6",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000001000000d730d857a6006a88a0ddaadd704a8627c25c34cf18f9a18a4eea1c0038c67f3601",
+          "pow": "922a0cf92a84ed4f812905d33b127d9a8519eda633c4d44b717843671ff9c875",
+          "parent_bytes": "118",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000001000000d730d857a6006a88a0ddaadd704a8627c25c34cf18f9a18a4eea1c0038c67f3601",
+          "pow": "80ccde941e0d5a970e77d853f6839e06c2bbf049de0eb15d24b35b35bbe62b16",
+          "parent_bytes": "118",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 1,
+      "root_owner": "xkr",
+      "root": "cba322a789a47cd63e361ca345ed580efb065f4de63b5a2ac60a9cc369164ca6",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000039300000d730d857a6006a88a0ddaadd704a8627c25c34cf18f9a18a4eea1c0038c67f3601",
+          "pow": "91d1aaa150f355a4493749b023b14e0f860c4c2e05aeb92dc52fe98c91920521",
+          "parent_bytes": "118",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000039300000d730d857a6006a88a0ddaadd704a8627c25c34cf18f9a18a4eea1c0038c67f3601",
+          "pow": "13b090c53754e61168f89f743f4c651667e0117b32422752fcbffab00d7cf8db",
+          "parent_bytes": "118",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 2,
+      "root_owner": "dego",
+      "root": "71f6397f924dbba14015e630334dd0871576d77efc29c4323347001a54825b46",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da0600000000000000000000000000000000000000000000000000000000000000000000000033c3392066be25a00463c2a4dcd5a121592fe76cbb1119ca300ecbc1fa18356801",
+          "pow": "e08a8ccf66caf59868f0a7444e9dc9b3334473855fb3005412bcb0399d4f6030",
+          "parent_bytes": "150",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da0600000000000000000000000000000000000000000000000000000000000000000000000033c3392066be25a00463c2a4dcd5a121592fe76cbb1119ca300ecbc1fa18356801",
+          "pow": "399654863e401d4972d3b92729bd99c895f8420110108c7de8345bd0ae9580a4",
+          "parent_bytes": "150",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 2,
+      "root_owner": "dego",
+      "root": "71f6397f924dbba14015e630334dd0871576d77efc29c4323347001a54825b46",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da0600000000000000000000000000000000000000000000000000000000000000000100000033c3392066be25a00463c2a4dcd5a121592fe76cbb1119ca300ecbc1fa18356801",
+          "pow": "17fa0a395379cc865dc44e64ff0c5b9dcc7df251bef20d62b130f9aaa9ae2e82",
+          "parent_bytes": "150",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da0600000000000000000000000000000000000000000000000000000000000000000100000033c3392066be25a00463c2a4dcd5a121592fe76cbb1119ca300ecbc1fa18356801",
+          "pow": "02c03de72699eac3a957387e373b99f884c725987d368ac562b10e6e11bf10da",
+          "parent_bytes": "150",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 2,
+      "root_owner": "dego",
+      "root": "71f6397f924dbba14015e630334dd0871576d77efc29c4323347001a54825b46",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da0600000000000000000000000000000000000000000000000000000000000000003930000033c3392066be25a00463c2a4dcd5a121592fe76cbb1119ca300ecbc1fa18356801",
+          "pow": "e7c89ebf056517cfb927f4958706d1f2a672b0904eeb7fb34d1aeaf0dbc1c4d8",
+          "parent_bytes": "150",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da0600000000000000000000000000000000000000000000000000000000000000003930000033c3392066be25a00463c2a4dcd5a121592fe76cbb1119ca300ecbc1fa18356801",
+          "pow": "ba71e4aab64ae11fc166c1d56431d0606b930fbd07d73349c7dd16fa02156bcb",
+          "parent_bytes": "150",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 2,
+      "root_owner": "xkr",
+      "root": "ffc67877ca725f1d93bc4adfda8a0d16575c1d5b95f714ad2e38174114211c89",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000004608e7501aad0e02b36cda590a867bd21aab199ce6151b9e21f1f60ec24870b601",
+          "pow": "454f833fc80de3d7ac90074411520ba1388d82b473fafe83dd1a11023172e984",
+          "parent_bytes": "150",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000004608e7501aad0e02b36cda590a867bd21aab199ce6151b9e21f1f60ec24870b601",
+          "pow": "3c75bc74fe811cf6e59a1d49c36db197e18a7a199ec84820106624c058dbdbbe",
+          "parent_bytes": "150",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 2,
+      "root_owner": "xkr",
+      "root": "ffc67877ca725f1d93bc4adfda8a0d16575c1d5b95f714ad2e38174114211c89",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000004608e7501aad0e02b36cda590a867bd21aab199ce6151b9e21f1f60ec24870b601",
+          "pow": "bff836f7399e728a86b0ea2e8f1610701be5dd813245f4e8c642405342323ec3",
+          "parent_bytes": "150",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000004608e7501aad0e02b36cda590a867bd21aab199ce6151b9e21f1f60ec24870b601",
+          "pow": "6429402fd5c9e3440d85222b45dd9acccc6f67aecf2f0bbfa06701f7845bf434",
+          "parent_bytes": "150",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 2,
+      "root_owner": "xkr",
+      "root": "ffc67877ca725f1d93bc4adfda8a0d16575c1d5b95f714ad2e38174114211c89",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000004608e7501aad0e02b36cda590a867bd21aab199ce6151b9e21f1f60ec24870b601",
+          "pow": "7380bde6e855e9154ad6bf5eb265ee578f9a39390cdc9bc88c1dbb4f14cf63b1",
+          "parent_bytes": "150",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000004608e7501aad0e02b36cda590a867bd21aab199ce6151b9e21f1f60ec24870b601",
+          "pow": "a6b03f135e83806c83ec33d6ce1d86b20f94b1c685ba4ed17647f710484ffe34",
+          "parent_bytes": "150",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 8,
+      "root_owner": "dego",
+      "root": "ed66bf3e9e307469da21abea3436cceaf5e6685fc3fe09f713b88ef8e3b42e47",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000007f49e9e7b5a8bebdf630df85408851c4381c655cbe33f0728b80ded4729b953401",
+          "pow": "45f6592f4c4adf8f634f4eef13adf59d3185fd1a5a9712a2433cee95b8a316cc",
+          "parent_bytes": "342",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000007f49e9e7b5a8bebdf630df85408851c4381c655cbe33f0728b80ded4729b953401",
+          "pow": "e2b8bd3326abff784c2fdf107b46e4e9eddff0263942d3e762029b8af77f8d7a",
+          "parent_bytes": "342",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 8,
+      "root_owner": "dego",
+      "root": "ed66bf3e9e307469da21abea3436cceaf5e6685fc3fe09f713b88ef8e3b42e47",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000007f49e9e7b5a8bebdf630df85408851c4381c655cbe33f0728b80ded4729b953401",
+          "pow": "e4dba5fd67a653d0404fcb92d92d0c6f53c19f4a921a31e2d585df25b3332fa7",
+          "parent_bytes": "342",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000007f49e9e7b5a8bebdf630df85408851c4381c655cbe33f0728b80ded4729b953401",
+          "pow": "3968dd5c13da27e4b0e4aa0bcaec86a19f08fb89c05f66f7278b3ff9256b5f40",
+          "parent_bytes": "342",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 8,
+      "root_owner": "dego",
+      "root": "ed66bf3e9e307469da21abea3436cceaf5e6685fc3fe09f713b88ef8e3b42e47",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000007f49e9e7b5a8bebdf630df85408851c4381c655cbe33f0728b80ded4729b953401",
+          "pow": "1db763b0ce2a25b755898678da1221620322f9a64074a2c0b9b8703dc9b444e5",
+          "parent_bytes": "342",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000007f49e9e7b5a8bebdf630df85408851c4381c655cbe33f0728b80ded4729b953401",
+          "pow": "987da48f9b67709d131fa1e44b7db4343eb4ef2b1f5dcf227f8daefaa37d457a",
+          "parent_bytes": "342",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 8,
+      "root_owner": "xkr",
+      "root": "cb0e88d561bba42349c4829a150cc690036ca3484c8a608c86e213cb78000931",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000000ffd7c18c242a31f79f6ac77ce891bb349627d3a5dcac453882733599bec996a01",
+          "pow": "1687a20a366ffeeffde68d90e762e555dfad7711a9eb9639ef00ee18f9c8340f",
+          "parent_bytes": "342",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000000ffd7c18c242a31f79f6ac77ce891bb349627d3a5dcac453882733599bec996a01",
+          "pow": "1306570a6abed44374ae6ba9d7aab7554d7e337e6eb8728acfa72b975f753d82",
+          "parent_bytes": "342",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 8,
+      "root_owner": "xkr",
+      "root": "cb0e88d561bba42349c4829a150cc690036ca3484c8a608c86e213cb78000931",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000000ffd7c18c242a31f79f6ac77ce891bb349627d3a5dcac453882733599bec996a01",
+          "pow": "0998679fa5a8bdc51240da1af16bb672c9fe4691221a09fdde82299cff1ea42a",
+          "parent_bytes": "342",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000000ffd7c18c242a31f79f6ac77ce891bb349627d3a5dcac453882733599bec996a01",
+          "pow": "0fa79b516d180f5b370e0e027cd38e7feec744fe9f3bb3e1fc6ac070c054cf6c",
+          "parent_bytes": "342",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 8,
+      "root_owner": "xkr",
+      "root": "cb0e88d561bba42349c4829a150cc690036ca3484c8a608c86e213cb78000931",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000000ffd7c18c242a31f79f6ac77ce891bb349627d3a5dcac453882733599bec996a01",
+          "pow": "20a4d965e150748a03f60c29f23505ee96cc8f950d566ce8735c70269532098c",
+          "parent_bytes": "342",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000000ffd7c18c242a31f79f6ac77ce891bb349627d3a5dcac453882733599bec996a01",
+          "pow": "6baba2cfc206ff46ddd91e0281ba9af700c293c85e13b9ecbc3a19d85073e354",
+          "parent_bytes": "342",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 16,
+      "root_owner": "dego",
+      "root": "9552add2d7c890876771f751e38f93bcea01eeddd5ab4604abf6501c9aa1acd5",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000000000000c3bbd1f9ecfdb65c1dbe2cd7fc252b4c7d323cbebaa79941547eab58c54b5a2901",
+          "pow": "ccb5427e6cb902082f5f9f44b53ebad18c854c86727133c614b6f1ecc6a63477",
+          "parent_bytes": "598",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000000000000c3bbd1f9ecfdb65c1dbe2cd7fc252b4c7d323cbebaa79941547eab58c54b5a2901",
+          "pow": "fc4504c8b7c6c8d51b327a2e2fc56acc1205cb99a61c9766eef448ed7aa12f15",
+          "parent_bytes": "598",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 16,
+      "root_owner": "dego",
+      "root": "9552add2d7c890876771f751e38f93bcea01eeddd5ab4604abf6501c9aa1acd5",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000001000000c3bbd1f9ecfdb65c1dbe2cd7fc252b4c7d323cbebaa79941547eab58c54b5a2901",
+          "pow": "70d0f61119d230b1ca0bf5a92635c50f09f348c0067dade6791ca44825562296",
+          "parent_bytes": "598",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000001000000c3bbd1f9ecfdb65c1dbe2cd7fc252b4c7d323cbebaa79941547eab58c54b5a2901",
+          "pow": "896f87062ef194eec84daaa53f6e89141b203b4c800a2e6435c93118ac7a92d2",
+          "parent_bytes": "598",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 16,
+      "root_owner": "dego",
+      "root": "9552add2d7c890876771f751e38f93bcea01eeddd5ab4604abf6501c9aa1acd5",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000039300000c3bbd1f9ecfdb65c1dbe2cd7fc252b4c7d323cbebaa79941547eab58c54b5a2901",
+          "pow": "4630472cd1bc8707f3c901b3610dfabfe8ba36997e339958ec0c6137c585d035",
+          "parent_bytes": "598",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da06000000000000000000000000000000000000000000000000000000000000000039300000c3bbd1f9ecfdb65c1dbe2cd7fc252b4c7d323cbebaa79941547eab58c54b5a2901",
+          "pow": "5d0bfd7709b760ea2eba034da617e6fd03b5d2a8ee5cb19937f34da6550b0a60",
+          "parent_bytes": "598",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 16,
+      "root_owner": "xkr",
+      "root": "2ce9210bae57f5e95fc40d4854d35995b32047555c09430ae0a1a5f19e49c703",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000003223138427183cb8c4d27b924a8e481a131e8071116e48bb7536a8fb5ba8528401",
+          "pow": "86cd5cfb576519d8f9c828d75d69c76b462331ce8fcafaf8fdfa817912908e49",
+          "parent_bytes": "598",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000003223138427183cb8c4d27b924a8e481a131e8071116e48bb7536a8fb5ba8528401",
+          "pow": "0c56e945458c61ff1b95d364b8ac031bac77eedfed1cec160f43a6edfb815c80",
+          "parent_bytes": "598",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 16,
+      "root_owner": "xkr",
+      "root": "2ce9210bae57f5e95fc40d4854d35995b32047555c09430ae0a1a5f19e49c703",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000003223138427183cb8c4d27b924a8e481a131e8071116e48bb7536a8fb5ba8528401",
+          "pow": "319d839503329a31992d974bcac3400d6ce2faccfa82e0a2cf436e8c8a073fd9",
+          "parent_bytes": "598",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000003223138427183cb8c4d27b924a8e481a131e8071116e48bb7536a8fb5ba8528401",
+          "pow": "99f45c404cf093f710f6088fb759de797db4e30393ce48c02bc34dca470b79c2",
+          "parent_bytes": "598",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 16,
+      "root_owner": "xkr",
+      "root": "2ce9210bae57f5e95fc40d4854d35995b32047555c09430ae0a1a5f19e49c703",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000003223138427183cb8c4d27b924a8e481a131e8071116e48bb7536a8fb5ba8528401",
+          "pow": "5cd4fe95b829c4b323efaccd9d6a798d3631b6a392f52de8f251ec2b330c4112",
+          "parent_bytes": "598",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000003223138427183cb8c4d27b924a8e481a131e8071116e48bb7536a8fb5ba8528401",
+          "pow": "a8051a3683400b6f679d607101afda4e0161a92da30c78fca21c49477d456d30",
+          "parent_bytes": "598",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 32,
+      "root_owner": "dego",
+      "root": "e3fa1d5965658382eac1e5d42844c65612ea8ba4f67176f53b14edb6f49531fb",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968",
+        "970721ec1ec134f03c11bd5c2590bcf9dc66552ac2932ddcefb7a03bbdbd12d8",
+        "b21eb513698f2fab0944d6c40f6202fa3cbc13d1dfc85ce11a5bbfde74002658",
+        "1ad266c49d7eeb8b8e6051607006fcd2e3153ff38acae57ac2b657da4d9056d5",
+        "9ab52302ed25e7481e75be219aec76fb99f3811a2d445d734624155b916fc291",
+        "583c69e132009781e138daf363a53ebec8af440363de911eec2d18ad31956265",
+        "c70f27f79810f1b82f1d37b0bc25b9688389a730e0cc474af000e565a3c595a2",
+        "ada93cec9fca3658b41192fafa6e478da59c3960234989d004cb6ae513109b3f",
+        "13e9b9b6a03ddb7d9eecabe401829600246c009cd260de0ad97cf122ecfe8d1c",
+        "b9bf5ef98313471388976336bb6f2e85d31aecee428303df08a02e9a89964643",
+        "14d8d12450fce2c83512e75b4b551dc442ca36e7ebada0c362a82d90c4f82e28",
+        "cefa43005dd0a5aebed668dcf259a846fdba941428b0b48d60e1616eb0147ecb",
+        "308275fe3d3960755953c261a359d1081d2fd54c8ad248a0c18c37f646eec176",
+        "44e9d919f968bda12f882e6fb0987b5c5959a2c5add9a4c0aedc1762298ae9bf",
+        "7cb6db98c6b5e8dce0fb2da9cb63b6e7667884c5edc612f8ee5ff5cebb028cd2",
+        "ddf7c8186f32f7031861a197dc91a9dd10a0f7bc0007d51b39edc06511f08699",
+        "4ecd66fa77416128c8c9cd01537fbb996f43012d2a66a3554004329b71523a5a"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000001e77eb84ea9b133739a949bd8dc188b9484f63520317ef362defd182e777127301",
+          "pow": "dfff74d5593390e232d357a97f002464efe6620b55e9ca583282b13862bf847b",
+          "parent_bytes": "1110",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000001e77eb84ea9b133739a949bd8dc188b9484f63520317ef362defd182e777127301",
+          "pow": "c8b3d68b541ba409c2a786433c5abf52bcc86cc5c991e11d4c10f4be01fb7d66",
+          "parent_bytes": "1110",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 32,
+      "root_owner": "dego",
+      "root": "e3fa1d5965658382eac1e5d42844c65612ea8ba4f67176f53b14edb6f49531fb",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968",
+        "970721ec1ec134f03c11bd5c2590bcf9dc66552ac2932ddcefb7a03bbdbd12d8",
+        "b21eb513698f2fab0944d6c40f6202fa3cbc13d1dfc85ce11a5bbfde74002658",
+        "1ad266c49d7eeb8b8e6051607006fcd2e3153ff38acae57ac2b657da4d9056d5",
+        "9ab52302ed25e7481e75be219aec76fb99f3811a2d445d734624155b916fc291",
+        "583c69e132009781e138daf363a53ebec8af440363de911eec2d18ad31956265",
+        "c70f27f79810f1b82f1d37b0bc25b9688389a730e0cc474af000e565a3c595a2",
+        "ada93cec9fca3658b41192fafa6e478da59c3960234989d004cb6ae513109b3f",
+        "13e9b9b6a03ddb7d9eecabe401829600246c009cd260de0ad97cf122ecfe8d1c",
+        "b9bf5ef98313471388976336bb6f2e85d31aecee428303df08a02e9a89964643",
+        "14d8d12450fce2c83512e75b4b551dc442ca36e7ebada0c362a82d90c4f82e28",
+        "cefa43005dd0a5aebed668dcf259a846fdba941428b0b48d60e1616eb0147ecb",
+        "308275fe3d3960755953c261a359d1081d2fd54c8ad248a0c18c37f646eec176",
+        "44e9d919f968bda12f882e6fb0987b5c5959a2c5add9a4c0aedc1762298ae9bf",
+        "7cb6db98c6b5e8dce0fb2da9cb63b6e7667884c5edc612f8ee5ff5cebb028cd2",
+        "ddf7c8186f32f7031861a197dc91a9dd10a0f7bc0007d51b39edc06511f08699",
+        "4ecd66fa77416128c8c9cd01537fbb996f43012d2a66a3554004329b71523a5a"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000001e77eb84ea9b133739a949bd8dc188b9484f63520317ef362defd182e777127301",
+          "pow": "c0a6bc56aeafccb55e047201395bc025073d757213d1386322ac6bbc1f6d7d47",
+          "parent_bytes": "1110",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000001e77eb84ea9b133739a949bd8dc188b9484f63520317ef362defd182e777127301",
+          "pow": "e642dff8accd2a4ee5ce74a89535bf941968b1e02ea2203248074ff31639637d",
+          "parent_bytes": "1110",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 32,
+      "root_owner": "dego",
+      "root": "e3fa1d5965658382eac1e5d42844c65612ea8ba4f67176f53b14edb6f49531fb",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968",
+        "970721ec1ec134f03c11bd5c2590bcf9dc66552ac2932ddcefb7a03bbdbd12d8",
+        "b21eb513698f2fab0944d6c40f6202fa3cbc13d1dfc85ce11a5bbfde74002658",
+        "1ad266c49d7eeb8b8e6051607006fcd2e3153ff38acae57ac2b657da4d9056d5",
+        "9ab52302ed25e7481e75be219aec76fb99f3811a2d445d734624155b916fc291",
+        "583c69e132009781e138daf363a53ebec8af440363de911eec2d18ad31956265",
+        "c70f27f79810f1b82f1d37b0bc25b9688389a730e0cc474af000e565a3c595a2",
+        "ada93cec9fca3658b41192fafa6e478da59c3960234989d004cb6ae513109b3f",
+        "13e9b9b6a03ddb7d9eecabe401829600246c009cd260de0ad97cf122ecfe8d1c",
+        "b9bf5ef98313471388976336bb6f2e85d31aecee428303df08a02e9a89964643",
+        "14d8d12450fce2c83512e75b4b551dc442ca36e7ebada0c362a82d90c4f82e28",
+        "cefa43005dd0a5aebed668dcf259a846fdba941428b0b48d60e1616eb0147ecb",
+        "308275fe3d3960755953c261a359d1081d2fd54c8ad248a0c18c37f646eec176",
+        "44e9d919f968bda12f882e6fb0987b5c5959a2c5add9a4c0aedc1762298ae9bf",
+        "7cb6db98c6b5e8dce0fb2da9cb63b6e7667884c5edc612f8ee5ff5cebb028cd2",
+        "ddf7c8186f32f7031861a197dc91a9dd10a0f7bc0007d51b39edc06511f08699",
+        "4ecd66fa77416128c8c9cd01537fbb996f43012d2a66a3554004329b71523a5a"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000001e77eb84ea9b133739a949bd8dc188b9484f63520317ef362defd182e777127301",
+          "pow": "30685e0822dfd5d110ccfb1440992484524025a0210c5a2bced3bb2dc5af6c2c",
+          "parent_bytes": "1110",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000001e77eb84ea9b133739a949bd8dc188b9484f63520317ef362defd182e777127301",
+          "pow": "695f0a655d63d79f9dd841eae18371ade384f47a756b3edbf0da454a91732392",
+          "parent_bytes": "1110",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 32,
+      "root_owner": "xkr",
+      "root": "c90bf44ff09f9dc78ccd4955c2256b0c9f15d1774fc92a5d105d6fba3c276e8f",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968",
+        "970721ec1ec134f03c11bd5c2590bcf9dc66552ac2932ddcefb7a03bbdbd12d8",
+        "b21eb513698f2fab0944d6c40f6202fa3cbc13d1dfc85ce11a5bbfde74002658",
+        "1ad266c49d7eeb8b8e6051607006fcd2e3153ff38acae57ac2b657da4d9056d5",
+        "9ab52302ed25e7481e75be219aec76fb99f3811a2d445d734624155b916fc291",
+        "583c69e132009781e138daf363a53ebec8af440363de911eec2d18ad31956265",
+        "c70f27f79810f1b82f1d37b0bc25b9688389a730e0cc474af000e565a3c595a2",
+        "ada93cec9fca3658b41192fafa6e478da59c3960234989d004cb6ae513109b3f",
+        "13e9b9b6a03ddb7d9eecabe401829600246c009cd260de0ad97cf122ecfe8d1c",
+        "b9bf5ef98313471388976336bb6f2e85d31aecee428303df08a02e9a89964643",
+        "14d8d12450fce2c83512e75b4b551dc442ca36e7ebada0c362a82d90c4f82e28",
+        "cefa43005dd0a5aebed668dcf259a846fdba941428b0b48d60e1616eb0147ecb",
+        "308275fe3d3960755953c261a359d1081d2fd54c8ad248a0c18c37f646eec176",
+        "44e9d919f968bda12f882e6fb0987b5c5959a2c5add9a4c0aedc1762298ae9bf",
+        "7cb6db98c6b5e8dce0fb2da9cb63b6e7667884c5edc612f8ee5ff5cebb028cd2",
+        "ddf7c8186f32f7031861a197dc91a9dd10a0f7bc0007d51b39edc06511f08699",
+        "4ecd66fa77416128c8c9cd01537fbb996f43012d2a66a3554004329b71523a5a"
+      ],
+      "nonce": 0,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000007d3fe556104830a9085f6c806010c9e97bd2769a13971df30d4ad696fd86e45801",
+          "pow": "ae0669852eefd4aabd70bdb9df30e1e027de2b67084b753714fa09a5cced97f2",
+          "parent_bytes": "1110",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000000000007d3fe556104830a9085f6c806010c9e97bd2769a13971df30d4ad696fd86e45801",
+          "pow": "cee80596b107c26d4769b5a3624740813448a979fd97a3e560f6a2bdb5187d5b",
+          "parent_bytes": "1110",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 32,
+      "root_owner": "xkr",
+      "root": "c90bf44ff09f9dc78ccd4955c2256b0c9f15d1774fc92a5d105d6fba3c276e8f",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968",
+        "970721ec1ec134f03c11bd5c2590bcf9dc66552ac2932ddcefb7a03bbdbd12d8",
+        "b21eb513698f2fab0944d6c40f6202fa3cbc13d1dfc85ce11a5bbfde74002658",
+        "1ad266c49d7eeb8b8e6051607006fcd2e3153ff38acae57ac2b657da4d9056d5",
+        "9ab52302ed25e7481e75be219aec76fb99f3811a2d445d734624155b916fc291",
+        "583c69e132009781e138daf363a53ebec8af440363de911eec2d18ad31956265",
+        "c70f27f79810f1b82f1d37b0bc25b9688389a730e0cc474af000e565a3c595a2",
+        "ada93cec9fca3658b41192fafa6e478da59c3960234989d004cb6ae513109b3f",
+        "13e9b9b6a03ddb7d9eecabe401829600246c009cd260de0ad97cf122ecfe8d1c",
+        "b9bf5ef98313471388976336bb6f2e85d31aecee428303df08a02e9a89964643",
+        "14d8d12450fce2c83512e75b4b551dc442ca36e7ebada0c362a82d90c4f82e28",
+        "cefa43005dd0a5aebed668dcf259a846fdba941428b0b48d60e1616eb0147ecb",
+        "308275fe3d3960755953c261a359d1081d2fd54c8ad248a0c18c37f646eec176",
+        "44e9d919f968bda12f882e6fb0987b5c5959a2c5add9a4c0aedc1762298ae9bf",
+        "7cb6db98c6b5e8dce0fb2da9cb63b6e7667884c5edc612f8ee5ff5cebb028cd2",
+        "ddf7c8186f32f7031861a197dc91a9dd10a0f7bc0007d51b39edc06511f08699",
+        "4ecd66fa77416128c8c9cd01537fbb996f43012d2a66a3554004329b71523a5a"
+      ],
+      "nonce": 1,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000007d3fe556104830a9085f6c806010c9e97bd2769a13971df30d4ad696fd86e45801",
+          "pow": "c1dd0a8ac6f30cebd9e3cf90bcab1cfab3257d69f39362de5852ec75335dd414",
+          "parent_bytes": "1110",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000010000007d3fe556104830a9085f6c806010c9e97bd2769a13971df30d4ad696fd86e45801",
+          "pow": "f92e574d6ff359fc12b4b898ed1f018939e6547e8ed04e5073b67c515b10304b",
+          "parent_bytes": "1110",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    },
+    {
+      "depth": 32,
+      "root_owner": "xkr",
+      "root": "c90bf44ff09f9dc78ccd4955c2256b0c9f15d1774fc92a5d105d6fba3c276e8f",
+      "branches": [
+        "1f294a4c2902a346ac3726cfa4e4df936311e6f9b597cadb646606f5002068b0",
+        "5ffdb5ea592bab8389f260bf8d38d95e2f7989ed538c30a6383b3b2a3aef0da4",
+        "581a6e61afcdef2aec0012d2b4ec8526aa873256262c6b51a82609d7e369f6e1",
+        "7ce174bbde042bf08550ce381ca35bac7850b4f7f488fe61c5c83ceffeeb0804",
+        "3be3f08392758d7af329332061e2a10176e02341708feeb4793ed0f1bc76d02c",
+        "2fcfc293d24212543f2d0f913d98b2e51b6a6fe6c36bbf6f70fac81c062ea2be",
+        "7e2ffb6af48cff273448e5b9141ce4524dca2ea045179f5adff3b3ccbe684dff",
+        "a380d03bbea85240449d17f9b7167114613dd8d30835afdd2458acbedf63ecfe",
+        "9f5b1cd86c4c793d4b91305d4ad18169f06228b9d0ed5fa785541161fa75b3b9",
+        "cb1130dbea24bf2990531dc7e79531007889794b19f191954c746b78a2a01f46",
+        "eed4c496cdf402afd04e05a53d8d5c37a67e0b14143f4f83bdfdcb22c960200d",
+        "84ed67338075cd2d161d644e3aa604e017aabb761669e0a94139c6b6838f2b26",
+        "17e1f6b8e7fa181a2a8508c4a33416499c7a706c10f4babe12ee018a872aba98",
+        "eae99653c5a91e6603fb9ce4ab3f16989e78ea6302be5d3994d2fb6e7a34f572",
+        "4640832acfb5908bccc74e6e811a47c3e27f38599152be62f6598a42d4da43a5",
+        "d695b9f8ce564cc190fd8bf5bbebec9d1fc99d68d07b879d8ff0c23dfa5a2968",
+        "970721ec1ec134f03c11bd5c2590bcf9dc66552ac2932ddcefb7a03bbdbd12d8",
+        "b21eb513698f2fab0944d6c40f6202fa3cbc13d1dfc85ce11a5bbfde74002658",
+        "1ad266c49d7eeb8b8e6051607006fcd2e3153ff38acae57ac2b657da4d9056d5",
+        "9ab52302ed25e7481e75be219aec76fb99f3811a2d445d734624155b916fc291",
+        "583c69e132009781e138daf363a53ebec8af440363de911eec2d18ad31956265",
+        "c70f27f79810f1b82f1d37b0bc25b9688389a730e0cc474af000e565a3c595a2",
+        "ada93cec9fca3658b41192fafa6e478da59c3960234989d004cb6ae513109b3f",
+        "13e9b9b6a03ddb7d9eecabe401829600246c009cd260de0ad97cf122ecfe8d1c",
+        "b9bf5ef98313471388976336bb6f2e85d31aecee428303df08a02e9a89964643",
+        "14d8d12450fce2c83512e75b4b551dc442ca36e7ebada0c362a82d90c4f82e28",
+        "cefa43005dd0a5aebed668dcf259a846fdba941428b0b48d60e1616eb0147ecb",
+        "308275fe3d3960755953c261a359d1081d2fd54c8ad248a0c18c37f646eec176",
+        "44e9d919f968bda12f882e6fb0987b5c5959a2c5add9a4c0aedc1762298ae9bf",
+        "7cb6db98c6b5e8dce0fb2da9cb63b6e7667884c5edc612f8ee5ff5cebb028cd2",
+        "ddf7c8186f32f7031861a197dc91a9dd10a0f7bc0007d51b39edc06511f08699",
+        "4ecd66fa77416128c8c9cd01537fbb996f43012d2a66a3554004329b71523a5a"
+      ],
+      "nonce": 12345,
+      "results": {
+        "dego": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000007d3fe556104830a9085f6c806010c9e97bd2769a13971df30d4ad696fd86e45801",
+          "pow": "8608ea0c8810d68f6ee553f9c89487587eed3e1d6cfe536332866a014c81323a",
+          "parent_bytes": "1110",
+          "proof_diff1": "0",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        },
+        "xkr": {
+          "work": "010080a4a7da060000000000000000000000000000000000000000000000000000000000000000393000007d3fe556104830a9085f6c806010c9e97bd2769a13971df30d4ad696fd86e45801",
+          "pow": "48ef252de9408a22c9f731dbdd8d5534f1b573ba3803d30bca2d75d9262e5ad5",
+          "parent_bytes": "1110",
+          "proof_diff1": "1",
+          "proof_maxdiff": "0",
+          "mutated_branch": "0"
+        }
+      }
+    }
+  ],
+  "scope": "native serializers, native long hashes, source-extracted unchanged proof predicate except logging; synthetic fixtures, difficulty 1; NOT full block validation"
+}

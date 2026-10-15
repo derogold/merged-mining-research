@@ -1,0 +1,242 @@
+[
+  {
+    "policy": "alternating",
+    "attacker_fraction_each_lane": [
+      0.1,
+      0.1
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.11236234795196023
+  },
+  {
+    "policy": "alternating",
+    "attacker_fraction_each_lane": [
+      0.4,
+      0.4
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6725842481286224
+  },
+  {
+    "policy": "alternating",
+    "attacker_fraction_each_lane": [
+      0.8,
+      0
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.0025684218884909544
+  },
+  {
+    "policy": "alternating",
+    "attacker_fraction_each_lane": [
+      0,
+      0.8
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.002524575758260277
+  },
+  {
+    "policy": "independent",
+    "attacker_fraction_each_lane": [
+      0.1,
+      0.1
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.11249357732020099
+  },
+  {
+    "policy": "independent",
+    "attacker_fraction_each_lane": [
+      0.4,
+      0.4
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6730727794263267
+  },
+  {
+    "policy": "independent",
+    "attacker_fraction_each_lane": [
+      0.8,
+      0
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 100,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6685711934230839
+  },
+  {
+    "policy": "independent",
+    "attacker_fraction_each_lane": [
+      0,
+      0.8
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6765952736950221
+  },
+  {
+    "policy": "parent_clock",
+    "attacker_fraction_each_lane": [
+      0.1,
+      0.1
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.11238435988287455
+  },
+  {
+    "policy": "parent_clock",
+    "attacker_fraction_each_lane": [
+      0.4,
+      0.4
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6726326107398793
+  },
+  {
+    "policy": "parent_clock",
+    "attacker_fraction_each_lane": [
+      0.8,
+      0
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 100,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6684669847448532
+  },
+  {
+    "policy": "parent_clock",
+    "attacker_fraction_each_lane": [
+      0,
+      0.8
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6764415869174247
+  },
+  {
+    "policy": "parent_clock_capped",
+    "attacker_fraction_each_lane": [
+      0.1,
+      0.1
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.11238528584153736
+  },
+  {
+    "policy": "parent_clock_capped",
+    "attacker_fraction_each_lane": [
+      0.4,
+      0.4
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6726326107398793
+  },
+  {
+    "policy": "parent_clock_capped",
+    "attacker_fraction_each_lane": [
+      0.8,
+      0
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 100,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6684669847448532
+  },
+  {
+    "policy": "parent_clock_capped",
+    "attacker_fraction_each_lane": [
+      0,
+      0.8
+    ],
+    "horizon_after_split_T": 600,
+    "trials": 100,
+    "private_strictly_ahead_at_end": {
+      "blocks": 0,
+      "raw_work": 0,
+      "normalized_work": 0
+    },
+    "mean_normalized_score_ratio": 0.6764415869174247
+  }
+]

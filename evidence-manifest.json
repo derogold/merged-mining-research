@@ -1,0 +1,1342 @@
+[
+  {
+    "path": "experiments/dego-aux-testnet-20261014/Dockerfile",
+    "bytes": 398,
+    "sha256": "56eea5199d206aa004ac93153d374ace3d5b9efeadce002ef10a1736ccc38f8a"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/README.md",
+    "bytes": 4426,
+    "sha256": "d3c07b6c4dc13112ff6d2d7891f2f82cf283a13b68bea1eb7f9c5996cf9ef174"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/RESULTS.md",
+    "bytes": 3225,
+    "sha256": "3f82b1846b1f9189adbdfc5a51db5b8a4c55db82e2b69a3b8f93004d1978e8d7"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/ResearchCMake.txt",
+    "bytes": 1589,
+    "sha256": "7e5526c269c820c40eeb7d7e1f92b0fc24247d0fd950f6049489c10d56603bc3"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/compose.json",
+    "bytes": 3282,
+    "sha256": "6a11b662da3eb7a89564e8608f61b8943843531fcb397527029505981184eda2"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/accept-new-7-10.jsonl",
+    "bytes": 4533,
+    "sha256": "ed8baccdb89f8f413bf70352286558070524c2355547240bb0786e68918607be"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/accept-old-at-6.jsonl",
+    "bytes": 1181,
+    "sha256": "1c3a58a014169e524b83e326aaf8f0d20d8702777e7b424b3c4ad3b398ac8616"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/boundary.log",
+    "bytes": 397,
+    "sha256": "31dce52f17818c7fa2f6bb4c4de9dafd8b3cf171a3fbb527944d23a7d50739a9"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/build-image.txt",
+    "bytes": 72,
+    "sha256": "3b4a0d34a75ecbd6f6eae2f4786de4e097cd9a7945c09eb3b1e63e40c5cba73f"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/build-packages.txt",
+    "bytes": 6577,
+    "sha256": "7b09987538891a12b751c6be77066b78533579964f90e4965d1ce21f61f5cfbf"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/build-sha256.txt",
+    "bytes": 473,
+    "sha256": "3f15450701defbdf7b75e894108ddfd1e12dd5a35bf06b49a6d43c6822d6e39f"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/cryptotest.log",
+    "bytes": 8344,
+    "sha256": "4aca03bc1d6210746bcbb90a8be135aaf83083815756e45cd4362223a8a83af7"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/initial-1-5.jsonl",
+    "bytes": 5847,
+    "sha256": "c1f736e79e166c2f7c742995749a758537c75cb94aeb8902e071f4e34fc3154a"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/node1.log",
+    "bytes": 60479,
+    "sha256": "52489c6f5710fc651aadb7109d83b1546a516f1b790a029042f32bafde1592a1"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/proof-inspection.json",
+    "bytes": 6514,
+    "sha256": "38c742ac4e79c026ec6d9c355ee4a5afd9858c67c6fbf7f0d5d8862ecf54db5e"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/reject-new-at-6.jsonl",
+    "bytes": 1208,
+    "sha256": "b58fbbf1ff3b363a1c69980762f3ab4702f8bf6dae960ca49d551313c512c371"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/reject-old-at-7.jsonl",
+    "bytes": 1140,
+    "sha256": "10c2789f807c91189fb1be5b393fb0bc4247eeb85e486d2410d7d90e7d4539b8"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/replay-results.json",
+    "bytes": 48170,
+    "sha256": "3949c5d1afafb90c86a1bc1fed1e021b5df4a01fae17ac0b6211916943aab6e9"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/replay.log",
+    "bytes": 646,
+    "sha256": "11ce6516f892674bf26295da867094386a0a934466731f32420aa532c1cbf51b"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/tips-0.json",
+    "bytes": 1217,
+    "sha256": "422f396d68ab931656cdb5438b12fb166337df5e5e47f5ed45aa95513165415d"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/tips-10.json",
+    "bytes": 1283,
+    "sha256": "35272b3ba2c052a3b341266fa9c7f56b9a76d1f22aa88f066532ad5d40249e42"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/tips-5.json",
+    "bytes": 1283,
+    "sha256": "7ee1985bb41a22221a6910308c1d0f34083be80b1a371de352f0f8a9a5baefa6"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/evidence/tips-6.json",
+    "bytes": 1283,
+    "sha256": "15a725316ecc5cea03a28b076b0721f68e2bd0c605b9f4c855c07e385828ccb4"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/make_address.py",
+    "bytes": 660,
+    "sha256": "701b2a0df69af79b090301176a0ef4c333231b7bed1d9d94919c6976f182122f"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/make_compose.py",
+    "bytes": 1040,
+    "sha256": "1024e6e8c4d418fc2985a65e434122df7a0ff3aeddd3c1e0e77f2d422ae3af0a"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/manifest.json",
+    "bytes": 3677,
+    "sha256": "9e35abb0c3064e2a11606ad25689472c95b21eb05d2c781a97d6d1e1acc97ad9"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/patch_bounded_miner.py",
+    "bytes": 548,
+    "sha256": "2b8ede8e923f5b01147ef8452fea9e1b40c4faf2605631366c2ef0454876bd12"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/patch_compat.py",
+    "bytes": 1174,
+    "sha256": "e698b4305bde4450467557949c13ad156872eb5d30597df6f3ef7f64bacf7f7a"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/patch_miner_receipts.py",
+    "bytes": 1097,
+    "sha256": "5a1785338c2760c4bd23e2a0b26669fd5e33a6d78e513e7e0ca95175e00615f1"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/patch_testnet.py",
+    "bytes": 2959,
+    "sha256": "88c51fa0b011bae9d415521907ed56c28d0aecd9a0c8e842286073e280beb2e3"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/prepare.sh",
+    "bytes": 1294,
+    "sha256": "cbe93948cd94b32853329508f9bc4e7afbf1f40006020b75f1fa33d0c09664b7"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/research_inspect.cpp",
+    "bytes": 1501,
+    "sha256": "2332aec7a20291316c513104c62c01d7dce03ee0cb8544e36e096ed0d71ef3cb"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/run_boundary.py",
+    "bytes": 2026,
+    "sha256": "e723dcdca3465b06db0a8fc4d00c836ca70237e902a2d5b2d77eb0357d7e1e04"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/source-changes.patch",
+    "bytes": 79583,
+    "sha256": "ba088d6ccb80522192280cb3421a98b85f9ff1ce91a19fc6bd77664dc0b204b9"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/test-address.txt",
+    "bytes": 98,
+    "sha256": "1c30e1b6cc0160b3974d953f26ea928628912c53be177f2c6c8749fc66fd474d"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/verify_receipts.py",
+    "bytes": 1375,
+    "sha256": "3fa18765e7d3461aaafe671df1236cc9b44362677b03e9ee66eb4d575b08ee0a"
+  },
+  {
+    "path": "experiments/dego-aux-testnet-20261014/verify_replay.py",
+    "bytes": 1535,
+    "sha256": "957e007d606d7cee6b871e51a8b86bdfc3ceebf7e586db9023162caf3649d153"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/README.md",
+    "bytes": 711,
+    "sha256": "0d98f10d27baa48fbde1af647b1405a7fd6f6fbf41c7a8c637e8e8f5846e761a"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/RESULTS.md",
+    "bytes": 7709,
+    "sha256": "9b27c08280962261f83b360267a1cf3f4a83b3d5dd4b2ffdccfd09b58352b0ca"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/SPEC.md",
+    "bytes": 2794,
+    "sha256": "0a298394a9e280ff701838eedc8d5a0276b4ae9b7a5e89d775d8b14e53ed3f4a"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/checks.json",
+    "bytes": 404,
+    "sha256": "d10f7d558f2211440dc97ce32566a64acabe2a48974088f8e5de8eb3af06aff7"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/checks.py",
+    "bytes": 1812,
+    "sha256": "20ef491bcaf5ce02dfff2f88e8a61ce6f7753cd8b1bb48cb5c74ad921ff3fb92"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/frozen-spec.json",
+    "bytes": 82,
+    "sha256": "37d0805fa6017c93341bca1a00e57f6aa4a60ba3dc67d0332cd063da0f400f28"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/manifest.json",
+    "bytes": 840,
+    "sha256": "ad11ca92341c88dcd1f72ce9873eba6bd83b897bb15909d5a9bf0b912c9ccd28"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/model.py",
+    "bytes": 1871,
+    "sha256": "7a336c53334f72d3aaa04a2d324dd5c35adaa8f2d772623a3622eea8d5da551d"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/report.py",
+    "bytes": 6195,
+    "sha256": "8c89d2302baede2b1148c1132a53c53b74a607595cde6decf3155caf5ba1d3f5"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/results.json",
+    "bytes": 939300,
+    "sha256": "2949ff2c43495497611ad803cd0b163ea78534e3dfdbbd646bf3df6de18c2253"
+  },
+  {
+    "path": "experiments/dego-dual-pow-adversarial-20261014/run.py",
+    "bytes": 2184,
+    "sha256": "3d55f14c229f46f54a34586e7c1ff69453e87da25f40040223ef7e16fbd9f5b8"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/README.md",
+    "bytes": 651,
+    "sha256": "73674b5615da6609d2e5a3d3376a1a5d62288e5138fb0c4587138336fd5cbaf5"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/RESULTS.md",
+    "bytes": 6395,
+    "sha256": "46b877ed8bd4cf1800b91c70929f760bbff8d16c28911d9c91c5563ca3bdfa41"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/SPEC.md",
+    "bytes": 1964,
+    "sha256": "f1631c4d7807bf982fa13c88052678b38b49994703972faafc73f8d050d3847e"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/checks.json",
+    "bytes": 662,
+    "sha256": "4d6e91b11f760771ddce35362ac1a362e62ef4efdbefe174be136f3430199872"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/checks.py",
+    "bytes": 2019,
+    "sha256": "826e45fed018f01b76531938c82f2909297a4fcc7047b4398f2faff20e8d3166"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/dormancy/SPEC.md",
+    "bytes": 1222,
+    "sha256": "ec1db6d7d18b871fc89e13b03f879276a6c2fa5e22df541127b8e6d25d889cf5"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/dormancy/checks.json",
+    "bytes": 307,
+    "sha256": "2341fc381856ba1e089ce67db256ceff18cb00c9723aed2e8d86955f9d4815f2"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/dormancy/checks.py",
+    "bytes": 1506,
+    "sha256": "d18464579a7b8d3790faa6ef839f695f1aa5f1f006271a3d12e18ca9f9242d5f"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/dormancy/frozen-spec.json",
+    "bytes": 82,
+    "sha256": "406bea6333c246c0ff8828c5a2918c7ccad299aeeba5f2c8ce9dfb9d49446e60"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/dormancy/model.py",
+    "bytes": 3632,
+    "sha256": "2d4b6b5cd5b1038a8c8096ecb22d53e2aa4795d127e68c9d5ce89f43fe0e0add"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/dormancy/results.json",
+    "bytes": 628648,
+    "sha256": "807922501394c2c7eb921f56abfde2e1b0899206dfedb7c322cfb52c7045496a"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/dormancy/run.py",
+    "bytes": 2184,
+    "sha256": "3d55f14c229f46f54a34586e7c1ff69453e87da25f40040223ef7e16fbd9f5b8"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/dormancy/weak_lane.json",
+    "bytes": 6390,
+    "sha256": "9c9d144da128f17cb6d82e09578c9fad241ed160ee062bbd1a35d951b5a5d87a"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/frozen-spec.json",
+    "bytes": 82,
+    "sha256": "e81d6c19bd04a50647f38f1bc3f7b7845946f1db36043b19098b948545b8d57d"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/manifest.json",
+    "bytes": 1587,
+    "sha256": "910a6942a3d55a28ce198f5a1c05d5709dab99418352a323ab40b4d68458eda9"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/model.py",
+    "bytes": 3113,
+    "sha256": "a7ef171dab1e640659b0e1fdd5454aca7c6a2beaa7199dd556bcd4b99f3f73d2"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/report.py",
+    "bytes": 5237,
+    "sha256": "6243a775a8d5dcc2f820c6b9106794a6587c209326478da3f19484d592ef6f9f"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/results.json",
+    "bytes": 1566859,
+    "sha256": "901baabd11a2a15dbd243caee1ad4bfe8411be7f542d587d8261b0e34c3d2c22"
+  },
+  {
+    "path": "experiments/dego-dual-pow-estimator-20261014/run.py",
+    "bytes": 2184,
+    "sha256": "3d55f14c229f46f54a34586e7c1ff69453e87da25f40040223ef7e16fbd9f5b8"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/README.md",
+    "bytes": 849,
+    "sha256": "91b235a5733d655a68f0c3ff214d15a4b90ad7240f569b776eeff3b401b45776"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/RESULTS.md",
+    "bytes": 5931,
+    "sha256": "ad6e45a2c10a9074c1d0ea0461de6ef7fde7dd49f4eb06d6d2f2aa4acbf77d4d"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/SPEC.initial.md",
+    "bytes": 3068,
+    "sha256": "fa5bb87e7d1ba2e3ed140936ee556e0ff56c89df092d21390b49395f062546ac"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/SPEC.md",
+    "bytes": 3612,
+    "sha256": "95dfca659b57bbef8e6900aa1c9fffff5b0e04c5d91d4a9e4fe45104ebb27cb5"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/checks.json",
+    "bytes": 351,
+    "sha256": "f8cc862166cc731c46f10de35f17f3f1c6893189618c711eafcec60fa4cd97ef"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/checks.py",
+    "bytes": 1645,
+    "sha256": "eefcbb026e728a646241fa09dcae39b6671753e215f0fe9a386a5a42b5c022c3"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/forks.json",
+    "bytes": 5205,
+    "sha256": "11f88db30e1fdf7dce85a057c4995479a9d443a5c44345215e913bb716304f8b"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/forks.py",
+    "bytes": 1064,
+    "sha256": "0e92bbe0f9ede08a1d08bd56934080a8d5f3bc9f800c76c40127bb8330846394"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/frozen-spec.json",
+    "bytes": 123,
+    "sha256": "e294a70f8b297b3b107b2366350c7ccd46c3548e90e945705e3c49fa7d3bcb26"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/manifest.json",
+    "bytes": 1013,
+    "sha256": "3217e975ce59d45bdd801b5135778a4ed99a8ff1b2a17e6dabf9179a9a45a70f"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/report.py",
+    "bytes": 6149,
+    "sha256": "a0aacb9be4beb8249b2816c5c7c3ec370f21da8fbf5f139ecb03409a89ef28cf"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/results.json",
+    "bytes": 848003,
+    "sha256": "4a2520956f6612f14964b173e56668673eced2d6b1c4ee8799aad7f78f3b5e53"
+  },
+  {
+    "path": "experiments/dego-dual-pow-sim-20261014/sim.py",
+    "bytes": 4373,
+    "sha256": "42338c0cd5f9034761ddb486ed34068c46daff470479a89eb581e5cf23435ffa"
+  },
+  {
+    "path": "experiments/dego-xkr-20261014/README.md",
+    "bytes": 10553,
+    "sha256": "fe5762640d902e7db01fe4d40370b43a7eec94482f099488c3990e6813034314"
+  },
+  {
+    "path": "experiments/dego-xkr-20261014/REPRODUCE.md",
+    "bytes": 1108,
+    "sha256": "5fbc084e8b299d490bbbd8a7e45f5d92f83488bc486aa8c8f9c449521a76f01a"
+  },
+  {
+    "path": "experiments/dego-xkr-20261014/XKR-HISTORY.md",
+    "bytes": 1914,
+    "sha256": "ea70df27cf629b51b8a656321c8b81cf23b9607affdd775c34bc07c2c4473a87"
+  },
+  {
+    "path": "experiments/dego-xkr-20261014/manifest.json",
+    "bytes": 658,
+    "sha256": "f90876077e7746d2c61cee02eb3ed7cd662dcbdae32593a69b26690ab6630502"
+  },
+  {
+    "path": "experiments/dego-xkr-20261014/probe.py",
+    "bytes": 3992,
+    "sha256": "077093fe3d669563c12f252efc309aa571778263c3dbd1da1c64028932028427"
+  },
+  {
+    "path": "experiments/dego-xkr-20261014/results.json",
+    "bytes": 13509,
+    "sha256": "400f0bcb78db3b334ddd7ff9b2e55b677495639acb6eec301648ef977cd15a88"
+  },
+  {
+    "path": "experiments/dego-xkr-20261014/run.log",
+    "bytes": 62,
+    "sha256": "383de9c0c612cc172100e2d29bdbfe3dd581ce1a3c354d8c82865abf7f8f01f6"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/Dockerfile",
+    "bytes": 266,
+    "sha256": "24567145c725e199784bdc18b0cb28107fd996fd03bc9007567942a33c33c35f"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/README.md",
+    "bytes": 3051,
+    "sha256": "76a10463f80cafc5ad7cd02fbc234105340f88688760b2cd3bb12e1373b727a0"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/RESULTS.md",
+    "bytes": 4150,
+    "sha256": "f742b92487ea6afb977f145c6a8def33fa76ef3ac0878eda91f58968aaea6ffe"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/ResearchCMake.txt",
+    "bytes": 1634,
+    "sha256": "6fde04c47c9b03eed532b2404a4e6619b3efa9612cede8fdb06a7f4ebb1d6206"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/build_hashlibs.py",
+    "bytes": 745,
+    "sha256": "d5bb54af8e28bd0079d2ab16141d0ab287c293eaf3da6248c592176ea6a0c99b"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/compose.json",
+    "bytes": 3109,
+    "sha256": "97d772946d49a90ea5e48f75d52a8326b1993fa3f1cc29a391cb84748a93df85"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/dego-template.cpp",
+    "bytes": 1901,
+    "sha256": "a453f5f5313d415614d649653bfcf2b26987485b1e49f0555defd07f79bdde24"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/dual_template.cpp.in",
+    "bytes": 1844,
+    "sha256": "30433773efde9b42cf1d1cd52b454629c52cc1e37399d28f68dcd6303b37306c"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/dual_worker.py",
+    "bytes": 1355,
+    "sha256": "8af9304076d5e253863eb3848ed75ef91aa3436bb9804990bcd095c2b11a16e2"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/binary-sha256.txt",
+    "bytes": 413,
+    "sha256": "ee406ee7d4d494b79af690791aed4ee8e7de42035249bd3368ce3a5215f348ed"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/build-image.txt",
+    "bytes": 72,
+    "sha256": "a653f7a89e3485d7f07c03997fce4d535b8a098abf7736a9c8b370ab71866b4c"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/build-packages.txt",
+    "bytes": 7521,
+    "sha256": "bbe2ddfc8820597e35be841db04c0ace80ba13d70b5fe4283e94949cc8df9181"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/cryptotest-o2.log",
+    "bytes": 8286,
+    "sha256": "8a1bae9ec7761d805cc299d6c1cf5cbd9d25f3113e89e87d840fa9cfd3dc1759"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/cryptotest.log",
+    "bytes": 2353,
+    "sha256": "8976d5ea2dd7d22e2d208cbeb4832da22f2dcb2b13d7090d9fc3a973e7311b26"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/data/node1/daemon.log",
+    "bytes": 50036,
+    "sha256": "efbdeac0a73fd53ee7862ec2a5312836a2f3b8da89a57135a66556273c4d3824"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/dego-daemon.log",
+    "bytes": 83599,
+    "sha256": "1d1c49a35f6fa6a27dbc6831566737c0f1701acc926cc4cc0341b6c065797ba6"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/dual-results.json",
+    "bytes": 39268,
+    "sha256": "1cdb0f28ebad530a3d662cd130769b98c0ed261838aafe392eeea24fd945d029"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/dual-run.log",
+    "bytes": 221,
+    "sha256": "a469ec395aa9f21cd92c7ba56a015f7b2013db9887ffe98b9a7fcdc61af476d6"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/replay-results.json",
+    "bytes": 43490,
+    "sha256": "22b18083a34cb0300f4b337c97f2f65b2aa27af21bc46b4753840b64e07ea50c"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/replay.log",
+    "bytes": 632,
+    "sha256": "61dced972b902aff5b712048f923d8b8e9cc05ac5ddc72f6579757c21ef7c4f2"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/xkr-initial.jsonl",
+    "bytes": 6122,
+    "sha256": "57f973a56102710a01dfc2feb6f5524f6b9b1344b5d1e657a65edf75f51fdfe3"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/evidence/xkr-run.log",
+    "bytes": 64,
+    "sha256": "320264484f67aab40aba9298921c7a998f6760a90d396e63552b9bf43493ec34"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/make_address.py",
+    "bytes": 670,
+    "sha256": "b7cb578501d0cf069098e32301fdc27d795e146da8f5225c003b8baaaea824d8"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/manifest.json",
+    "bytes": 3249,
+    "sha256": "b8d5f2eefcd0944611e486801c3bb65308ee0f28d07825b4e9058b743011a798"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/patch_xkr.py",
+    "bytes": 2500,
+    "sha256": "f80362fedc83415487fb73634365a09cf3296e73c895c696702dea7f7e7ce818"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/prepare.sh",
+    "bytes": 1697,
+    "sha256": "b867ee276f31025dfcb8f3bfaac3765c77f8a69e344fb7010ea732c9afbb04c6"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/run_dual.py",
+    "bytes": 3379,
+    "sha256": "d7628f8a558c5a273ec42e25e19f0adacafee20e34d50fd7717656bcc2e2dae4"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/run_xkr.py",
+    "bytes": 868,
+    "sha256": "30248b5cb412669d60a3ea437a7dec4d057235d7b595e75254e06b9980d004f5"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/source-changes.patch",
+    "bytes": 25747,
+    "sha256": "36bb29d01c5f087ec3d7e95a02941c622ca269bcfa5e13e4a6771b965ecdc992"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/test-address.txt",
+    "bytes": 100,
+    "sha256": "8afc554847463faf719fcded68cb07414168356ade48e4862369ccd2a679473d"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/verify_replay.py",
+    "bytes": 1533,
+    "sha256": "fe6922cf406d76eced274d37ff9fb8c3eec50965fdc29ebdabf804fed3e62806"
+  },
+  {
+    "path": "experiments/dego-xkr-dual-testnet-20261014/xkr-template.cpp",
+    "bytes": 1924,
+    "sha256": "c47d43fda983dc384a327a4faa983d796346335655bcf6866267093c7149f4fd"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/README.md",
+    "bytes": 4217,
+    "sha256": "d7b6309b9db51bcaa549e09a1c78009741306cc82a1902e502c42e9aaae3e7e8"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/RESULTS.md",
+    "bytes": 1357,
+    "sha256": "9d44c4f019da8d547011988318e8637f813640ca17f96c181aa2a77d7b1b65c7"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/benchmark.py",
+    "bytes": 1341,
+    "sha256": "2e6c463939e888efd7cda66628365fd35caf66dc52998491bd72952a4eae583d"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/build.log",
+    "bytes": 273,
+    "sha256": "91117553deecbdf328d17bc6738518e6ea5da1731439c0ccc540a0e1d4b42ec3"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/build.py",
+    "bytes": 628,
+    "sha256": "0e695ab53ce5783e643d758db1a25df30900724d9c48013cc7ae45c4d39cde58"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/check.py",
+    "bytes": 1284,
+    "sha256": "ee794cbfcfee38ec99eeba525e017c9efbef68d920b4ba7c3055bf2c83e9b455"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/cn-baseline-annotate.txt",
+    "bytes": 77255,
+    "sha256": "031e19dc0450035b98bc1eaef1ba75ebac3318c617b74cd57892914e4b6b57f4"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/cn-baseline-report.txt",
+    "bytes": 570,
+    "sha256": "a88e0f683fc48b072b137612e9ae620312260d56400ce964164a5df1b0d7db53"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/cn-direct-annotate.txt",
+    "bytes": 37738,
+    "sha256": "800cf1efb306616cbd6d2f57f91fbd1130eda7876fe92e9567dcfe1a5b8173a1"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/cn-direct-report.txt",
+    "bytes": 507,
+    "sha256": "b656179453abfb60c40e8179cbe2235fd33cf3620fe6fdffae64b930f1f56d94"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/confirm.log",
+    "bytes": 240,
+    "sha256": "a1fb6200d12547567364101ab2024f1f9329e8cb84a26161e2e0c116a63575b0"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/confirm.py",
+    "bytes": 1555,
+    "sha256": "8b0bdfc62fae264cb159a2f65f3e6b3032fc8da0f0af2f8ef343b1b258eedad9"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/confirmation.json",
+    "bytes": 13671,
+    "sha256": "0311623be9c200f92caef85d71cb5962f10d655e4f636677f500209ae30e1058"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/correctness.json",
+    "bytes": 83,
+    "sha256": "e6ed17d87eaea00e1cdb5e0ab0d45496324daec87979f9f34cd8c2a51132d1c1"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/manifest.json",
+    "bytes": 1574,
+    "sha256": "2c38b0cde96a217afd1285b9bea45aa684619e25aae12f6293e7f1c82941ef2b"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/pair.c",
+    "bytes": 3026,
+    "sha256": "68b62cf3dd45e225f72339191b3728e565125307347e267ac2a990a4c2ad9dc9"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/screen.json",
+    "bytes": 21229,
+    "sha256": "9ab192219a645da12d6fa3bd6b6a3e72827a9cadb6b66fcb215a40bae4915237"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/summarize.py",
+    "bytes": 1738,
+    "sha256": "9292c06df96800cdc9d25922fe1ebeb28f44a31cea659ff6db72864cb3eab80e"
+  },
+  {
+    "path": "experiments/dego-xkr-interleave-20261014/summary.json",
+    "bytes": 372,
+    "sha256": "9ae7628deb54b0c2894928bd86cc9b56fd115a998386d0717c0aebb518e7a94d"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/README.md",
+    "bytes": 7504,
+    "sha256": "c1f1dbe6ef9fb679793cfd93a2334e91625d749cb186ff1c212c01409d389ad2"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/build_fused.py",
+    "bytes": 1693,
+    "sha256": "423de07fdbffd0bca01e700a4268249cb958df622ac6f709575c41f5069aa2c4"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/build_native.py",
+    "bytes": 2709,
+    "sha256": "a3851c4363c8c0943ae70159fe47e0f9c3067a5a0e64bb585b4eb2e78e4fd16f"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/dego-native.cpp",
+    "bytes": 3659,
+    "sha256": "6e4014782990b5ed87e599a62d8b32caeeec4b332b18f142884c1bc0e9dbf6c3"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/envelope-results.json",
+    "bytes": 58825,
+    "sha256": "c0d2a03350bc82c43903d96050e633808647a90ead1da836906f27a284dd8611"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/envelope-run.log",
+    "bytes": 129,
+    "sha256": "b60bd5f37b904ecf6f137f26f343b2f255926dfeb6d296b54aac83bf2acf2486"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/manifest.json",
+    "bytes": 886,
+    "sha256": "107b3dfd05081c27f8c2f301c953f8fc76a9d2d4d36978b0543d13879de14586"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/native.cpp.in",
+    "bytes": 2490,
+    "sha256": "4472dec44cd64295e1ac719780f5b443ca1d6c17130df9190ba3b939128e9e57"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/test_envelopes.py",
+    "bytes": 2241,
+    "sha256": "f80237e721473bccd39b0894188a83a7b4fda9fccd4cdb79b450a012b4a1206e"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/worker.py",
+    "bytes": 3462,
+    "sha256": "d60cc28220bb6ffc5901e62221f86c4700eb2fcf2c11dae02652875003691100"
+  },
+  {
+    "path": "experiments/dego-xkr-pilot-20261014/xkr-native.cpp",
+    "bytes": 3668,
+    "sha256": "f434a4b0fd7d967287fb85705a2b8b1fe9f39cb0dbd499693e0111c6732a20fc"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/README.md",
+    "bytes": 3891,
+    "sha256": "2e7d8408f7c0c9fd55036ffa1147af8e366df68225230cb7bc28b48e4faff7fa"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/RESULTS.md",
+    "bytes": 2169,
+    "sha256": "abb8bba6d459f8493a74e0a6bf0f2c34103847a64266f10088df0e9506d9bccd"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/cn-perf-1.csv",
+    "bytes": 263,
+    "sha256": "61d28660fe339e3dee730c482e5c0d2e000e6813b2c6fcf3b9f5992b0b8c8d4e"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/cn-perf-1.json",
+    "bytes": 136,
+    "sha256": "869197ee750add618d024581eda781389b380b09802b98ed8ea24ec8bd98f49d"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/cn-perf-2.csv",
+    "bytes": 263,
+    "sha256": "662d1038a64a94729b8481e7e537c760bb802cd74dc99b90677b8832296bd1b8"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/cn-perf-2.json",
+    "bytes": 131,
+    "sha256": "08a559bc354498c7628bd2a75b4a35f9938283ef5be48fced12c1d8f5f73beec"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/cn-perf-3.csv",
+    "bytes": 263,
+    "sha256": "d172ea360f3ce27782104eabeeeffefa9ed6dfa7c01c1cd3d1489d1eb294d3cb"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/cn-perf-3.json",
+    "bytes": 137,
+    "sha256": "680b0b9968dfd42bf1a72f8705422a7b71e593a7892fbb8ce0e6da623a5a2ea7"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/cn-perf-4.csv",
+    "bytes": 263,
+    "sha256": "bca5c343d7fcdd3768377dacbcd8855b37d25722c7ef9411864ef511db8d0055"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/cn-perf-4.json",
+    "bytes": 135,
+    "sha256": "811873ac69789ede94c8b1dd339031aea08fceda5d8728b6cf9a3aec302b2c60"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/make-cn-profile.py",
+    "bytes": 2254,
+    "sha256": "5fc6ead3b7fb80584a40bab0c38d0d5d6d1623bce151d246bed7bc60846cf1e5"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/perf-cn-job.py",
+    "bytes": 359,
+    "sha256": "a8326efbf914c9de0a56f34b447cb0da391cf297259782403fc1345d0fb8f3ea"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/perf-summary.json",
+    "bytes": 507,
+    "sha256": "7587fa829d60bbcb3dfe4dfe3207c6668ee2f49cd3cfce785e8e2558ee91eb24"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/results.json",
+    "bytes": 19334,
+    "sha256": "fd787958e325bb036a3614fad7aaff5cc76d71c4c426d5a6acb6dfc8a2024dea"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/run-cn-profile.py",
+    "bytes": 1997,
+    "sha256": "e9dc454668494eba6f95168db081c961ef163d2d63adb942cbcc61a314b684e3"
+  },
+  {
+    "path": "experiments/dego-xkr-profile-20261014/run.log",
+    "bytes": 1085,
+    "sha256": "070cbd5249bb5a1b94f6b7fa0ed90dfa81fcd0a58f1998002370b5f7c0606bd7"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/README.md",
+    "bytes": 5906,
+    "sha256": "0074254071e8598850018c2b1ab334d080c6ced6fe5e6a0e1b193babd9fafeca"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/RESULTS.md",
+    "bytes": 4472,
+    "sha256": "ace0bdd3ecd593d8a42d2a03ea3ee21c82303329c12248e34bf34f4c92e9217b"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/batch.c",
+    "bytes": 1044,
+    "sha256": "6433e86a273049c54116f21686187a406f0d3ec139f67dea07261c91e09f4267"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/benchmark.py",
+    "bytes": 2223,
+    "sha256": "e252734515b761bad3849737edcc60dcbf466322051faac02ac9e851582e8d60"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/benchmark_direct.py",
+    "bytes": 2347,
+    "sha256": "5d98487929d7c6418374627f42c22ebffe5fc463e84e20b1d10b14ea28bd4bbe"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/build_baselines.py",
+    "bytes": 800,
+    "sha256": "05fe83d8e410c65d453cc5839fc3d2ba663c3cb229372c6d534749fac364d71c"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/build_direct.py",
+    "bytes": 1878,
+    "sha256": "0208b443ba858b5272e2e411d7f91e0f394e4607aea3ffcb6730b34e5e41f0fd"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/build_fused.py",
+    "bytes": 1774,
+    "sha256": "bcaff00dd891159a3ddde15a35b03eed6014ed4d583c9a9be97eebff29a884f0"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/check_correctness.py",
+    "bytes": 1848,
+    "sha256": "30f4b4b66bc4e95a4fdb4fc41ceefb4f6612275d727ae3e645af5e1f8ee71777"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/check_direct.py",
+    "bytes": 1862,
+    "sha256": "75c99d495fb0c430699ca90c7f6c8a17c5425d14778830ed98ff449b2af3c0b9"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/direct_harness.py",
+    "bytes": 1452,
+    "sha256": "6e3a1b67526e38b5d75316bf8b16ac2f7f25b048505e5aba96dbd7c2a3459e62"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/direct_worker.py",
+    "bytes": 1053,
+    "sha256": "c4d301fc052e7ed6544ccf776f410c6eabf7da4198a8ea8a875b5740851dba23"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/benchmark.json",
+    "bytes": 52041,
+    "sha256": "1ed1d5adee50a5ddfcb500d7f4de182c48b36d28826518060a938e1faa681faa"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/benchmark.log",
+    "bytes": 1941,
+    "sha256": "c2f9c9bce9960b76e5a00b99027c19b34f90f994b8fea66464c3a6ccd771a580"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/correctness.json",
+    "bytes": 2101,
+    "sha256": "76977a738ed821a2580159678fb63b289f079770fff50b9e0d400159f11d954b"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/correctness.log",
+    "bytes": 17,
+    "sha256": "6c2e350507e1290b4587af79eab9fd0ea0f7415c24bfcff3b083752e1d314024"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/direct-benchmark.json",
+    "bytes": 16424,
+    "sha256": "fb72237ffdb99d8723b371f3f2cb7f8d641f50460adcbd875bf577f2b287950a"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/direct-benchmark.log",
+    "bytes": 642,
+    "sha256": "c938c69bfeda0e02cf5cea1e31b66eab9586ec34426487ab6a5228dc7a76fca7"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/direct-correctness.json",
+    "bytes": 2101,
+    "sha256": "76977a738ed821a2580159678fb63b289f079770fff50b9e0d400159f11d954b"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/direct-correctness.log",
+    "bytes": 17,
+    "sha256": "6c2e350507e1290b4587af79eab9fd0ea0f7415c24bfcff3b083752e1d314024"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/direct-live.json",
+    "bytes": 38834,
+    "sha256": "189ad899e54ebc94b5ae1d108c91ab1b9537b23a28b533dcfd7291c9b0984e2a"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/direct-live.log",
+    "bytes": 259,
+    "sha256": "aeff52926328eeeed1c1e7630f8f86ac16547733eae49129cf5b79479e1a329c"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/environment.json",
+    "bytes": 367,
+    "sha256": "f4a0e8ce45eb68c8ad349fbc1f291f360f0f7e90eee81287ffb033978e556da7"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/native-sha256.txt",
+    "bytes": 815,
+    "sha256": "e10b576404dd2e63775e03d9c037c94d829eb3d4b8cabc1f3c7c89fa2602205c"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/shared-live.json",
+    "bytes": 38395,
+    "sha256": "8e2a49bd1982a0bd40f1cfadbd6c8d8ceb48848ded5f904a94d74c387389daa4"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/shared-live.log",
+    "bytes": 263,
+    "sha256": "f038e0fb26a97a4d8ac179c89392f67f96013263129fe1150db352436fd9d2a0"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/evidence/summary.json",
+    "bytes": 2743,
+    "sha256": "95c6c24fc7ab4f793f111e40f28ebcc35993e80b522b0129a99d055ff3bcb8e2"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/harness.py",
+    "bytes": 1450,
+    "sha256": "e48e6ebc0f274e2d02ade44e0fffcd3e4ecea2380f9122c47aeea258c002dbac"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/manifest.json",
+    "bytes": 3445,
+    "sha256": "345d0482eb2888df28c1c55b169f496bf6159f6d34848b76ef3f4fa71c012732"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/prepare.sh",
+    "bytes": 642,
+    "sha256": "b0299ed200f97800f9430354ac973d675a27479d66678102977c5b4118aaa4b0"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/run_direct_live.py",
+    "bytes": 3435,
+    "sha256": "b11d2919a844d6e9d6c834abce160debf422ebf86c186904538c55b7fc23fc3b"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/run_shared_live.py",
+    "bytes": 3435,
+    "sha256": "f76e8af18f16c3fb4acaa3e0e4f473d407204537e70ea98af9b9e7a183a23081"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/shared_worker.py",
+    "bytes": 1054,
+    "sha256": "1a7440bbba47101c3cd86cc65799d580943c715d25bd60e643c577e476044a6e"
+  },
+  {
+    "path": "experiments/dego-xkr-shared-init-20261014/summarize.py",
+    "bytes": 1191,
+    "sha256": "e4fe2f8aed8e95e554ad9a8c6b63a2a7df6c6aefa183dad15c521af94dbd784c"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/README.md",
+    "bytes": 2798,
+    "sha256": "2e8bc005946a5902052c2045f9fa8ed687cc5017e562780d6b625f69bdbeb7f5"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/RESULTS.md",
+    "bytes": 1689,
+    "sha256": "f27a56474556c8ceb2d2685360d9fa6ef287f20e9a056dbf1994b54f35f22e36"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/build.py",
+    "bytes": 628,
+    "sha256": "0e695ab53ce5783e643d758db1a25df30900724d9c48013cc7ae45c4d39cde58"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/correctness.json",
+    "bytes": 131,
+    "sha256": "58ae1937966180b748dee804fb984cab0d8c8088ab0d1801d41fdd6f9bafedb0"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/manifest.json",
+    "bytes": 841,
+    "sha256": "484a4df9fccab0f06ef9860bf1fb3a95d7450c6ff670be64b36dd876318b4c52"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/pair.c",
+    "bytes": 3796,
+    "sha256": "38bf9c93351b084121afb5154b781b4b934062a0975e0157df5fccc1e73a5d82"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/results.json",
+    "bytes": 22473,
+    "sha256": "17152b493f1148cd1f81a62921f55898ea86a969a0e510093846809a598a1ca9"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/run.log",
+    "bytes": 253,
+    "sha256": "c2942e70b58b3a05efc4ef8af585f3350ebe16dfd8cda5837cfd6e1294172f3b"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/run.py",
+    "bytes": 3305,
+    "sha256": "a97b8443bfe6556d9ac488e26d67d8955c47eea572eae4124f914c7d4b6d51d5"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/summarize.py",
+    "bytes": 1154,
+    "sha256": "00321a9d2288ee89a99605b95f64dffcc6dbf7316f7f946a1601a2a48f6d15a8"
+  },
+  {
+    "path": "experiments/dego-xkr-standalone-control-20261014/summary.json",
+    "bytes": 875,
+    "sha256": "85d9a484bc5e33d48b6ca0b10e7ae8c4f4b6ba52f7bfcc5dfd088fb8735b7fe7"
+  },
+  {
+    "path": "experiments/genesis-audit-20261014/README.md",
+    "bytes": 2515,
+    "sha256": "0fe6b97a801741dfd6c0a769f69a6dd669f59f36841a2e0ee7cb85498795c0bc"
+  },
+  {
+    "path": "experiments/genesis-audit-20261014/inputs.json",
+    "bytes": 1245,
+    "sha256": "a8bcd948e9d1235429f2a63379c9524b1f256bfd93632519aed0a5e38a2a7586"
+  },
+  {
+    "path": "experiments/genesis-audit-20261014/model_hashes.py",
+    "bytes": 912,
+    "sha256": "7a4f4e5f79a54b42288368ac6a027872a14fb8c6799c097fedeb7f0803c1f5e1"
+  },
+  {
+    "path": "experiments/genesis-audit-20261014/results.json",
+    "bytes": 2237,
+    "sha256": "d83f2c2aaea8515fb436158cdbc66a84c3a2c8debfcbf35b13103315de426c29"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/README.md",
+    "bytes": 1592,
+    "sha256": "a736412e6d9ececfed6cf0f784e63a3721d6a03023efa5d28bab5203478485c6"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/RESULTS.md",
+    "bytes": 8972,
+    "sha256": "47d23d1d964c96b38dc82232c252a0ce3ea0011df5c59ce2c36efb5fb05070d9"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/SPEC.md",
+    "bytes": 2122,
+    "sha256": "4bc64cbc01b92e55cb047869971c869fb8df63bc8043bd5c1a9ba71457b21d72"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/UPSTREAM-LICENSE",
+    "bytes": 1330,
+    "sha256": "b323149b036d2c5c28f208e634cbd8b8b463bc402b71d696a2f3a33559504528"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/base.py",
+    "bytes": 1871,
+    "sha256": "7a336c53334f72d3aaa04a2d324dd5c35adaa8f2d772623a3622eea8d5da551d"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/build.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/build_oracle.py",
+    "bytes": 1839,
+    "sha256": "e44a6187ee9dccc0179a02d71dfddbfa247117ef00dbcb0e2c10fbfd69336f36"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/checks.json",
+    "bytes": 285,
+    "sha256": "f209275894cd61f4c336afc5bc17a51ff7b8588762b11e30995c2e5863155724"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/checks.py",
+    "bytes": 1479,
+    "sha256": "7234c82c211dee50540edb714b682a7941225f5e32e776cffd1a01df8dedafb3"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/crosscheck.json",
+    "bytes": 4803,
+    "sha256": "e71492aace6a65cb857ef43a6954f2d04e875dccaaa24778a8fd9e2c5acab1d9"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/crosscheck.py",
+    "bytes": 1369,
+    "sha256": "384f1be23cab5c1a92032a17aff4e5cc7b75b9ac2e05ed6f8e6824398b81bd6c"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/frozen-spec.json",
+    "bytes": 82,
+    "sha256": "e5948bee187e6c9b4bec14679c101673ff333a24eba0b8f7357e360aeb5d0d9c"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/lwma.py",
+    "bytes": 1541,
+    "sha256": "3938784c92276e1410c274baaa3dd8fb11470e85fc3e91c140499651aea0f269"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/manifest.json",
+    "bytes": 2047,
+    "sha256": "82112a2c9991074767fb10718fa24984b3bba483cf72742e7f2d0b2ca0fc9f42"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/model.py",
+    "bytes": 1192,
+    "sha256": "59f4519cc2b24ddb8919d69e025f444733bd91915bca29d6eab053f3cc640bb3"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/oracle-receipt.json",
+    "bytes": 326,
+    "sha256": "11beffb9af2c838a1bef2ce71c1a86ffb920f50bc1569861eff27c247bf59778"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/oracle.cpp",
+    "bytes": 6924,
+    "sha256": "2955ec345f5f8922f5d80b8b2fbb3dea7ada7313faeef214c216bf0ca4fd169c"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/report.py",
+    "bytes": 4652,
+    "sha256": "8197edce681cba078f7fd027651a10f6c6525fc43a9aed936ccaf3046029c3dc"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/results.json",
+    "bytes": 1259380,
+    "sha256": "4c2cc78e519fd9673b3da41cf914b39e3209462285cd533b62c534dcebf92c85"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/run.py",
+    "bytes": 2184,
+    "sha256": "3d55f14c229f46f54a34586e7c1ff69453e87da25f40040223ef7e16fbd9f5b8"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/summary.json",
+    "bytes": 2337,
+    "sha256": "50cc91c1bd75c2a94f41babf43857a20cceb5fba9ce67189ed7c5a22fb93e1b9"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/vectors.json",
+    "bytes": 901,
+    "sha256": "4db74eb59ee2d785d9e253c24f7d052b70957b16232e64d9dc69e8fb38831074"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/vectors.py",
+    "bytes": 1646,
+    "sha256": "e76bb7ea41ae8b0c4193a8998528ba3552942fb98b468a56522aace54ed3ce14"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/weak_lane.json",
+    "bytes": 12137,
+    "sha256": "217d30f90d6be69f088a3d3741f01e5d7fcab169d605b3537e940fb66ba20db8"
+  },
+  {
+    "path": "experiments/kerrigan-lwma-experiment-20261014/weak_lane.py",
+    "bytes": 659,
+    "sha256": "e0dba418fb3081cd8140321bb59ebadfc058537ae224f0c8a69d4a2bc1c357da"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/COMMIT",
+    "bytes": 41,
+    "sha256": "1502e33c2a2db46238abb7d005f6264192f9d26d9a6d66ded2a97a4fe23e2da1"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/RESULTS.md",
+    "bytes": 4060,
+    "sha256": "6ec2fd14e6b08142596d0c88c2d045849f24879ffd83f76f5d83d8d06f2db1d2"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/docs/whitepaper.md",
+    "bytes": 61739,
+    "sha256": "38c4c8c378b2fa44d982a74eff42c5c176f178d79e758a665424d5a08e20c787"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/src/chain.cpp",
+    "bytes": 6196,
+    "sha256": "798d43e7e627609c7dcb2d9188d0de6113635f4170dcec744b6c3e920568cc80"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/src/chainparams.cpp",
+    "bytes": 119929,
+    "sha256": "f595f2dc127d08f4c6c584b1fda479c6804713013514b50d628b0e5b6fa48cfc"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/src/consensus/params.h",
+    "bytes": 37321,
+    "sha256": "363f0ca688c7b6e5cae241c213bcc21de0c419b0ba6bcdfeebcfd6faae51a6cb"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/src/node/blockstorage.cpp",
+    "bytes": 36038,
+    "sha256": "b68a72cd6c9f911f133058b307698c573f3883e202d8e35e6d07b12dcfa4cac5"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/src/pow.cpp",
+    "bytes": 17355,
+    "sha256": "1a68f5c57903806b6909299d431b8f608ad2581c915863d70121e4b3af92e8e1"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/src/primitives/block.h",
+    "bytes": 14433,
+    "sha256": "d0185405e43542838cf2f44720330fa1c14c3fe44586f255c369a5da82540af3"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/src/test/pow_tests.cpp",
+    "bytes": 53211,
+    "sha256": "0301a7cd5d9fff3b9ada176a84a869fcdebd9b320adb459bf5e907a4eaf91627"
+  },
+  {
+    "path": "experiments/kerrigan-review-20261014/src/validation.cpp",
+    "bytes": 405036,
+    "sha256": "9cd910d43fcb859765a678d31245225c30c5be982cc5b8febd55439df32d63a2"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/REPORT.md",
+    "bytes": 9422,
+    "sha256": "610d5b248bcd29d458a6d364749bd07ae9fe3416c8016d76050e68974810dd67"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/build-results.json",
+    "bytes": 52,
+    "sha256": "db1e0f2a340674a21284d8b51e51234969c8a598aa931d7119680ce46a02ec51"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/build_hashes.py",
+    "bytes": 1263,
+    "sha256": "2567dd7f66611dadc4d8f1564c248d27afe4f5e39baeb9d0e09942761d903ac5"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/build_hashes_x86.py",
+    "bytes": 1285,
+    "sha256": "137d84e75337a9763bd1a26754ef699af3871445947cbf11d25f270a97043f54"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/dego-build.log",
+    "bytes": 509,
+    "sha256": "f31c876fded60e2b6ff881e4945e09193de144bc42814c38ffb06c3a84d2388f"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/pow-results.json",
+    "bytes": 9068,
+    "sha256": "2810a8666e909517244384c03445c56772beca405d7898640c4c00e1bfbea3c4"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/revisions.json",
+    "bytes": 277,
+    "sha256": "0cec9cd2dc56a380d417195e90c5de190afec9582794e7075cff1c3de78ff16f"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/structure-results.json",
+    "bytes": 9718,
+    "sha256": "eae888e2e95e60ac63168b2cac2cca67aa2e0edf2802b648a94bb45fa65f22ab"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/test_cross_work.py",
+    "bytes": 997,
+    "sha256": "326b3213e4130f191789d8f8e7c28804b2695b8e1d07798092a2af08e0493ec0"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/test_pow.py",
+    "bytes": 1083,
+    "sha256": "cdbcced1ef5bceb80c8bb1253a1323b7148f9b4ee97bbabf46d65c35431ac9ff"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/test_structures.py",
+    "bytes": 4155,
+    "sha256": "772d63ceecc2a0d99e46fd39029457997949a63d885cad38597b623b497806b4"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/upx-build.log",
+    "bytes": 386,
+    "sha256": "d4eb5c36532e76e3d4ea62e93ea56fd2eeaaae11ea46e680bc5207b73c5bfb20"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/wrkz-build.log",
+    "bytes": 489,
+    "sha256": "7e7765d9326275fc6eabd4f13907898269d9052b52dabc3dc194c1eb388cb1c4"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/x86/build-results.json",
+    "bytes": 52,
+    "sha256": "db1e0f2a340674a21284d8b51e51234969c8a598aa931d7119680ce46a02ec51"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/x86/cross-work-results.json",
+    "bytes": 2436,
+    "sha256": "76b9603f571d2e5d8d138cd6cc3b4f3629916d6bf8d5cda9bb02105556a42878"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/x86/pow-results.json",
+    "bytes": 9052,
+    "sha256": "eabbb20866661bc566516f6a5fe77e19b853d3b78b5a57bd543edb58933eccab"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/x86/structure-results.json",
+    "bytes": 9718,
+    "sha256": "eae888e2e95e60ac63168b2cac2cca67aa2e0edf2802b648a94bb45fa65f22ab"
+  },
+  {
+    "path": "experiments/quad-mining-20261011/xfg-build.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

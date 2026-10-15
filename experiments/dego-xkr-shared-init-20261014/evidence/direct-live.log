@@ -1,0 +1,4 @@
+DIRECT_LIVE_PASS 0 {'dego': 17, 'xkr': 13} {'dego': 8704, 'xkr': 8704}
+DIRECT_LIVE_PASS 1 {'dego': 18, 'xkr': 14} {'dego': 1536, 'xkr': 1536}
+DIRECT_LIVE_PASS 2 {'dego': 19, 'xkr': 15} {'dego': 8704, 'xkr': 8704}
+ALL_THREE_SHARED_INITIALIZATION_ROUNDS_PASSED

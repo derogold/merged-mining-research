@@ -1,0 +1,10 @@
+{
+  "reason": "Generated platform binaries and Python caches omitted; source, results and build receipts retained.",
+  "files": [
+    "org/research/kerrigan-lwma-experiment-20261014/oracle",
+    "org/research/quad-mining-20261011/dego.dylib",
+    "org/research/quad-mining-20261011/upx.dylib",
+    "org/research/quad-mining-20261011/wrkz.dylib",
+    "org/research/quad-mining-20261011/xfg.dylib"
+  ]
+}

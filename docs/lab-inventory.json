@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-15T06:19:59.361575+00:00",
+  "read_only_inventory": [
+    "/dego-aux-testnet-node1 running dego-research-build:20261014 no",
+    "/dego-aux-testnet-node2 running dego-research-build:20261014 no",
+    "/dego-aux-testnet-node3 running dego-research-build:20261014 no",
+    "/xkr-aux-testnet-node1 running xkr-research-build:20261014 no",
+    "/xkr-aux-testnet-node2 running xkr-research-build:20261014 no",
+    "/xkr-aux-testnet-node3 running xkr-research-build:20261014 no"
+  ],
+  "database_snapshot": false,
+  "publication_modified_containers": false
+}

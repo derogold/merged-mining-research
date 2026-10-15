@@ -1,0 +1,8 @@
+from pathlib import Path
+import json,statistics
+p=Path(__file__).resolve().parent;d=json.loads((p/'confirmation.json').read_text());t=d['cpu_totals'];b=str(d['selected_chunk'])
+result={'selected_chunk':int(b),'sequential_vs_original_cpu_reduction_pct':100*(1-t['0']/t['original']),'interleave_vs_sequential_cpu_increase_pct':100*(t[b]/t['0']-1),'sequential_wins_vs_original':sum(r['totals']['0']<r['totals']['original'] for r in d['rows']),'interleave_wins_vs_sequential':sum(r['totals'][b]<r['totals']['0'] for r in d['rows']),'blocks':len(d['rows']),'cpu_seconds':t}
+(p/'summary.json').write_text(json.dumps(result,indent=2)+'\n')
+s='# Results\n\n'+json.dumps(result,indent=2)+'\n\n'
+s+='All1,792 preliminary paired hashes and all timing-run output arrays matched both original native algorithms. Screen96runs; fresh confirmation72runs.\n\nInterleaving failed to beat the restructured sequential control. Restructuring/specialization beat the original reference libraries on this host. This does not demonstrate cross-coin work reuse, energy savings, or competitiveness against optimized production miners. Both complete algorithms still execute.\n\nAssembly sampling localized most cost to XKR mixing and showed dependent arithmetic/spill/load regions. It did not resolve the earlier retired-instruction discrepancy or prove a cache bottleneck.\n\nThe useful next control, if authorized, is separately optimized standalone DEGO and XKR workers versus this paired worker, with equivalent allocation and compiler settings. That separates ordinary per-algorithm improvements from genuine pairing advantage. No production rollout recommended from this experiment alone.\n'
+(p/'RESULTS.md').write_text(s);print(json.dumps(result,indent=2))
